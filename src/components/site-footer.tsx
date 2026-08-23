@@ -6,7 +6,6 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-5 sm:px-6 md:flex-row">
         <div className="flex items-center gap-3">
           <span className="font-serif text-xl font-semibold text-gold">Auria</span>
-          <span className="text-xs text-subtle">AI-Powered Strategy</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-5 text-sm text-muted">
           <Link to="/about" className="hover:text-fg">О компании</Link>
