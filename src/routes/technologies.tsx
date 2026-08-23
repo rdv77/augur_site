@@ -14,8 +14,8 @@ function Technologies() {
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
           <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Наша экспертиза</p>
           <h1 className="max-w-3xl text-4xl font-semibold sm:text-5xl">
-            4 парадигмы технологий{" "}
-            <span className="text-accent">искусственного интеллекта</span>
+            Наши 4 парадигмы использования {" "}
+            <span className="text-accent">технологий искусственного интеллекта</span>
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-muted">
             Каждое направление даёт конкретный измеримый результат для вашего бизнеса или ведомства.
