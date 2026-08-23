@@ -1,4 +1,4 @@
-export { POLITICAL_PRODUCTS, PRODUCTS, SOCIO_PRODUCTS } from "./products";
+export { SOCIO_PRODUCTS, POLITICAL_PRODUCTS, MARKETING_PRODUCTS } from "./products";
 
 export const PARADIGMS = [
   {
