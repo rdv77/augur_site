@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Clock, TriangleAlert, Zap } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 import { NEWS, PARADIGMS, POLITICAL_PRODUCTS, SOCIO_PRODUCTS, MARKETING_PRODUCTS, formatNewsDate, newsByDateDesc } from "@/data/site";
 
@@ -21,9 +21,6 @@ function Home() {
           <h1 className="font-serif text-[4.25rem] font-semibold leading-none tracking-tight text-gold sm:text-8xl lg:text-9xl">
             Auria
           </h1>
-          <p className="mt-5 text-[11px] uppercase tracking-[0.42em] text-accent/90 sm:text-xs">
-            AI-Powered Strategy
-          </p>
           <p className="mx-auto mt-10 max-w-xl text-xl font-medium leading-snug text-fg sm:text-2xl">
             Консалтинг на базе искусственного интеллекта
           </p>
@@ -47,31 +44,26 @@ function Home() {
         </div>
       </section>
 
-      <section id="problem" className="scroll-mt-24 py-24">
+      <section id="mission" className="scroll-mt-24 py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
-          <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Диагностика</p>
+          <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Миссия</p>
           <h2 className="max-w-3xl text-3xl font-semibold sm:text-4xl">
-            Проблема, которую вы чувствуете каждый день
+            Между обществом и знанием о нём — три вызова
           </h2>
           <div className="mt-12 grid gap-5 md:grid-cols-3">
             {[
-              { icon: Zap, t: "Социальные процессы ускоряются", d: "Традиционные инструменты не успевают за скоростью изменений. Решения принимаются вслепую." },
-              { icon: Clock, t: "Опросы устаревают до публикации", d: "К моменту выхода результатов полевого исследования картина уже изменилась." },
-              { icon: TriangleAlert, t: "Цена ошибки растёт экспоненциально", d: "Одно неверное решение — репутационный кризис и миллиарды упущенных возможностей." },
+              { t: "Вызов времени", d: "Общество меняется за дни. Исследования занимают месяцы. К моменту результата картина уже другая." },
+              { t: "Вызов масштаба", d: "Общество говорит миллионами голосов, исследователь слышит выборку." },
+              { t: "Вызов решения", d: "Решения о людях принимаются раньше, чем появляются знания о них. Цена ошибки — доверие, деньги, время." },
             ].map((c) => (
-              <Link
-                key={c.t}
-                to="/technologies"
-                className="rounded-xl border border-border bg-surface p-7 transition-colors hover:border-accent/30"
-              >
-                <c.icon className="mb-5 size-6 text-accent" />
-                <h3 className="text-lg font-medium">{c.t}</h3>
+              <div key={c.t} className="rounded-xl border border-border bg-surface p-7">
+                <h3 className="text-lg font-medium text-gold">{c.t}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{c.d}</p>
-              </Link>
+              </div>
             ))}
           </div>
           <p className="mt-14 text-center text-lg text-muted">
-            А что, если <span className="text-accent">видеть будущее</span> до того, как оно наступит?
+            Auria существует, чтобы преодолеть все три вызова
           </p>
         </div>
       </section>
@@ -114,7 +106,7 @@ function Home() {
           <div className="mx-auto mb-12 max-w-2xl text-center">
             <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Экспертиза</p>
             <h2 className="text-3xl font-semibold sm:text-4xl">
-              4 парадигмы технологий искусственного интеллекта
+              Наши 4 парадигмы использования технологий искусственного интеллекта
             </h2>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
