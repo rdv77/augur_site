@@ -4,7 +4,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
-  { to: "/", hash: "problem", label: "Проблема" },
+  { to: "/", hash: "mission", label: "Миссия" },
   { to: "/about", label: "О компании" },
   { to: "/technologies", label: "Технологии" },
   {
@@ -30,9 +30,6 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 sm:px-6">
         <Link to="/" className="flex items-center gap-3">
           <span className="font-serif text-2xl font-semibold tracking-wide text-gold">Auria</span>
-          <span className="hidden rounded-full border border-accent/25 px-2 py-0.5 text-[10px] uppercase tracking-[0.16em] text-accent/80 sm:inline">
-            AI-Powered Strategy
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-7 text-sm text-muted lg:flex">
