@@ -1,19 +1,28 @@
 import { useState } from "react";
 import { Link, useRouterState } from "@tanstack/react-router";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
   { to: "/", hash: "problem", label: "Проблема" },
   { to: "/about", label: "О компании" },
   { to: "/technologies", label: "Технологии" },
-  { to: "/products", label: "Продукты" },
+  {
+    to: "/products",
+    label: "Продукты",
+    submenu: [
+      { to: "/products/socio", label: "Социально-экономические" },
+      { to: "/products/political", label: "Политический консалтинг" },
+      { to: "/products/marketing", label: "Маркетинговые" },
+    ],
+  },
   { to: "/news", label: "Новости" },
   { to: "/", hash: "contact", label: "Контакты" },
 ] as const;
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
   const pathname = useRouterState({ select: (s) => s.location.pathname });
 
   return (
@@ -29,6 +38,48 @@ export function SiteHeader() {
         <nav className="hidden items-center gap-7 text-sm text-muted lg:flex">
           {LINKS.map((l) => {
             const active = l.to !== "/" && pathname.startsWith(l.to);
+            const hasSubmenu = "submenu" in l;
+
+            if (hasSubmenu) {
+              return (
+                <div
+                  key={l.label}
+                  className="relative"
+                  onMouseEnter={() => setProductsOpen(true)}
+                  onMouseLeave={() => setProductsOpen(false)}
+                >
+                  <Link
+                    to={l.to}
+                    className={cn(
+                      "flex items-center gap-1 transition-colors hover:text-fg",
+                      active && "text-accent",
+                    )}
+                  >
+                    {l.label}
+                    <ChevronDown className={cn("size-3.5 transition-transform", productsOpen && "rotate-180")} />
+                  </Link>
+                  {productsOpen && (
+                    <div className="absolute left-0 top-full pt-2">
+                      <div className="min-w-[200px] rounded-lg border border-border bg-bg-elevated p-2 shadow-lg">
+                        {l.submenu.map((sub) => (
+                          <Link
+                            key={sub.to}
+                            to={sub.to}
+                            className={cn(
+                              "block rounded-md px-3 py-2 text-sm transition-colors hover:bg-surface hover:text-fg",
+                              pathname === sub.to && "text-accent",
+                            )}
+                          >
+                            {sub.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            }
+
             return (
               <Link
                 key={l.label}
@@ -67,17 +118,47 @@ export function SiteHeader() {
       {open && (
         <div className="border-t border-border bg-bg-elevated px-5 py-4 lg:hidden">
           <nav className="flex flex-col">
-            {LINKS.map((l) => (
-              <Link
-                key={l.label}
-                to={l.to}
-                hash={"hash" in l ? l.hash : undefined}
-                onClick={() => setOpen(false)}
-                className="flex min-h-11 items-center border-b border-border text-base text-fg"
-              >
-                {l.label}
-              </Link>
-            ))}
+            {LINKS.map((l) => {
+              const hasSubmenu = "submenu" in l;
+
+              if (hasSubmenu) {
+                return (
+                  <div key={l.label} className="flex flex-col">
+                    <Link
+                      to={l.to}
+                      onClick={() => setOpen(false)}
+                      className="flex min-h-11 items-center border-b border-border text-base text-fg"
+                    >
+                      {l.label}
+                    </Link>
+                    <div className="ml-4 flex flex-col">
+                      {l.submenu.map((sub) => (
+                        <Link
+                          key={sub.to}
+                          to={sub.to}
+                          onClick={() => setOpen(false)}
+                          className="flex min-h-9 items-center text-sm text-muted hover:text-fg"
+                        >
+                          {sub.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+
+              return (
+                <Link
+                  key={l.label}
+                  to={l.to}
+                  hash={"hash" in l ? l.hash : undefined}
+                  onClick={() => setOpen(false)}
+                  className="flex min-h-11 items-center border-b border-border text-base text-fg"
+                >
+                  {l.label}
+                </Link>
+              );
+            })}
           </nav>
         </div>
       )}
