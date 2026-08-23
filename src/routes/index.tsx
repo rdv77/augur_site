@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Clock, TriangleAlert, Zap } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
-import { NEWS, PARADIGMS, POLITICAL_PRODUCTS, SOCIO_PRODUCTS, formatNewsDate, newsByDateDesc } from "@/data/site";
+import { NEWS, PARADIGMS, POLITICAL_PRODUCTS, SOCIO_PRODUCTS, MARKETING_PRODUCTS, formatNewsDate, newsByDateDesc } from "@/data/site";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -138,9 +138,9 @@ function Home() {
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
           <div className="mx-auto mb-12 max-w-2xl text-center">
             <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Продукты</p>
-            <h2 className="text-3xl font-semibold sm:text-4xl">Два направления решений</h2>
+            <h2 className="text-3xl font-semibold sm:text-4xl">Три направления решений</h2>
           </div>
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="grid gap-6 lg:grid-cols-3">
             <ProductRubric
               to="/products/socio"
               image="/assets/product-digital-twin.jpg"
@@ -152,6 +152,12 @@ function Home() {
               image="/assets/product-strategist.jpg"
               title="Политический консалтинг"
               products={POLITICAL_PRODUCTS}
+            />
+            <ProductRubric
+              to="/products/marketing"
+              image="/assets/agents.jpg"
+              title="Маркетинговые продукты"
+              products={MARKETING_PRODUCTS}
             />
           </div>
         </div>
@@ -209,7 +215,7 @@ function ProductRubric({
   title,
   products,
 }: {
-  to: "/products/socio" | "/products/political";
+  to: "/products/socio" | "/products/political" | "/products/marketing";
   image: string;
   title: string;
   products: readonly { id: string; title: string }[];
