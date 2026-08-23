@@ -33,7 +33,6 @@ export function ProductJumpNav({
 export function ProductArticle({ product, reverse }: { product: Product; reverse?: boolean }) {
   const [open, setOpen] = useState(false);
 
-  // Если пришли по якорю из jump-навигации — раскрываем нужный продукт
   useEffect(() => {
     if (typeof window !== "undefined" && window.location.hash === `#${product.id}`) {
       setOpen(true);
