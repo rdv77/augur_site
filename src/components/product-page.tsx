@@ -69,7 +69,7 @@ export function ProductArticle({ product, reverse }: { product: Product; reverse
             <section key={s.title}>
               <h3 className="text-xl font-medium text-gold">{s.title}</h3>
               <div className="mt-3 leading-relaxed text-muted">
-                <Markdown>{s.content}</Markdown>
+                <Markdown source={s.content} />
               </div>
             </section>
           ))}
