@@ -1,84 +1,112 @@
+import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { BlendImage } from "@/components/blend-image";
+import { ChevronUp, MoreHorizontal } from "lucide-react";
 import { Markdown } from "@/components/markdown";
+import { cn } from "@/lib/utils";
 import type { Product } from "@/data/products";
+
+type ProductsRoute = "/products/socio" | "/products/political" | "/products/marketing";
 
 export function ProductJumpNav({
   items,
   to,
 }: {
-  items: Product[];
-  to: "/products/socio" | "/products/political";
+  items: readonly { id: string; title: string }[];
+  to: ProductsRoute;
 }) {
   return (
-    <ul className="mt-8 grid gap-2 sm:grid-cols-2">
+    <div className="mt-8 flex flex-wrap gap-2">
       {items.map((p) => (
-        <li key={p.id}>
-          <Link
-            to={to}
-            hash={p.id}
-            className="flex gap-2 rounded-lg border border-border bg-surface px-4 py-3 text-sm text-muted transition-colors hover:border-accent/30 hover:text-fg"
-          >
-            <span className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
-            {p.title}
-          </Link>
-        </li>
+        <Link
+          key={p.id}
+          to={to}
+          hash={p.id}
+          className="rounded-full border border-border bg-surface px-3 py-1.5 text-xs text-muted transition-colors hover:border-accent/40 hover:text-fg"
+        >
+          {p.title}
+        </Link>
       ))}
-    </ul>
-  );
-}
-
-export function ProductBanner({ title, image }: { title: string; image: string }) {
-  return (
-    <div className="relative mb-16 overflow-hidden rounded-xl">
-      <img src={image} alt="" className="h-44 w-full object-cover opacity-50 sm:h-56" />
-      <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/50 to-transparent" />
-      <h2 className="absolute bottom-6 left-6 text-2xl font-semibold sm:text-3xl">{title}</h2>
     </div>
   );
 }
 
-export function ProductArticle({ product, reverse }: { product: Product; reverse: boolean }) {
+export function ProductArticle({ product, reverse }: { product: Product; reverse?: boolean }) {
+  const [open, setOpen] = useState(false);
+
+  // Если пришли по якорю из jump-навигации — раскрываем нужный продукт
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.location.hash === `#${product.id}`) {
+      setOpen(true);
+    }
+  }, [product.id]);
+
   return (
     <article id={product.id} className="scroll-mt-24">
-      <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 sm:px-6 lg:grid-cols-2">
-        <div className={reverse ? "lg:order-2" : ""}>
-          <p className="text-xs tracking-wide text-accent">
-            {product.category === "socio" ? "Социально-экономический продукт" : "Политический консалтинг"}
-          </p>
-          <h2 className="mt-3 text-3xl font-semibold">{product.title}</h2>
-          <p className="mt-4 text-lg leading-relaxed text-muted">{product.description}</p>
+      <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+        <div className={cn("relative overflow-hidden rounded-xl border border-border", reverse && "lg:order-2")}>
+          <img src={product.image} alt="" className="h-64 w-full object-cover opacity-80 sm:h-72" />
+          <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
         </div>
-        <BlendImage
-          src={product.image}
-          alt={product.title}
-          side={reverse ? "right" : "left"}
-          className={`aspect-[16/10] ${reverse ? "lg:order-1" : ""}`}
-        />
+
+        <div className={cn(reverse && "lg:order-1")}>
+          <h2 className="text-2xl font-semibold sm:text-3xl">{product.title}</h2>
+          <p className="mt-4 leading-relaxed text-muted">{product.description}</p>
+
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-expanded={open}
+            title={open ? "Свернуть" : "Подробнее"}
+            className="mt-6 inline-flex size-11 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-accent/40 hover:text-accent"
+          >
+            {open ? <ChevronUp className="size-5" /> : <MoreHorizontal className="size-5" />}
+          </button>
+        </div>
       </div>
-      <div className="mx-auto mt-10 max-w-7xl space-y-8 px-5 sm:px-6 lg:max-w-4xl">
-        {product.sections.map((section) => (
-          <div key={section.title}>
-            <h3 className="text-lg font-medium">{section.title}</h3>
-            <Markdown source={section.content} />
+
+      {open && (
+        <div className="mt-10 space-y-10 rounded-xl border border-border bg-surface p-7 sm:p-10">
+          {product.sections.map((s) => (
+            <section key={s.title}>
+              <h3 className="text-xl font-medium text-gold">{s.title}</h3>
+              <div className="mt-3 leading-relaxed text-muted">
+                <Markdown>{s.content}</Markdown>
+              </div>
+            </section>
+          ))}
+          <div className="text-center">
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              className="inline-flex h-10 items-center gap-2 rounded-md border border-border px-4 text-sm text-muted transition-colors hover:border-accent/40 hover:text-fg"
+            >
+              <ChevronUp className="size-4" /> Свернуть
+            </button>
           </div>
-        ))}
-      </div>
+        </div>
+      )}
     </article>
   );
 }
 
 export function ProductCta() {
   return (
-    <section className="border-t border-border bg-bg-elevated py-16 text-center">
-      <h2 className="text-2xl font-semibold">Нужна комбинация решений?</h2>
-      <Link
-        to="/"
-        hash="contact"
-        className="mt-6 inline-flex h-12 items-center rounded-md bg-accent px-6 text-sm font-medium text-accent-fg"
-      >
-        Обсудить задачу
-      </Link>
+    <section className="border-t border-border py-20">
+      <div className="mx-auto max-w-3xl px-5 text-center sm:px-6">
+        <h2 className="text-3xl font-semibold sm:text-4xl">
+          Готовы видеть будущее <span className="text-accent">до того, как оно наступит?</span>
+        </h2>
+        <p className="mx-auto mt-4 max-w-xl text-muted">
+          Первая диагностическая сессия — бесплатно. Покажем на ваших данных, что умеют наши модели.
+        </p>
+        <Link
+          to="/"
+          hash="contact"
+          className="mt-8 inline-flex h-12 items-center rounded-md bg-accent px-6 text-sm font-medium text-accent-fg transition-colors hover:bg-accent-dim"
+        >
+          Оставить заявку
+        </Link>
+      </div>
     </section>
   );
 }
