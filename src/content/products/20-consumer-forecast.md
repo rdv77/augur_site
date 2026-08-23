@@ -4,7 +4,7 @@ slug: "consumer-forecast"
 category: "marketing"
 order: 20
 description: "Сценарный прогноз реакции рынка на запуск продукта, изменение цены или ребрендинг — с коридорами продаж и картой ответов конкурентов."
-image: "/assets/product-consumer-forecast.jpg"
+image: "/assets/prediction.jpg"
 ---
 
 ## Проблема
