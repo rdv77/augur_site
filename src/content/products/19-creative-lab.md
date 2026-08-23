@@ -4,7 +4,7 @@ slug: "creative-lab"
 category: "marketing"
 order: 19
 description: "Сотни креативов, слоганов и упаковок тестируются на кремниевой выборке за 24 часа — до запуска в производство и эфир."
-image: "/assets/product-creative-lab.jpg"
+image: "/assets/product-ai-lab.jpg"
 ---
 
 ## Проблема
