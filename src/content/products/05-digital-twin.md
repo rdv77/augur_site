@@ -1,128 +1,128 @@
 ---
-title: "Цифровой двойник региона"
+title: "Digital Twin of a Region"
 slug: "digital-twin"
 category: "socio"
 order: 5
-description: "Комплексная модель территории с живыми данными: население, экономика, инфраструктура, настроения."
+description: "A comprehensive model of a region with live data: population, economy, infrastructure, and public sentiment."
 image: "/assets/product-digital-twin.jpg"
 ---
 
-## Проблема
+## Problem
 
-Решения о развитии территорий принимаются по статичным документам: генплан, стратегия, презентация инвестора. Но территория — живая система. Закрытие завода меняет миграцию, нагрузку на школы и криминогенность. Новая застройка перегружает дороги и поликлиники. Эти каскадные эффекты не видны в таблице — они проявляются через годы, когда отменить решение уже невозможно.
+Decisions about regional development are made based on static documents: master plans, strategies, investor presentations. But a region is a living system. The closure of a factory changes migration, the load on schools, and crime rates. New development overloads roads and clinics. These cascading effects are invisible in a table — they surface years later, when the decision can no longer be reversed.
 
-Цена ошибки — миллиарды неиспользованных инвестиций и социальная напряжённость, которую приходится гасить вручную.
+The price of a mistake is billions in unused investment and social tension that has to be defused manually.
 
-**Цифровой двойник** — это полигон, где территория «живёт» в виртуальной среде: вы проигрываете решения до того, как они станут реальностью.
+**The digital twin** is a proving ground where the region "lives" in a virtual environment: you test decisions before they become reality.
 
-## Что это за продукт
+## What this product is
 
-Виртуальная модель территории, объединяющая в единой цифровой среде:
-- **Демографию** — население, возрастные когорты, миграция, рождаемость
-- **Экономику** — предприятия, занятость, доходы, рынок труда
-- **Инфраструктуру** — транспорт, ЖКХ, школы, больницы, жильё
-- **Социальную динамику** — настроения, напряжённость, поведение групп
+A virtual model of a region that unifies in a single digital environment:
+- **Demographics** — population, age cohorts, migration, birth rate
+- **Economy** — enterprises, employment, income, labor market
+- **Infrastructure** — transport, utilities, schools, hospitals, housing
+- **Social dynamics** — sentiment, tension, group behavior
 
-На двойнике вы тестируете градостроительные, социальные и экономические решения **без реального риска и затрат** и получаете количественную оценку последствий на горизонте 3–10 лет.
+On the twin, you test urban planning, social, and economic decisions **without real risk or cost**, and get a quantitative assessment of the consequences over a 3–10 year horizon.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Слой 1: Интеграция данных
-- Статистика, муниципальные и ведомственные данные, геоданные
-- Мобильность и транспортные потоки, рынок труда, коммунальная статистика
-- Цифровые сигналы: локальные сообщества, жалобы, обращения граждан
-- Всё приводится к единой семантической модели территории
+### Layer 1: Data integration
+- Statistics, municipal and departmental data, geodata
+- Mobility and traffic flows, labor market, utility statistics
+- Digital signals: local communities, complaints, citizen inquiries
+- Everything is brought into a single semantic model of the territory
 
-### Слой 2: Ядро моделирования
-- **Агент-базированная модель населения** — кремниевая выборка в территориальном разрезе: домохозяйства с реальными поведенческими профилями
-- **Системная динамика** — экономика, бюджет, инфраструктурные контуры
-- **Движок каскадных эффектов** — межотраслевые и межсферные связи: «закрытие завода → занятость → миграция → школы → криминогенность»
-- **ГИС-визуализация** — все эффекты привязаны к карте
+### Layer 2: Modeling core
+- **Agent-based population model** — silicon sample at the territorial level: households with real behavioral profiles
+- **System dynamics** — economy, budget, infrastructure loops
+- **Cascading effects engine** — inter-industry and cross-sector links: "factory closure → employment → migration → schools → crime"
+- **GIS visualization** — all effects are tied to the map
 
-### Слой 3: Калибровка и валидация
-- Ретроспективная проверка: модель воспроизводит известные изменения территории за прошлые 5–10 лет
-- Сверка с экспертами: экономисты, социологи, урбанисты
-- Зоны неуверенности помечаются явно — вы всегда знаете, где модели хватает данных, а где нет
+### Layer 3: Calibration and validation
+- Retrospective validation: the model reproduces known changes in the territory over the past 5–10 years
+- Expert review: economists, sociologists, urban planners
+- Zones of uncertainty are explicitly marked — you always know where the model has enough data and where it doesn't
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Недели 1–2. Аудит и сбор данных** — инвентаризация доступных данных, подключение источников, определение границ модели
-2. **Недели 3–5. Построение модели** — демографический, экономический и инфраструктурный контуры, агент-базированная популяция, движок каскадных эффектов
-3. **Недели 6–7. Калибровка и валидация** — ретроспективные тесты, корректировка параметров, экспертная валидация
-4. **Неделя 8. Боевой запуск** — первый сценарный прогон на реальной задаче, обучение команды
+1. **Weeks 1–2. Audit and data collection** — inventory of available data, connection of sources, definition of model boundaries
+2. **Weeks 3–5. Model construction** — demographic, economic, and infrastructure loops, agent-based population, cascading effects engine
+3. **Weeks 6–7. Calibration and validation** — retrospective testing, parameter adjustment, expert validation
+4. **Week 8. Production launch** — first scenario run on a real problem, team training
 
-Далее: сценарии тестируются за 2–5 дней; перекалибровка при поступлении новых данных.
+After that: scenarios are tested in 2–5 days; recalibration as new data arrives.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Доступ к ведомственным и внутренним данным (при наличии)
-- Эксперты: экономисты, урбанисты, социологи (3–5 часов в неделю на этапе валидации)
-- Постановка сценарных вопросов
+**From the client:**
+- Access to departmental and internal data (if available)
+- Experts: economists, urban planners, sociologists (3–5 hours per week during the validation phase)
+- Formulation of scenario questions
 
-**От нас:**
-- Команда: специалисты по агент-базированному моделированию, экономисты, ГИС-аналитики, data engineers
-- Инфраструктура и дата-провайдеры
-- Методологии валидации и документация модели
+**From us:**
+- Team: agent-based modeling specialists, economists, GIS analysts, data engineers
+- Infrastructure and data providers
+- Validation methodology and model documentation
 
-## Сроки
+## Timelines
 
-- **Базовый двойник:** 6–8 недель
-- **Один сценарный прогон:** 2–5 дней
-- **Горизонт моделирования:** 3–10 лет
-- **Эксплуатация:** подписка с регулярной перекалибровкой
+- **Basic twin:** 6–8 weeks
+- **One scenario run:** 2–5 days
+- **Modeling horizon:** 3–10 years
+- **Operation:** subscription with regular recalibration
 
-## Что получает заказчик
+## What the client gets
 
-**Инструменты:**
-- ГИС-дашборд двойника: карта, контуры, индикаторы
-- Конструктор сценариев «что если»
-- Сценарные отчёты с каскадными эффектами и количественными оценками
-- Сравнение сценариев по бюджетным, социальным и экономическим последствиям
+**Tools:**
+- GIS dashboard of the twin: map, loops, indicators
+- "What if" scenario builder
+- Scenario reports with cascading effects and quantitative estimates
+- Comparison of scenarios by budgetary, social, and economic consequences
 
-**Результаты:**
-- Решения, проверенные **до вложения миллионов долларов**
-- Видимость каскадных эффектов, которые раньше проявлялись через годы
-- Приоритизация инвестиций на основе модели, а не лоббизма
-- Аргументированная коммуникация с жителями и инвесторами
+**Results:**
+- Decisions tested **before millions of dollars are invested**
+- Visibility of cascading effects that used to surface years later
+- Investment prioritization based on the model rather than lobbying
+- Well-grounded communication with residents and investors
 
-**Метрики успеха:**
-- Количество просчитанных сценариев до принятия решения
-- Сэкономленные средства на отменённых или скорректированных ошибочных решениях
-- Скорость подготовки сценарного анализа (дни вместо месяцев)
+**Success metrics:**
+- Number of scenarios analyzed before a decision is made
+- Funds saved from canceled or corrected erroneous decisions
+- Speed of scenario analysis preparation (days instead of months)
 
-## Кому подходит
+## Who it's for
 
-**Государственные структуры:**
-- Региональные правительства и муниципалитеты — стратегии развития, генпланы, нацпроекты
-- Ведомства — оценка территориальных последствий программ
+**Government bodies:**
+- Regional governments and municipalities — development strategies, master plans, national projects
+- Departments — assessment of territorial consequences of programs
 
-**Бизнес:**
-- Девелоперы и инфраструктурные холдинги — оценка проектов и их влияния на территорию
-- Промышленные предприятия и моногорода — сценарии модернизации и сокращений
-- Инвестиционные фонды — территориальный due diligence
+**Business:**
+- Developers and infrastructure holdings — assessment of projects and their impact on the territory
+- Industrial enterprises and company towns — modernization and downsizing scenarios
+- Investment funds — regional due diligence
 
 ## FAQ
 
-**Q: Чем двойник отличается от дашборда «умного города»?**
-A: Дашборд показывает настоящее — двойник моделирует будущее. Он отвечает на вопросы «что будет, если…», проигрывает сценарии и считает каскадные эффекты, недоступные описательной аналитике.
+**Q: How is the twin different from a "smart city" dashboard?**
+A: The dashboard shows the present — the twin simulates the future. It answers "what if…" questions, runs scenarios, and computes cascading effects that descriptive analytics cannot reach.
 
-**Q: Что если данных по территории недостаточно?**
-A: Мы используем открытые данные, синтетическое обогащение и калибровку по аналогам, явно указывая уровень уверенности по каждому контуру. Модель честна: она говорит, где данных хватает, а где нужен добор.
+**Q: What if there isn't enough data for the territory?**
+A: We use open data, synthetic enrichment, and calibration against analogs, explicitly indicating the confidence level for each loop. The model is honest: it tells you where data is sufficient and where more is needed.
 
-**Q: Насколько точны прогнозы?**
-A: На ретроспективных тестах модель воспроизводит ключевые тренды территории с высокой точностью; по каждому сценарию даются доверительные интервалы. Двойник — не оракул, а инженерный инструмент для сравнения вариантов.
+**Q: How accurate are the forecasts?**
+A: In retrospective tests, the model reproduces key regional trends with high accuracy; confidence intervals are provided for each scenario. The twin is not an oracle but an engineering tool for comparing alternatives.
 
-**Q: Какой масштаб территории возможен?**
-A: От района города до субъекта федерации. Чем уже территория, тем детальнее агенты; чем шире — тем важнее макроконтуры.
+**Q: What scale of territory is possible?**
+A: From a city district to a federal subject. The narrower the territory, the more detailed the agents; the broader, the more important the macro loops.
 
-**Q: Как обновляется модель?**
-A: Регулярная перекалибровка (квартал/полугодие) плюс внеплановая при крупных событиях: новые данные, кризисы, изменения политики.
+**Q: How is the model updated?**
+A: Regular recalibration (quarterly/semiannual) plus ad hoc recalibration on major events: new data, crises, policy changes.
 
 ## CTA
 
-**Хотите увидеть территорию на 10 лет вперёд?**
+**Want to see the territory 10 years ahead?**
 
-Первая диагностическая сессия — бесплатно. Покажем демо-двойник на примере территории, похожей на вашу, и прогоним один ваш сценарий в прямом эфире.
+The first diagnostic session is free. We'll show a demo twin on a territory similar to yours and run one of your scenarios live.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

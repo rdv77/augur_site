@@ -1,130 +1,130 @@
 ---
-title: "Навигатор медиапространства"
+title: "Media Landscape Navigator"
 slug: "media-navigator"
 category: "socio"
 order: 9
-description: "Нарративы, спикеры и динамика тем в медиаполе."
+description: "Narratives, spokespersons, and topic dynamics in the media field."
 image: "/assets/product-media.jpg"
 ---
 
-## Проблема
+## Problem
 
-Повестка живёт в режиме реального времени: нарратив рождается в нишевом канале, за часы подхватывается лидерами мнений и к вечеру становится «общим мнением». Коммуникационные команды, работающие по вчерашним сводкам, обречены реагировать — а не управлять.
+The agenda unfolds in real time: a narrative is born in a niche channel, picked up by influencers within hours, and by evening becomes "public opinion." Communication teams working off yesterday's briefings are doomed to react rather than lead.
 
-Классический медиамониторинг показывает тон и объём упоминаний, но не отвечает на главные вопросы: **какой фрейм побеждает? кто на самом деле формирует повестку? когда наше сообщение зайдёт, а когда утонет?**
+Traditional media monitoring shows tone and mention volume, but doesn't answer the key questions: **which frame is winning? who is actually setting the agenda? when will our message land, and when will it fade?**
 
-**AI-навигатор нарративов** — это приборная панель повестки: вы видите её структуру, динамику и точки приложения усилий.
+**The AI Narrative Navigator** is an agenda dashboard: you see its structure, dynamics, and the points where effort should be applied.
 
-## Что это за продукт
+## What this product is
 
-Система, которая в реальном времени:
-- **Отслеживает нарративы** в СМИ и соцсетях — устойчивые сюжетные рамки, а не просто упоминания
-- **Определяет, кто формирует повестку** — истинные источники и усилители, а не видимые спикеры
-- **Показывает, какой фрейм побеждает** — какая подача темы собирает вовлечённость и доверие
-- **Ловит «окна возможностей»** — моменты, когда аудитория максимально восприимчива к вашему сообщению
-- **Следит за динамикой тональности** по ключевым темам
+A system that, in real time:
+- **Tracks narratives** in media and social networks — stable story frames, not just mentions
+- **Determines who sets the agenda** — the true sources and amplifiers, not the visible spokespersons
+- **Shows which frame wins** — which presentation of a topic generates engagement and trust
+- **Seizes "windows of opportunity"** — moments when the audience is most receptive to your message
+- **Monitors tone shifts** on key topics
 
-И главное — выдаёт **автоматические рекомендации по контрнарративам и оптимальному таймингу публикаций**.
+And most importantly — it issues **automatic recommendations on counter-narratives and optimal timing for publications**.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Нарративный слой
-- Потоковый сбор СМИ, соцсетей, мессенджеров, видео-платформ
-- Кластеризация высказываний в нарративы и фреймы (semantic clustering)
-- Темпоральные графы: кто запустил нарратив, кто усилил, где он мутировал
+### Narrative layer
+- Real-time collection from media, social networks, messaging apps, and video platforms
+- Clustering of statements into narratives and frames (semantic clustering)
+- Temporal graphs: who launched the narrative, who amplified it, where it mutated
 
-### Анализ силы и победы фреймов
-- Скоринг фреймов по вовлечённости, цитируемости, доверию источников
-- Детекция переломов: когда один фрейм вытесняет другой
-- Карта акторов повестки: источники, ретрансляторы, «спящие» усилители
+### Frame strength and victory analysis
+- Scoring of frames by engagement, citability, and source credibility
+- Turning-point detection: when one frame displaces another
+- Map of agenda actors: sources, retransmitters, and "sleeping" amplifiers
 
-### Окна возможностей и тайминг
-- Модель внимания: циклы повестки, усталость аудитории, пустые слоты
-- Прогноз восприимчивости аудитории к типу сообщения в ближайшие часы/дни
-- Рекомендация оптимального момента и канала публикации
+### Windows of opportunity and timing
+- Attention model: agenda cycles, audience fatigue, empty slots
+- Forecast of audience receptiveness to a message type in the coming hours/days
+- Recommendation of the optimal moment and channel for publication
 
-### Генеративный слой
-- LLM-генерация контрнарративов: рамки, сообщения, формулировки под сегменты аудитории
-- Прогон вариантов на кремниевой выборке (Столп 3) до публикации — в публичное поле выходит только проверенное
-- Ежедневные нарративные брифинги и алерты о переломах повестки
+### Generative layer
+- LLM-generated counter-narratives: frames, messages, wording tailored to audience segments
+- Testing of variants on a silicon sample (Pillar 3) before publication — only verified content goes public
+- Daily narrative briefings and alerts on agenda turning points
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Рамка** — ключевые темы, позиции и «красные линии» заказчика; карта собственных каналов и активов
-2. **Неделя 2. Подключение и калибровка** — инжест источников, настройка нарративных кластеров под вашу тематику; калибровка моделей внимания на исторических кейсах
-3. **Неделя 3. Движок рекомендаций** — настройка генерации контрнарративов и тайминга; обучение коммуникационной команды, регламенты реакции
+1. **Week 1. Framework** — the client's key topics, positions, and "red lines"; a map of your own channels and assets
+2. **Week 2. Setup and calibration** — source ingestion, tailoring narrative clusters to your subject matter; calibrating attention models on historical cases
+3. **Week 3. Recommendation engine** — configuring counter-narrative generation and timing; training the communication team; establishing response protocols
 
-Далее: работа 24/7, ежедневные брифинги, алерты о переломах повестки в течение часа.
+After that: 24/7 operation, daily briefings, alerts on agenda turning points within an hour.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Темы, позиции и цели коммуникации
-- Команда, уполномоченная публиковать по рекомендациям системы
-- Доступ к собственным каналам публикации
+**From the client:**
+- Communication topics, positions, and goals
+- A team authorized to publish based on the system's recommendations
+- Access to your own publication channels
 
-**От нас:**
-- Мониторинговая и вычислительная инфраструктура
-- Нарративные аналитики и редакторы-верификаторы
-- Кремниевая выборка для предпубликационного тестирования сообщений
+**From us:**
+- Monitoring and computing infrastructure
+- Narrative analysts and fact-checking editors
+- Silicon sampling for pre-publication testing of messages
 
-## Сроки
+## Timelines
 
-- **Запуск:** 3 недели
-- **Реакция на перелом повестки:** алерт в течение часа, рекомендация — в течение 2–4 часов
-- **Брифинги:** ежедневно; нарративный обзор — еженедельно
-- **Эксплуатация:** подписка
+- **Launch:** 3 weeks
+- **Reaction to an agenda turning point:** alert within an hour; recommendation within 2–4 hours
+- **Briefings:** daily; narrative review — weekly
+- **Operation:** subscription
 
-## Что получает заказчик
+## What the client gets
 
-**Инструменты:**
-- Дашборд повестки: нарративы, фреймы, акторы, динамика
-- Карта формирователей повестки (источники и усилители)
-- Алерты «окон возможностей» и переломов
-- Рекомендации: контрнарратив + сообщение + тайминг + канал
+**Tools:**
+- Agenda dashboard: narratives, frames, actors, dynamics
+- Map of agenda-setters (sources and amplifiers)
+- "Windows of opportunity" and turning-point alerts
+- Recommendations: counter-narrative + message + timing + channel
 
-**Результаты:**
-- Вы управляете повесткой, а не реагируете на неё
-- Рост share of voice в ключевых темах за счёт точного тайминга
-- Сокращение времени «событие → публикация» с дней до часов
-- Проверенные сообщения: контрнарративы тестируются до выхода в публичное поле
+**Results:**
+- You set the agenda rather than react to it
+- Increased share of voice on key topics through precise timing
+- Time from "event to publication" reduced from days to hours
+- Verified messages: counter-narratives are tested before going public
 
-**Метрики успеха:**
-- Доля публикаций, попавших в рекомендованное окно
-- Динамика доли вашего фрейма в повестке
-- Время реакции на враждебный нарратив
+**Success metrics:**
+- Share of posts published within the recommended window
+- Dynamics of your frame's share in the agenda
+- Response time to a hostile narrative
 
-## Кому подходит
+## Who it's for
 
-**Государственные структуры:**
-- Пресс-службы и департаменты коммуникаций ведомств и регионов
+**Government bodies:**
+- Press offices and communication departments of ministries and regions
 
-**Бизнес:**
-- Бренды в высококонкурентных и репутационно чувствительных отраслях
-- Корпорации в период трансформаций и публичных конфликтов
+**Business:**
+- Brands in highly competitive and reputation-sensitive industries
+- Corporations in periods of transformation and public conflict
 
-**Политика и GR:**
-- Политические команды и кандидаты
-- GR-подразделения, работающие с регуляторной повесткой
+**Politics and GR:**
+- Political teams and candidates
+- GR units working with the regulatory agenda
 
 ## FAQ
 
-**Q: Чем это отличается от мониторинга настроений (Столп 1)?**
-A: Мониторинг отвечает на вопрос «что люди чувствуют». Навигатор отвечает на вопросы «как устроена повестка, кто её делает и куда бить нашим сообщениям». Это инструмент активного управления, а не наблюдения.
+**Q: How is this different from sentiment monitoring (Pillar 1)?**
+A: Monitoring answers "what people feel." The Navigator answers "how the agenda is structured, who sets it, and where our messages should strike." It is a tool of active management, not observation.
 
-**Q: Как определяется «побеждающий фрейм»?**
-A: По совокупности метрик: вовлечённость, цитируемость авторитетными источниками, эмоциональное принятие, устойчивость во времени. Мы показываем не один «победитель», а рейтинг фреймов с динамикой.
+**Q: How is the "winning frame" determined?**
+A: By a combination of metrics: engagement, citations by authoritative sources, emotional acceptance, and stability over time. We don't highlight a single "winner" — we present a dynamic ranking of frames.
 
-**Q: Это этично? Вы не занимаетесь манипуляцией?**
-A: Мы работаем с легитимной коммуникацией: помогаем донести позицию заказчика вовремя. Система не создаёт дезинформацию, астротурфинг и фейковые кампании — это за пределами наших этических протоколов.
+**Q: Is it ethical? You're not manipulating people, are you?**
+A: We engage in legitimate communication: helping convey the client's position in a timely manner. The system does not generate disinformation, astroturfing, or fake campaigns — these fall outside our ethical guidelines.
 
-**Q: Можно ли интегрировать рекомендации в наши процессы публикации?**
-A: Да: рекомендации выгружаются в ваши системы (SMM-платформы, редакторские пайплайны) через API, с сохранением человеческого одобрения перед публикацией.
+**Q: Can recommendations be integrated into our publishing processes?**
+A: Yes: recommendations are exported to your systems (SMM platforms, editorial pipelines) via API, with human approval required before publication.
 
 ## CTA
 
-**Готовы управлять повесткой, а не догонять её?**
+**Ready to lead the agenda instead of chasing it?**
 
-Первая диагностическая сессия — бесплатно. Разберём повестку вашей отрасли в прямом эфире и покажем одно «окно возможностей», которое вы пропустили на прошлой неделе.
+The first diagnostic session is free. We'll analyze your industry's agenda live and show one "window of opportunity" you missed last week.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

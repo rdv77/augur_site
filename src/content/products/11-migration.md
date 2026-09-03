@@ -1,127 +1,127 @@
 ---
-title: "Миграционное моделирование"
+title: "Migration Modeling"
 slug: "migration"
 category: "socio"
 order: 11
-description: "Прогноз потоков и социально-экономических последствий."
+description: "Forecast of flows and socioeconomic impacts."
 image: "/assets/product-migration.jpg"
 ---
 
-## Проблема
+## Problem
 
-Миграционные потоки меняют нагрузку на школы, больницы, рынок труда и ЖКХ принимающих территорий — обычно это обнаруживается постфактум, когда очереди и дефициты уже стали социальной напряжённостью. Бюджеты и инфраструктура планируются по экстраполяции прошлого, а программы адаптации выбираются без сравнения эффективности.
+Migration flows change the load on schools, hospitals, the labor market, and housing and utilities in host regions — this is usually realized only after the fact, when queues and shortages have already given rise to social tension. Budgets and infrastructure are planned by extrapolating from the past, while integration programs are chosen without any assessment of their effectiveness.
 
-Миграционные решения опираются на запаздывающую статистику. Нагрузка на инфраструктуру и социальную сферу проявляется, когда её уже невозможно предотвратить без кризиса.
+Migration decisions are based on outdated statistics. The strain on infrastructure and social services becomes apparent only when it is already impossible to prevent a crisis.
 
-**Миграционное моделирование** даёт управляемость: вы видите потоки, нагрузку и денежные эффекты за 3–5 лет до их прихода — и сравниваете адаптационные сценарии до их реализации.
+**Migration modeling** provides predictability: you see flows, the strain on systems, and the financial implications 3–5 years before they materialize — and compare adaptation scenarios before they are implemented.
 
-## Что это за продукт
+## What this product is
 
-Прогностическая система, которая:
-- **Прогнозирует миграционные потоки** на горизонте 3–5 лет с учётом экономических, климатических и политических факторов
-- **Моделирует нагрузку на инфраструктуру** принимающих территорий: школы, больницы, рынок труда, ЖКХ
-- **Сравнивает адаптационные сценарии** — эффективность различных программ до их реализации
-- **Оценивает денежные эффекты** потоков: бюджеты, трансферты, монетизацию и демонетизацию программ и услуг
+A forecasting system that:
+- **Forecasts migration flows** over a 3–5 year horizon, taking into account economic, climatic, and political factors
+- **Models the strain on infrastructure** in host regions: schools, hospitals, the labor market, and housing and utilities
+- **Compares adaptation scenarios** — the effectiveness of various programs prior to their implementation
+- **Assesses the financial implications** of migration flows: budgets, remittances, and the monetization and demonetization of programs and services
 
-*Примечание по терминологии:* под демонетизацией мы понимаем анализ денежных эффектов миграции — куда уходят и откуда приходят деньги потоков: трансферты, теневые выплаты, нагрузка и доходы бюджетов, «обесценивание» монетарных программ в меняющейся среде.
+*Note on terminology:* by "demonetization" we mean the analysis of the financial effects of migration — where money flows go and where they come from: transfers, informal payments, budgetary burdens and revenues, and the "devaluation" of monetary programs in a changing environment.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Прогноз потоков
-- Гравитационные и ML-модели миграции: экономика, климат, конфликты, политика — все переменные в единой модели
-- Коридоры миграции: откуда, куда, в каком объёме, с каким профилем (возраст, квалификация, семьи)
-- Сценарные коридоры вместо точечного прогноза: базовый, стрессовый, оптимистичный
+### Forecasting of flows
+- Gravity and machine learning (ML) migration models: the economy, climate, conflicts, politics — all variables in a single model
+- Migration corridors: from where, to where, in what numbers, and with what profile (age, qualifications, families)
+- Scenario-based corridors rather than point forecasts: baseline, stress, and optimistic
 
-### Нагрузка на инфраструктуру
-- Агент-базированная модель расселения мигрантов по территориям
-- Динамические модели нагрузки: образование, здравоохранение, рынок труда, жильё, ЖКХ
-- Выявление «узких мест» и порогов, за которыми нагрузка переходит в напряжённость (связка с системой раннего предупреждения)
+### Pressure on infrastructure
+- Agent-based model of migrant settlement across regions
+- Dynamic pressure models: education, healthcare, the labor market, housing, and utilities
+- Identification of "bottlenecks" and thresholds beyond which pressure turns into tension (linked to the early warning system)
 
-### Денежные эффекты (монетизация/демонетизация)
-- Фискальная модель: доходы и расходы бюджетов по сценариям
-- Трансферты и денежные потоки домохозяйств, теневой контур
-- Оценка того, как миграция обесценивает или усиливает действующие монетарные программы
+### Financial implications (monetization/demonetization)
+- Fiscal model: budget revenues and expenditures under different scenarios
+- Transfers and household cash flows, the informal economy
+- Assessment of how migration undermines or reinforces existing monetary programs
 
-### Сравнение адаптационных сценариев
-- Библиотека программ адаптации: языковые, трудовые, образовательные, инфраструктурные
-- Многокритериальное ранжирование: эффект × стоимость × социальная приемлемость
+### Comparison of adaptation scenarios
+- Library of adaptation programs: language, labor, education, and infrastructure
+- Multi-criteria ranking: impact × cost × social acceptability
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Недели 1–2. Данные и факторы** — инвентаризация данных: статистика, ведомственные источники, открытые данные; определение коридоров и горизонтов, ключевых факторов
-2. **Недели 3–5. Модели** — построение моделей потоков и нагрузки; фискальный контур и денежные эффекты
-3. **Неделя 6. Сценарии** — прогон адаптационных сценариев, ранжирование; отчёт и стратегическая сессия
+1. **Weeks 1–2. Data and factors** — data inventory: statistics, departmental sources, open data; identification of corridors and horizons, key factors
+2. **Weeks 3–5. Models** — development of flow and load models; fiscal framework and cash-flow effects
+3. **Week 6. Scenarios** — running adaptation scenarios, prioritization; report and strategic session
 
-Далее: квартальное обновление прогнозов, алерты при разрыве трендов.
+After that: quarterly forecast updates, alerts in the event of trend deviations.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Ведомственные и внутренние данные (образование, здравоохранение, занятость)
-- Эксперты предметных областей
-- Перечень адаптационных программ для сравнения
+**From the client:**
+- Sector-specific and internal data (education, healthcare, employment)
+- Subject-matter experts
+- List of adaptation programs for comparison
 
-**От нас:**
-- Команда: демографы, экономисты, специалисты по агент-базированному моделированию
-- Факторные базы данных (макроэкономика, климат, конфликты)
-- Вычислительная инфраструктура
+**From us:**
+- Team: demographers, economists, specialists in agent-based modeling
+- Factor databases (macroeconomics, climate, conflicts)
+- Computing infrastructure
 
-## Сроки
+## Timelines
 
-- **Базовая модель:** 6–8 недель
-- **Горизонт прогноза:** 3–5 лет, сценарные коридоры
-- **Обновление:** ежеквартально + при значимых событиях
-- **Сценарный прогон:** 2–5 дней
+- **Base model:** 6–8 weeks
+- **Forecast horizon:** 3–5 years, scenario corridors
+- **Updates:** quarterly + following significant events
+- **Scenario run:** 2–5 days
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Прогноз потоков по коридорам с профилями мигрантов
-- Карта нагрузки на инфраструктуру по территориям и годам
-- Фискальный баланс и карта денежных эффектов (монетизация/демонетизация)
-- Ранжирование адаптационных программ
-- Дашборд со сценарными коридорами
+**Artifacts:**
+- Forecast of migration flows by corridors with migrant profiles
+- Map of infrastructure demand by region and year
+- Fiscal balance and cash-flow map (monetization/demonetization)
+- Ranking of adaptation programs
+- Dashboard with scenario corridors
 
-**Результаты:**
-- Ресурсы запланированы за 3–5 лет, а не догоняют потоки
-- Инфраструктурные инвестиции приоритизированы по реальной будущей нагрузке
-- Адаптационные программы выбраны по эффективности, а не по привычке
-- Снижение социальной напряжённости через упреждающее планирование
+**Results:**
+- Resources planned 3–5 years in advance, rather than playing catch-up with flows
+- Infrastructure investments prioritized according to actual future load
+- Adaptation programs selected by effectiveness, not habit
+- Reduced social tension through proactive planning
 
-**Метрики успеха:**
-- Точность прогноза потоков (сравнение с фактом ежегодно)
-- Своевременность инфраструктурных решений
-- Стоимость адаптации на одного интегрированного мигранта
+**Success metrics:**
+- Accuracy of flow forecasts (compared with actuals annually)
+- Timeliness of infrastructure decisions
+- Cost of adaptation per integrated migrant
 
-## Кому подходит
+## Who it's for
 
-**Государственные структуры:**
-- Региональные правительства и муниципалитеты — планирование инфраструктуры
-- Министерства образования, здравоохранения, труда и финансов
+**Government bodies:**
+- Regional governments and municipalities — infrastructure planning
+- Ministries of education, healthcare, labor, and finance
 
-**Бизнес и организации:**
-- Инфраструктурные и девелоперские компании — будущий спрос
-- Банки и платёжные системы — трансферты и финансовые продукты
-- Международные организации и НКО — программы адаптации
+**Business:**
+- Infrastructure and property development companies — future demand
+- Banks and payment systems — transfers and financial products
+- International organizations and NGOs — adaptation programs
 
 ## FAQ
 
-**Q: Насколько надёжен прогноз на 3–5 лет?**
-A: Мы даём сценарные коридоры с вероятностями, а не точечный прогноз. Ценность — в видимости диапазона и «узких мест», которые общие для всех сценариев: их стоит закрывать в любом случае.
+**Q: How reliable is the 3–5 year forecast?**
+A: We provide scenario corridors with probabilities, rather than a point forecast. The value lies in the visibility of the range and the "bottlenecks" common to all scenarios: these should be addressed in any case.
 
-**Q: Это этично и законно?**
-A: Моделирование используется исключительно для планирования инфраструктуры и программ — не для дискриминации и ограничений. Данные агрегированы и обезличены; методология прозрачна и аудируема.
+**Q: Is this ethical and lawful?**
+A: Modeling is used exclusively for infrastructure and program planning — not for discrimination or restrictions. The data is aggregated and anonymized; the methodology is transparent and auditable.
 
-**Q: Что если ведомственные данные закрыты?**
-A: Модель строится на открытых и косвенных данных с указанием зон неуверенности; по мере открытия данных точность растёт. Мы показываем ценность модели и на ограниченном контуре.
+**Q: What if departmental data is restricted?**
+A: The model is built on open and indirect data, with areas of uncertainty highlighted; accuracy improves as more data becomes available. We demonstrate the model's value even within a limited scope.
 
-**Q: Как связан этот продукт с цифровым двойником (Продукт 5)?**
-A: Миграционное моделирование может быть контуром двойника территории: потоки подаются в модель региона, и вы видите полные каскадные эффекты — от школ до рынка труда и напряжённости.
+**Q: How does this product relate to the digital twin (Product 5)?**
+A: Migration modeling can serve as a contour of the digital twin: flows are fed into the regional model, and you see the full cascade of effects — from schools to the labor market and social tension.
 
 ## CTA
 
-**Готовы планировать ресурсы до того, как придут потоки?**
+**Ready to plan resources before the flows arrive?**
 
-Первая диагностическая сессия — бесплатно. Покажем демо-прогноз по вашему региону и карту инфраструктурных «узких мест» на 3 года вперёд.
+The first diagnostic session is free. We'll show a demo forecast for your region and a map of infrastructure "bottlenecks" for the next three years.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

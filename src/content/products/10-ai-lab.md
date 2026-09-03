@@ -1,125 +1,125 @@
 ---
-title: "AI-лаборатория соцпрограмм"
+title: "AI Lab for Social Programs"
 slug: "ai-lab"
 category: "socio"
 order: 10
-description: "Проектирование и оценка социальных программ на симуляциях."
+description: "Designing and evaluating social programs through simulation."
 image: "/assets/product-ai-lab.jpg"
 ---
 
-## Проблема
+## Problem
 
-Социальные программы проектируются в кабинетах, а проверяются — на живых людях. Пилоты длятся годами, стоят десятки миллионов и часто выявляют фатальные ошибки дизайна, которые можно было увидеть заранее: поддержка не доходит до нуждающихся, порождает иждивенчество, стигматизацию или мошенничество.
+Social programs are designed in offices and then tested on real people. Pilots last for years, cost tens of millions, and often reveal fatal design flaws that could have been spotted in advance: support fails to reach those in need, fostering dependency, stigmatization, or fraud.
 
-Неудачный дизайн программы — это не только потраченный бюджет, но и социальное недовольство, которое невозможно «отозвать».
+A poorly designed program is not only a wasted budget but also social discontent that cannot be "undone."
 
-**AI-лаборатория социальных программ** переносит испытания в цифровую среду: вы сравниваете до 10 вариантов дизайна за один рабочий день — до того, как программа коснётся реальных людей.
+**The AI Lab for Social Programs** moves testing into a digital environment: you compare up to 10 design options in a single workday — before the program reaches real people.
 
-## Что это за продукт
+## What this product is
 
-Прикладная испытательная среда для социальных политик на базе кремниевой выборки (Столп 3):
-- **До 10 вариантов дизайна** программы тестируются одновременно на виртуальной популяции
-- **Максимальный отклик**: определяется формат с лучшим результатом по целевой метрике
-- **Минимальные побочные эффекты**: система выявляет непреднамеренные последствия до запуска
-- **Экономия до 80%** бюджета на пилотные исследования без потери точности выводов
+An applied testing environment for social policies based on a silicon sample (Pillar 3):
+- **Up to 10 design options** tested simultaneously on a virtual population
+- **Maximum response**: the format with the best result on the target metric is identified
+- **Minimal side effects**: the system detects unintended consequences before launch
+- **Up to 80% savings** on the pilot-study budget without compromising the accuracy of conclusions
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Параметризация дизайна
-- Программа раскладывается на параметры: критерии получателей, размер и форма поддержки (деньги/натура/сертификат), каналы доставки, условия, коммуникация
-- Генерация матрицы вариантов: от точечных модификаций до принципиально разных архитектур
+### Design parameterization
+- The program is decomposed into parameters: recipient criteria, size and form of support (cash / in-kind / certificate), delivery channels, conditions, communication
+- Generation of an option matrix: from minor modifications to fundamentally different architectures
 
-### Поведенческое моделирование
-- Кремниевая выборка целевой популяции с реальными поведенческими профилями
-- Агенты «принимают решение»: обратиться ли за поддержкой, как распорядиться, какие барьеры сработают
-- Моделирование ошибок таргетирования: exclusion error (нуждающиеся не получили) и inclusion error (получили ненуждающиеся)
+### Behavioral modeling
+- A silicon sample of the target population with real behavioral profiles
+- Agents "make decisions": whether to seek support, how to use it, which barriers will arise
+- Modeling of targeting errors: exclusion error (those in need did not receive support) and inclusion error (those not in need received it)
 
-### Анализ побочных эффектов
-- Стигматизация, иждивенческие установки, мошеннические схемы, рыночные искажения
-- Межгрупповые эффекты: реакция тех, кто не попал в программу
-- Медийная и общественная реакция на дизайн (связка со Столпом 2)
+### Side-effect analysis
+- Stigmatization, dependency, fraudulent schemes, market distortions
+- Intergroup effects: the reaction of those not included in the program
+- Media and public reaction to the program's design (linked to Pillar 2)
 
-### Оптимизация и отчёт
-- Многокритериальное ранжирование вариантов: эффективность × стоимость × побочные эффекты
-- «Паспорт» победившего дизайна с рекомендациями по доработке
-- Опционально: полевой пилот только для топ-2 вариантов — бюджет тратится на подтверждение, а не на поиск
+### Optimization and reporting
+- Multi-criteria ranking of options: effectiveness × cost × side effects
+- A "profile" of the winning design with recommendations for refinement
+- Optional: a field pilot for only the top 2 options — the budget is spent on validation, not on the search
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Дизайн и критерии** — параметризация текущей версии программы и целей; определение метрик успеха и допустимых побочных эффектов
-2. **Неделя 2. Построение выборки** — калибровка виртуальной популяции под целевую группу программы; валидация на ретроспективных данных (при наличии)
-3. **Дни 3–5 недели 2. Испытания** — прогон до 10 вариантов за один рабочий день; многокритериальное ранжирование
-4. **Неделя 3. Решение** — отчёт с паспортами вариантов и рекомендациями; стратегическая сессия: выбор дизайна, план пилота топ-2 (опционально)
+1. **Week 1. Design and criteria** — defining the parameters of the current program version and its objectives; identifying success metrics and acceptable side effects
+2. **Week 2. Sample construction** — calibrating the virtual population to the program's target group; validation on retrospective data (if available)
+3. **Days 3–5 of Week 2. Testing** — running up to 10 variants in a single workday; multi-criteria ranking
+4. **Week 3. Decision** — report with variant profiles and recommendations; strategic session: design selection, top-2 pilot plan (optional)
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Параметры программы и внутренние данные (при наличии)
-- Эксперты предметной области (соцзащита, здравоохранение, образование)
-- Критерии успеха и ограничения
+**From the client:**
+- Program parameters and internal data (if available)
+- Subject-matter experts (social protection, healthcare, and education)
+- Success criteria and constraints
 
-**От нас:**
-- Платформа кремниевой выборки и методологи
-- Поведенческие экономисты и специалисты по социальной политике
-- Вычислительная инфраструктура
+**From us:**
+- Silicon sampling platform and methodologies
+- Behavioral economists and social-policy experts
+- Computing infrastructure
 
-## Сроки
+## Timelines
 
-- **Цикл испытаний 10 вариантов:** 1 рабочий день
-- **Полный проект:** 2–3 недели
-- **Экономия бюджета:** до 80% против классического пилотного цикла
-- **Сопровождение:** до запуска программы и пост-валидация после
+- **Test cycle for 10 options:** 1 business day
+- **Full project:** 2–3 weeks
+- **Budget savings:** up to 80% compared with a traditional pilot cycle
+- **Support:** through program launch and post-validation
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Ранжирование вариантов дизайна с метриками по каждому критерию
-- Паспорт рекомендуемого дизайна + карта побочных эффектов по всем вариантам
-- Методология и допущения испытаний (прозрачно и аудируемо)
-- План подтверждающего пилота для топ-2 вариантов
+**Artifacts:**
+- Ranking of design options with metrics for each criterion
+- Specification of the recommended design + a side-effects map for all options
+- Testing methodology and assumptions (transparent and auditable)
+- Plan for a validation pilot of the top 2 options
 
-**Результаты:**
-- Программа, которая работает с первого запуска, а не дорабатывается на живых людях
-- Экономия до 80% бюджета пилотных исследований
-- Снижение социальных рисков: побочные эффекты выявлены до публичного запуска
-- Аргументация для защиты бюджета программы перед руководством и обществом
+**Results:**
+- A program that works from the first launch instead of being refined on real people
+- Up to 80% savings on the pilot-study budget
+- Reduced social risks: side effects identified before public launch
+- Well-grounded defense of the program budget before leadership and the public
 
-**Метрики успеха:**
-- Точность таргетирования в модели vs. в пилоте
-- Снижение exclusion/inclusion error относительно базового дизайна
-- Стоимость цикла испытаний vs. стоимость классического пилота
+**Success metrics:**
+- Targeting accuracy in the model vs. in the pilot
+- Reduction of exclusion/inclusion errors relative to the baseline design
+- Cost of the testing cycle vs. cost of a traditional pilot
 
-## Кому подходит
+## Who it's for
 
-**Государственные структуры:**
-- Министерства социального блока, здравоохранения, образования
-- Региональные правительства и муниципалитеты — адресные программы
+**Government bodies:**
+- Ministries of social protection, healthcare, and education
+- Regional governments and municipalities — targeted programs
 
-**Некоммерческий сектор:**
-- Фонды и НКО — дизайн программ помощи
-- Международные организации — сравнение подходов в разных контекстах
+**Nonprofit sector:**
+- Foundations and NGOs — design of assistance programs
+- International organizations — comparison of approaches in different contexts
 
-**Бизнес:**
-- Корпоративные социальные программы и КСО-портфели
+**Business:**
+- Corporate social programs and CSR portfolios
 
 ## FAQ
 
-**Q: Чем лаборатория отличается от кремниевой выборки (Столп 3)?**
-A: Кремниевая выборка — базовая технология. Лаборатория — прикладной продукт поверх неё: готовые методологии параметризации программ, поведенческие модели и многокритериальная оптимизация именно для социальных политик.
+**Q: How does the Lab differ from the silicon sampling approach (Pillar 3)?**
+A: Silicon sampling is a foundational technology. The Lab is an applied product built on top of it: ready-made methodologies for program parameterization, behavioral models, and multi-criteria optimization specifically for social policies.
 
-**Q: Это этично — моделировать получателей поддержки?**
-A: Да: моделирование заменяет часть экспериментов на живых людях, снижая риски для реальных получателей. Все данные обезличены; цель — дизайн, который лучше работает для людей.
+**Q: Is it ethical to model aid recipients?**
+A: Yes: modeling replaces some experiments on real people, reducing risks for actual recipients. All data is anonymized; the goal is a design that works better for people.
 
-**Q: Насколько можно доверять результатам?**
-A: Модель валидируется на ретроспективных программах с известными результатами; по каждому варианту даются доверительные интервалы. Мы рекомендуем подтверждающий пилот для финального дизайна — но только для него, а не для всех 10 вариантов.
+**Q: How reliable are the results?**
+A: The model is validated on retrospective programs with known outcomes; confidence corridors are provided for each variant. We recommend a confirmatory pilot for the final design — but only for that one, not for all 10 options.
 
-**Q: Что если у нас совсем нет данных по целевой группе?**
-A: Мы строим популяцию на открытых статистических и социологических данных, явно обозначая зоны неуверенности. Даже в этом режиме лаборатория отбраковывает заведомо провальные дизайны — это главная ценность.
+**Q: What if we have absolutely no data on the target group?**
+A: We build the population from publicly available statistical and sociological data, clearly indicating areas of uncertainty. Even in this mode the lab weeds out designs that are obviously doomed to fail — that is its main value.
 
 ## CTA
 
-**Готовы испытать программу до того, как она коснётся людей?**
+**Ready to test the program before it affects people?**
 
-Первая диагностическая сессия — бесплатно. Прогоним три варианта дизайна вашей программы на демо-выборке и покажем разницу в отклике и побочных эффектах.
+The first diagnostic session is free. We'll test three design options for your program on a demo sample and show the differences in response and side effects.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

@@ -1,129 +1,129 @@
 ---
-title: "Генеративная аналитика"
+title: "Generative Analytics"
 slug: "generative-analytics"
 category: "socio"
 order: 12
-description: "Готовый аналитический отчёт за 30 минут."
+description: "A ready-to-use analytical report in 30 minutes."
 image: "/assets/product-generative.jpg"
 ---
 
-## Проблема
+## Problem
 
-Аналитический цикл занимает дни и недели. К моменту отчёта вопрос уже изменился. Аналитики тратят до 70% времени не на мышление, а на форматирование: собрать данные, построить графики, привести к шаблону, адаптировать под разных читателей.
+The analytical cycle takes days and weeks. By the time the report is due, the issue has already changed. Analysts spend up to 70% of their time not on thinking, but on formatting: gathering data, creating charts, fitting the data into a template, and adapting it for different audiences.
 
-Совету директоров нужна одна глубина, министерству — другая, грантодателю — третья, и каждый раз — ручная пересборка. Стратегическое мышление тонет в рутине, а решения ждут бумаги.
+The board of directors needs one level of detail, the ministry needs another, the grantor needs a third — and each time, the report must be manually reworked. Strategic thinking gets lost in the routine, and decisions wait while paperwork is processed.
 
-**Генеративная аналитика** возвращает аналитикам стратегию: машина собирает отчёт за 30 минут, человек — думает.
+**Generative Analytics** returns strategy to analysts: the machine compiles the report in 30 minutes, while the human does the thinking.
 
-## Что это за продукт
+## What this product is
 
-Система, в которую вы загружаете данные в любом формате — опросы, мониторинг, статистика, текстовые массивы — и получаете:
-- **Структурированный отчёт** с графиками, выводами и рекомендациями за 30 минут
-- **Адаптацию формата** под аудиторию: совет директоров, министерство, грантодатель — каждому свой язык и глубина
-- **Живое обновление**: данные меняются — отчёт пересобирается автоматически в реальном времени
+A system where you upload data in any format — surveys, monitoring data, statistics, text arrays — and receive:
+- **A structured report** with charts, conclusions, and recommendations in 30 minutes
+- **Format customization** for your audience: board of directors, government ministry, or grantor — the language and level of detail tailored to each
+- **Real-time updates**: as the data changes, the report is automatically regenerated
 
-Ваши аналитики занимаются стратегией, а не форматированием.
+Your analysts focus on strategy, not formatting.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Инжест любых форматов
-- Опросы (SPSS, XLSX, CSV), статистика, текстовые массивы, выгрузки мониторинга
-- Автоматическое распознавание структуры, очистка, приведение к единой схеме
-- Версионирование данных: каждый отчёт привязан к конкретной версии корпуса
+### Ingestion of any formats
+- Surveys (SPSS, XLSX, CSV), statistics, text arrays, monitoring data exports
+- Automatic structure recognition, cleaning, and standardization
+- Data versioning: each report is linked to a specific version of the corpus
 
-### Аналитический пайплайн
-- Расчёты выполняются кодом (статистика, тренды, сегменты) — не генерацией, что исключает «галлюцинирующие цифры»
-- NLP-анализ текстовых массивов: темы, тональность, нарративы
-- Автоотбор значимых находок: что изменилось, что важно, что срочно
+### Analytical pipeline
+- Calculations are performed by code (statistics, trends, segments) — not by generation — which eliminates "hallucinated numbers"
+- NLP analysis of text datasets: topics, tone, narratives
+- Automatic selection of relevant findings: what has changed, what is important, what is urgent
 
-### Генеративная сборка
-- LLM собирает документ: executive summary, аналитические разделы, выводы, рекомендации
-- Автоматические визуализации: графики, диаграммы, тепловые карты — в фирменном стиле
-- Адаптация под аудиторию: тон, глубина, структура, акценты — из одного корпуса несколько версий
+### Generative compilation
+- The LLM compiles the document: executive summary, analytical sections, conclusions, recommendations
+- Automated visualizations: graphs, charts, heat maps — in your corporate style
+- Tailoring to the audience: tone, depth, structure, emphasis — multiple versions from a single corpus
 
-### Живой режим
-- Подключение источников по расписанию или потоком
-- Пересборка отчёта при изменении данных, дифф-подсветка: что изменилось с прошлой версии
-- Human review: режим экспертной правки перед финальной выгрузкой
+### Live mode
+- Connecting data sources on a schedule or in real time
+- Rebuilding reports when data changes, with diff highlighting: what has changed since the last version
+- Human review: expert editing mode before final export
 
-## Порядок реализации
+## Implementation procedure
 
-1. **День 1. Подключение** — загрузка первых корпусов данных, настройка источников; выбор фирменных шаблонов и стилей
-2. **Дни 2–3. Конфигурация форматов** — настройка версий под ваши аудитории (совет директоров, ведомство, грантодатель); калибровка языка и глубины на примерах ваших прошлых отчётов
-3. **Неделя 1. Пилот** — первые живые отчёты, обучение команды; настройка расписаний обновления и ролей
+1. **Day 1. Setup** — loading the first datasets, configuring data sources; selecting brand templates and styles
+2. **Days 2–3. Format configuration** — tailoring reports to your audiences (board of directors, government agency, grantor); calibrating language and depth using examples from your past reports
+3. **Week 1. Pilot** — first live reports, team training; setting up update schedules and roles
 
-Далее: регулярная эксплуатация; отчёт за 30 минут после загрузки данных; пересборка в реальном времени при потоковом подключении.
+After that: regular use; a report is generated within 30 minutes after data is loaded; real-time recompilation with a streaming connection.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Данные и доступ к источникам
-- Фирменные шаблоны и примеры прошлых отчётов
-- Список аудиторий и их требований
+**From the client:**
+- Data and access to sources
+- Company templates and examples of past reports
+- List of audiences and their requirements
 
-**От нас:**
-- Платформа и вычислительная инфраструктура
-- Настройка пайплайнов и поддержка
-- Конфиденциальный контур: данные не покидают периметр заказчика (on-premise по запросу)
+**From us:**
+- Platform and computing infrastructure
+- Pipeline configuration and support
+- Secure environment: data never leaves the client's perimeter (on-premises upon request)
 
-## Сроки
+## Timelines
 
-- **Отчёт после загрузки данных:** 30 минут
-- **Настройка под заказчика:** 1–2 недели
-- **Пересборка при обновлении данных:** минуты
-- **Эксплуатация:** подписка
+- **Report after data upload:** 30 minutes
+- **Customization:** 1–2 weeks
+- **Rebuild upon data update:** minutes
+- **Operation:** subscription
 
-## Что получает заказчик
+## What the client gets
 
-**Инструменты:**
-- Генератор отчётов с библиотекой форматов под аудитории
-- Живые отчёты с автообновлением и подсветкой изменений
-- Выгрузки: PDF, DOCX, веб-версия, презентация
-- API для интеграции с вашими BI-системами
+**Tools:**
+- Report generator with a library of formats tailored to specific audiences
+- Live reports with automatic updates and highlighted changes
+- Export options: PDF, DOCX, web version, presentation
+- API for integration with your BI systems
 
-**Результаты:**
-- Ваши аналитики занимаются стратегией, а не форматированием
-- Отчёт за 30 минут вместо дней и недель ручной сборки
-- Одна правда в данных — разные языки для разных аудиторий
-- Решения не ждут бумаги: живой отчёт всегда актуален на момент чтения
+**Results:**
+- Your analysts focus on strategy, not formatting
+- A report in 30 minutes instead of days or weeks of manual assembly
+- One dataset, multiple languages for different audiences
+- Decisions don't wait for paper: a live report is always up to date when read
 
-**Метрики успеха:**
-- Сокращение времени цикла «данные → отчёт»
-- Доля времени аналитиков, возвращённого в стратегические задачи
-- Количество аудиторий, закрываемых из одного корпуса
+**Success metrics:**
+- Reduction of the "data → report" cycle time
+- Percentage of analysts' time reclaimed for strategic tasks
+- Number of audiences served from a single dataset
 
-## Кому подходит
+## Who it's for
 
-**Бизнес:**
-- Аналитические и стратегические департаменты корпораций
-- Консалтинговые и исследовательские компании — масштабирование производства отчётов
+**Business:**
+- Corporate analytics and strategy departments
+- Consulting and research firms — scaling up report production
 
-**Государственные структуры:**
-- Министерства и ведомства — регулярная отчётность и доклады
-- Статистические и надзорные органы
+**Government bodies:**
+- Ministries and departments — regular reports and briefings
+- Statistical and regulatory agencies
 
-**Наука и НКО:**
-- Исследовательские центры и think tanks
-- НКО и грантополучатели — отчётность перед донорами без найма подрядчиков
+**Research and nonprofits:**
+- Research centers and think tanks
+- Nonprofits and grant recipients — reporting to donors without hiring contractors
 
 ## FAQ
 
-**Q: Не нагаллюцинирует ли ИИ цифры и выводы?**
-A: Все расчёты выполняются статистическим кодом, а не генерацией; каждое утверждение в отчёте привязано к данным и визуализации. LLM отвечает за язык и структуру, математика — за цифры. Дополнительно включён режим human review.
+**Q: Does the AI make up numbers and conclusions?**
+A: All calculations are performed with statistical code, not generation; every statement in the report is tied to the data and visualizations. The LLM handles the language and structure, while the math handles the numbers. A human review mode is also included.
 
-**Q: Как обеспечивается конфиденциальность?**
-A: Стандартно — шифрование и изоляция контура; для чувствительных данных — развёртывание on-premise. Корпуса не используются для обучения внешних моделей.
+**Q: How is confidentiality ensured?**
+A: By default, through encryption and perimeter isolation; for sensitive data, through on-premises deployment. Your data is never used to train external models.
 
-**Q: Интегрируется ли с нашими BI-системами?**
-A: Да: подключение источников по API/ETL, выгрузка результатов в ваши дашборды. Генеративная аналитика дополняет BI, добавляя слой интерпретации и документирования.
+**Q: Does it integrate with our BI systems?**
+A: Yes: connect data sources via API/ETL and export results to your dashboards. Generative Analytics complements BI by adding a layer of interpretation and documentation.
 
-**Q: Кто отвечает за содержание отчёта?**
-A: Система готовит документ, финальную ответственность несёт заказчик — для этого предусмотрен режим экспертной правки и журнал изменений. Мы обеспечиваем прозрачность методологии в приложении к каждому отчёту.
+**Q: Who is responsible for the content of the report?**
+A: The system generates the document, but the client bears ultimate responsibility — which is why we provide a review mode and a change log. We ensure methodology transparency in the annex to each report.
 
 ## CTA
 
-**Готовы вернуть аналитикам стратегию?**
+**Ready to give strategy back to your analysts?**
 
-Первая диагностическая сессия — бесплатно. Возьмём один ваш реальный корпус данных и соберём отчёт в трёх форматах за одну встречу.
+The first diagnostic session is free. We'll take one of your actual datasets and compile a report in three formats during a single session.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

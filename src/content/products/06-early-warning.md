@@ -1,125 +1,125 @@
 ---
-title: "Раннее предупреждение напряжённости"
+title: "Early Warning of Social Tension"
 slug: "early-warning"
 category: "socio"
 order: 6
-description: "Раннее обнаружение социальных рисков и эскалации конфликтов."
+description: "Early detection of social risks and conflict escalation."
 image: "/assets/product-early-warning.jpg"
 ---
 
-## Проблема
+## Problem
 
-Для руководства кризисы выглядят внезапными. Но в данных почти всегда есть предвестники: тон локальных чатов, всплеск жалоб, экономические индикаторы, череда мелких инцидентов. Проблема в том, что эти сигналы разрознены, и ни один человек не способен отслеживать их одновременно.
+To leadership, crises look sudden. But the data almost always contains precursors: the tone of local chats, a surge of complaints, economic indicators, a chain of minor incidents. The problem is that these signals are scattered, and no single person can track them all at once.
 
-В итоге о напряжённости узнают, когда она уже перешла в открытую фазу: митинг, вирусный скандал, федеральный сюжет. Реагировать поздно — остаётся дорого гасить.
+As a result, tension is noticed only when it has already entered an open phase: a rally, a viral scandal, a national news story. It's too late to react — all that's left is expensive firefighting.
 
-**Система раннего предупреждения** переворачивает логику: вы реагируете на сигналы, а не на кризисы.
+**The early warning system** flips the logic: you respond to signals, not to crises.
 
-## Что это за продукт
+## What this product is
 
-ИИ-детектор «точек кипения» в обществе: непрерывный мониторинг **50+ индикаторов** и автоматические **алерты за 2–6 недель** до перехода недовольства в открытую фазу.
+An AI detector of society's "boiling points": continuous monitoring of **50+ indicators** and automatic **alerts 2–6 weeks** before discontent escalates into an open phase.
 
-Система отслеживает:
-- **Социально-экономические индикаторы** — цены, зарплаты, коммуналка, рынок труда
-- **Цифровые сигналы** — тональность локальных чатов и каналов, жалобы на платформах, петиции
-- **Событийный фон** — инциденты, аварии, кадровые решения, закрытия предприятий
-- **Организационные маркеры** — активность групп, координация, эскалационная риторика
+The system tracks:
+- **Socioeconomic indicators** — prices, wages, utilities, labor market
+- **Digital signals** — tone of local chats and channels, complaints on platforms, petitions
+- **Event background** — incidents, accidents, personnel decisions, enterprise closures
+- **Organizational markers** — group activity, coordination, escalation rhetoric
 
-Результат — композитный индекс напряжённости, тепловая карта территорий и вероятностные алерты.
+The result is a composite tension index, a heat map of territories, and probabilistic alerts.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Мониторинговый контур
-- Потоковый сбор 50+ индикаторов из открытых и партнёрских источников
-- LLM-анализ локальных сообществ: тональность, темы, маркеры эскалации (от «жалобы» к «призыву»)
-- Детекция аномалий и разрывов трендов — не абсолютных значений, а динамики
+### Monitoring framework
+- Streaming collection of 50+ indicators from open and partner sources
+- LLM analysis of local communities: tone, topics, escalation markers (from "complaint" to "call to action")
+- Detection of anomalies and trend breaks — not absolute values but dynamics
 
-### Прогностическое ядро
-- Композитный индекс напряжённости с весами, калиброванными на исторических кризисах
-- Вероятностная модель перехода в открытую фазу: горизонты 2 / 4 / 6 недель
-- Классификация типа напряжённости: экономическая, инфраструктурная, идентичностная, экологическая
+### Predictive core
+- Composite tension index with weights calibrated on historical crises
+- Probabilistic model of transition to the open phase: 2 / 4 / 6 week horizons
+- Classification of tension types: economic, infrastructural, identity-based, environmental
 
-### Контур действий
-- Градация алертов: «жёлтая» / «оранжевая» / «красная» зоны
-- Автоматические рекомендации превентивных мер по типу напряжённости
-- Пост-аналитика: разбор каждого алерта, дообучение порогов
+### Response framework
+- Alert grading: "yellow" / "orange" / "red" zones
+- Automatic recommendations for preventive measures by tension type
+- Post-analysis: review of each alert, recalibration of thresholds
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Конфигурация** — дерево индикаторов под вашу территорию/отрасль; карта исторических кризисов для калибровки
-2. **Неделя 2. Подключение и калибровка** — инжест источников, настройка LLM-анализа локального контекста, калибровка порогов на ретроспективных кейсах
-3. **Неделя 3. Регламент эскалации** — настройка алертов и ролей: кто получает сигнал, какие действия следуют; интеграция с вашими каналами
-4. **Неделя 4. Запуск** — боевой мониторинг, обучение дежурной команды, первый еженедельный аналитический обзор
+1. **Week 1. Configuration** — indicator tree for your territory/industry; map of historical crises for calibration
+2. **Week 2. Connection and calibration** — source ingestion, configuration of LLM analysis of local context, calibration of thresholds on retrospective cases
+3. **Week 3. Escalation policy** — configuration of alerts and roles: who receives the signal, what actions follow; integration with your channels
+4. **Week 4. Launch** — production monitoring, training of the on-duty team, first weekly analytical review
 
-Далее: мониторинг 24/7, еженедельные обзоры, перекалибровка порогов.
+After that: 24/7 monitoring, weekly reviews, threshold recalibration.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Ответственные лица и регламент реакции на алерты
-- Опционально: внутренние сигналы (обращения граждан, HR-данные) для повышения точности
-- Контекст: ключевые риски и чувствительные темы
+**From the client:**
+- Responsible persons and response procedures for alerts
+- Optionally: internal signals (citizen inquiries, HR data) to improve accuracy
+- Context: key risks and sensitive topics
 
-**От нас:**
-- Мониторинговая инфраструктура и модели
-- Дежурные аналитики для валидации алертов
-- Методические материалы по превентивному управлению
+**From us:**
+- Monitoring infrastructure and models
+- On-duty analysts to validate alerts
+- Methodological materials on preventive management
 
-## Сроки
+## Timelines
 
-- **Запуск:** 4 недели
-- **Заблаговременность алертов:** 2–6 недель до открытой фазы
-- **Скорость сигнала:** минуты с момента фиксации аномалии
-- **Эксплуатация:** подписка 24/7
+- **Launch:** 4 weeks
+- **Alert lead time:** 2–6 weeks before the open phase
+- **Signal speed:** minutes from the moment an anomaly is detected
+- **Operation:** 24/7 subscription
 
-## Что получает заказчик
+## What the client gets
 
-**Инструменты:**
-- Дашборд напряжённости: тепловая карта территорий, динамика индикаторов
-- Алерты с вероятностной оценкой и типом напряжённости
-- Еженедельный аналитический обзор с интерпретацией
-- Рекомендации превентивных мер и пост-аналитика кейсов
+**Tools:**
+- Tension dashboard: heat map of territories, indicator dynamics
+- Alerts with probabilistic assessment and tension type
+- Weekly analytical review with interpretation
+- Recommendations for preventive measures and post-analysis of cases
 
-**Результаты:**
-- **Вы не тушите пожар — вы предотвращаете искру**
-- Сохранённая репутация и ресурсы: превентивное реагирование в разы дешевле кризисного
-- Управляемость: регламент эскалации вместо паники
-- Доказательная база для решений по социальным инвестициям и коммуникациям
+**Results:**
+- **You don't put out fires — you prevent the spark**
+- Preserved reputation and resources: prevention is orders of magnitude cheaper than crisis management
+- Manageability: an escalation policy instead of panic
+- Evidence base for decisions on social investment and communication
 
-**Метрики успеха:**
-- Доля кризисов, перехваченных до открытой фазы
-- Среднее время от сигнала до управленческого действия
-- Снижение затрат на кризисное реагирование
+**Success metrics:**
+- Share of crises intercepted before the open phase
+- Average time from signal to management action
+- Reduction of crisis response costs
 
-## Кому подходит
+## Who it's for
 
-**Государственные структуры:**
-- Региональные администрации и муниципалитеты — управление социальной стабильностью
-- Надзорные и профильные ведомства — отраслевые риски
+**Government bodies:**
+- Regional administrations and municipalities — social stability management
+- Supervisory and sectoral departments — industry risks
 
-**Бизнес:**
-- Крупные работодатели в моногородах и градообразующие предприятия
-- Корпорации с региональными активами: ЖКХ, транспорт, энергетика
-- Девелоперы — реакция жителей на проекты застройки
+**Business:**
+- Major employers in company towns and key local industries
+- Corporations with regional assets: utilities, transport, energy
+- Developers — resident reactions to development projects
 
 ## FAQ
 
-**Q: Чем это отличается от мониторинга настроений (Столп 1)?**
-A: Мониторинг даёт общую картину общественного поля. Эта система сфокусирована узко: детекция «точек кипения» и вероятностные алерты с горизонтом 2–6 недель. Это не обзор, а система предупреждения с регламентом действий.
+**Q: How is this different from sentiment monitoring (Pillar 1)?**
+A: Monitoring gives an overall picture of the public sphere. This system is narrowly focused: detection of "flashpoints" and probabilistic alerts with a 2–6 week horizon. It's not a review but a warning system with an action protocol.
 
-**Q: Как бороться с ложными срабатываниями?**
-A: Три механизма: калибровка порогов на исторических кейсах, вероятностная градация зон и валидация алертов дежурным аналитиком до эскалации. Мы измеряем и регулярно отчитываемся по точности системы.
+**Q: How do we deal with false alarms?**
+A: Three mechanisms: threshold calibration on historical cases, probabilistic zoning, and validation of alerts by an on-duty analyst before escalation. We measure and regularly report on the system's accuracy.
 
-**Q: Это законно и этично?**
-A: Система работает только на открытых и обезличенных данных: никакая персональная слежка не ведётся. Мы анализируем агрегированные сигналы территорий и групп, а не конкретных людей.
+**Q: Is it legal and ethical?**
+A: The system operates only on open and anonymized data: no personal surveillance is conducted. We analyze aggregated signals of territories and groups, not specific individuals.
 
-**Q: Что происходит после алерта?**
-A: Вместе с алертом вы получаете тип напряжённости и рекомендации превентивных мер. При необходимости подключаем сценарное моделирование (Столп 2) и кремниевую выборку (Столп 3), чтобы выбрать оптимальную реакцию.
+**Q: What happens after an alert?**
+A: Together with the alert, you receive the tension type and recommendations for preventive measures. If needed, we engage scenario modeling (Pillar 2) and silicon sampling (Pillar 3) to choose the optimal response.
 
 ## CTA
 
-**Готовы получать сигналы за недели до кризиса?**
+**Ready to receive signals weeks before a crisis?**
 
-Первая диагностическая сессия — бесплатно. Прогоним вашу территорию через ретроспективный анализ и покажем, какие «точки кипения» система увидела бы заранее.
+The first diagnostic session is free. We'll run a retrospective analysis of your territory and show which "flashpoints" the system would have seen in advance.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

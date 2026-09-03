@@ -1,125 +1,125 @@
 ---
-title: "AI-стратег кампании"
+title: "AI Campaign Strategist"
 slug: "ai-strategist"
 category: "political"
 order: 13
-description: "Анализ поля, позиционирование и тестирование месседжей."
+description: "Field analysis, positioning, and message testing."
 image: "/assets/product-strategist.jpg"
 ---
 
-## Проблема
+## Problem
 
-Избирательные кампании по-прежнему строятся на интуиции штаба и фокус-группах за тысячи долларов, которые описывают 8–10 человек. Месседжи тестируются «в бою» — на реальном электорате, где ошибка стоит процентов голосов. Сегментация груба («молодёжь», «пенсионеры»), тайминг — по наитию, ресурсы распыляются по территориям, которые не решают исход.
+Election campaigns are still built on the campaign team's intuition and focus groups costing thousands of dollars that describe just 8–10 people. Messages are tested "in the field" — on the actual electorate, where a mistake can cost percentage points of the vote. Segmentation is crude ("young people", "pensioners"), timing is based on gut feeling, and resources are scattered across territories that do not determine the outcome.
 
-В итоге кампания — это творческий хаос, в котором сгорает бюджет, а проигрыш объясняют «чёрным лебедем».
+As a result, the campaign is a state of creative chaos in which the budget is squandered, while defeat is attributed to a "black swan" event.
 
-**AI-стратег** превращает кампанию в инженерный проект: каждое сообщение, сегмент и ход проверены на цифровом двойнике электората до выхода в публичное поле.
+**The AI Strategist** transforms the campaign into an engineering project: every message, segment, and move is tested on a digital twin of the electorate before going public.
 
-## Что это за продукт
+## What this product is
 
-Система полного цикла стратегического обеспечения кампании:
-- **Моделирование электорального поля региона с точностью до избирательного участка**
-- **Генерация и тестирование сотен месседжей** на кремниевой выборке избирателей — до их публичного звучания
-- **Инженерная точность подачи**: оптимальная сегментация → персонализированные нарративы → точный тайминг
+A full-cycle strategic campaign support system:
+- **Modeling of the region's electoral field with precision down to the polling station**
+- **Generation and testing of hundreds of messages** on a silicon sample of voters — before they are made public
+- **Engineered precision in delivery**: optimal segmentation → personalized narratives → precise timing
 
-Штаб получает не «советы стратега», а просчитанную архитектуру кампании с измеримыми параметрами.
+The campaign team receives not merely "strategist's advice" but a calculated campaign architecture with measurable parameters.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Электоральное поле
-- Данные прошлых выборов в разрезе участков, социодемография, экономика территорий
-- Модель поля: ядро, колеблющиеся, демобилизованные группы — по каждому участку
-- Калибровка на актуальных сигналах: цифровые данные, события, медийный фон
+### Electoral field
+- Data from past elections broken down by polling station, socio-demographics, and regional economics
+- Field model: core, swing, and disengaged groups — for each polling station
+- Calibration against current signals: digital data, events, media coverage
 
-### Кремниевая выборка избирателей
-- Виртуальная популяция с ценностными и поведенческими профилями сегментов (Столп 3)
-- Валидация на ретроспективных кампаниях региона
+### Silicon sample of voters
+- Virtual population with value and behavioral profiles for each segment (Pillar 3)
+- Validation against past campaigns in the region
 
-### Движок месседжей
-- LLM генерирует сотни вариантов нарративов под каждый сегмент: тон, аргументы, канал
-- Каждый месседж прогоняется на выборке: резонанс, доверие, мобилизация/демобилизация, риски отторжения
-- В публичное поле выходят только варианты, прошедшие пороговые метрики
+### Message engine
+- The LLM generates hundreds of narrative variants for each segment: tone, arguments, channel
+- Each message is tested against the sample: resonance, trust, mobilization/demobilization, risks of rejection
+- Only variants that meet the threshold metrics go public
 
-### Сегментация и тайминг
-- Кластеризация избирателей по ценностям и чувствительности — вместо демографических ярлыков
-- Тайминг-движок: когда и через какой канал подавать каждый нарратив (связка с AI-навигатором нарративов, Продукт 9)
-- Оптимизация ресурсов: территории и каналы ранжируются по вкладу в итоговый результат
+### Segmentation and timing
+- Clustering voters by values and sensitivities — rather than demographic labels
+- Timing engine: when and via which channel to deliver each narrative (linked to the AI Narrative Navigator, Product 9)
+- Resource optimization: territories and channels ranked by contribution to the final result
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Аудит поля** — данные прошлых выборов, контекст, цели и ценности кандидата; определение периметра кампании и ключевых оппонентов
-2. **Неделя 2. Модели** — построение электорального поля до участка; калибровка кремниевой выборки избирателей региона
-3. **Неделя 3. Месседж-матрица** — генерация и тестирование сотен нарративов по сегментам; отбор победивших вариантов, карта рисков по отвергнутым
-4. **Неделя 4. Архитектура кампании** — стратегия: сегменты, нарративы, календарь, каналы, распределение ресурсов; обучение штаба работе с платформой
+1. **Week 1. Field audit** — data from past elections, context, the candidate's goals and values; defining the campaign's perimeter and key opponents
+2. **Week 2. Models** — mapping the electoral field down to the polling station; calibrating the regional voter sample
+3. **Week 3. Message matrix** — generating and testing hundreds of narratives by segment; selecting the winning options, risk map for rejected ones
+4. **Week 4. Campaign architecture** — strategy: segments, narratives, calendar, channels, resource allocation; training the campaign team on the platform
 
-Далее: сопровождение до дня выборов — еженедельное тестирование новых месседжей, корректировка архитектуры по динамике поля.
+After that: support until election day — weekly testing of new messages, adjusting the architecture in line with field dynamics.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Ценности, позиции и «красные линии» кандидата
-- Доступ штаба и ответственных лиц
-- Внутренние данные (при наличии): полевые отчёты, собственная социология
+**From the client:**
+- The candidate's values, positions, and "red lines"
+- Access to the campaign team and key decision-makers
+- Internal data (if available): field reports, in-house polls
 
-**От нас:**
-- Команда: политтехнологи, data scientists, специалисты по кремниевой выборке
-- Платформа и вычислительная инфраструктура
-- Режим конфиденциальности: NDA, данные в периметре заказчика
+**From us:**
+- Team: political strategists, data scientists, silicon sample specialists
+- Platform and computing infrastructure
+- Confidentiality regime: NDA, data hosted within the client's perimeter
 
-## Сроки
+## Timelines
 
-- **Базовая стратегия:** 3–4 недели
-- **Тест пакета месседжей:** 24–48 часов
-- **Пересборка архитектуры при изменении поля:** 24–72 часа
-- **Сопровождение:** до дня выборов
+- **Core strategy:** 3–4 weeks
+- **Message package testing:** 24–48 hours
+- **Architecture rebuild on field change:** 24–72 hours
+- **Support:** until election day
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Карта электорального поля с точностью до участка: ядро, колеблющиеся, резервы
-- Месседж-матрица по сегментам с метриками резонанса и риска
-- Календарь кампании и план распределения ресурсов
-- Дашборд штаба с живой динамикой поля
+**Artifacts:**
+- Map of the electoral field down to the polling station: core, swing voters, reserves
+- Segment-based message matrix with resonance and risk metrics
+- Campaign calendar and resource allocation plan
+- Campaign headquarters dashboard with live field dynamics
 
-**Результаты:**
-- Кампания как инженерный проект: каждый ход просчитан, а не угадан
-- Ни одного непроверенного публичного сообщения
-- Ресурсы — на решающих участках, а не «по площадям»
-- Скорость штаба: новые месседжи тестируются за сутки, а не за недели фокус-групп
+**Results:**
+- The campaign as an engineering project: every move is calculated, not guessed
+- Not a single untested public message
+- Resources allocated to decisive constituencies, not "across the board"
+- Headquarters speed: new messages tested within a day, not weeks of focus groups
 
-**Метрики успеха:**
-- Резонанс протестированных месседжей против контрольных (непроверенных)
-- Динамика поддержки по сегментам и территориям
-- Стоимость голоса относительно сметы традиционной кампании
+**Success metrics:**
+- Resonance of tested messages versus control (untested) ones
+- Support dynamics by segment and territory
+- Cost per vote relative to a traditional campaign budget
 
-## Кому подходит
+## Who it's for
 
-- **Кандидаты** — федеральные и региональные кампании
-- **Партии** — списочные и одномандатные стратегии
-- **Политические команды и штабы** — как операционная система кампании
-- **Политконсультанты** — как инструмент, усиливающий экспертизу, а не заменяющий её
+- **Candidates** — federal and regional campaigns
+- **Parties** — list-based and single-seat strategies
+- **Political teams and campaign headquarters** — as the campaign's operating system
+- **Political consultants** — as a tool that enhances expertise rather than replacing it
 
 ## FAQ
 
-**Q: Это манипуляция избирателями?**
-A: Нет. Система тестирует и настраивает коммуникацию реальных позиций кандидата с целевыми группами. Мы не создаём дезинформацию, фейковые повестки и скрытые кампании — это за пределами наших этических и юридических протоколов.
+**Q: Is this voter manipulation?**
+A: No. The system tests and fine-tunes the communication of the candidate's actual positions with target groups. We do not create disinformation, fake agendas, or covert campaigns — this falls outside our ethical and legal protocols.
 
-**Q: Это законно?**
-A: Да: мы работаем в рамках избирательного законодательства, используем агрегированные и открытые данные, без персонального таргетинга по чувствительным категориям. Юридический контур кампании проверяется отдельно.
+**Q: Is this legal?**
+A: Yes: we operate within electoral law, using aggregated and publicly available data, without personalized targeting based on sensitive categories. The campaign's legal contour is verified separately.
 
-**Q: Чем AI-стратег отличается от живого стратега?**
-A: Масштабом и скоростью: сотни месседжей и десятки сценариев за дни вместо недель. При этом стратегические решения остаются за людьми — система даёт проверяемую основу, а не заменяет штаб.
+**Q: How does the AI Strategist differ from a human strategist?**
+A: In scale and speed: hundreds of messages and dozens of scenarios in days rather than weeks. Strategic decisions remain with people — the system provides a verifiable foundation rather than replacing the campaign team.
 
-**Q: Что если по региону нет свежей социологии?**
-A: Поле строится на данных прошлых выборов, открытых и цифровых сигналах с калибровкой кремниевой выборки. Зоны неуверенности помечаются явно — штаб видит, где нужен точечный добор данных.
+**Q: What if there are no recent polls for the region?**
+A: The strategy is built on data from past elections, open-source and digital signals, calibrated with a silicon sample. Areas of uncertainty are clearly flagged — the team sees where targeted data collection is needed.
 
-**Q: Как обеспечивается конфиденциальность?**
-A: Строжайший режим: NDA со всеми участниками, изолированный контур, данные не покидают периметр заказчика, доступ по ролям. После кампании материалы удаляются или передаются заказчику.
+**Q: How is confidentiality ensured?**
+A: The strictest regime: NDAs with all participants, an isolated perimeter, data never leaves the client's premises, role-based access. After the campaign, materials are deleted or handed over to the client.
 
 ## CTA
 
-**Готовы собрать кампанию как инженерный проект?**
+**Ready to build a campaign as an engineering project?**
 
-Первая диагностическая сессия — бесплатно. Покажем демо-модель электорального поля вашего региона и протестируем три месседжа в прямом эфире.
+The first diagnostic session is free. We'll show a demo model of your region's electoral field and test three messages live.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

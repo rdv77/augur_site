@@ -1,131 +1,131 @@
 ---
-title: "Картирование стейкхолдеров"
+title: "Stakeholder Mapping"
 slug: "stakeholders"
 category: "socio"
 order: 8
-description: "Карта влияния, интересов и связей ключевых акторов."
+description: "A map of influence, interests, and connections of key actors."
 image: "/assets/product-stakeholders.jpg"
 ---
 
-## Проблема
+## Problem
 
-Любая инициатива — проект, реформа, сделка, кампания — проходит через поле заинтересованных сторон. Но карта этого поля обычно рисуется вручную, по памяти и оргструктуре: недели работы, устаревший результат, скрытые акторы вне радара.
+Any initiative — a project, a reform, a deal, a campaign — passes through a field of stakeholders. But the map of this field is usually drawn by hand, from memory and org charts: weeks of work, quickly outdated results, and hidden actors left off the radar.
 
-Коммуникация строится «по площадям»: одно сообщение для всех. Коалиции собираются по интуиции. В итоге ключевой оппонент обнаруживается в последний момент, а союзник, которого не позвали, становится противником.
+Communication is run as indiscriminate "area fire": one message for everyone. Coalitions are assembled by intuition. As a result, a key opponent shows up at the last moment, and an ally who wasn't invited turns into an adversary.
 
-**Автоматическое картирование стейкхолдеров** даёт полную, живую и измеримую карту поля — и стратегию работы с каждым сегментом.
+**Automated stakeholder mapping** delivers a complete, living, measurable map of the field — and a strategy for working with each segment.
 
-## Что это за продукт
+## What this product is
 
-Система, которая:
-- **Строит полную карту** всех заинтересованных сторон по вашей теме — от первых лиц до локальных активистов
-- **Оценивает каждого актора**: влияние, позиция, активность, связи
-- **Выявляет триггеры и мотивации** — что движет каждой группой
-- **Генерирует персонализированную стратегию коммуникации** для каждого сегмента: сообщения, каналы, тайминг, мессенджеры
+A system that:
+- **Draws a complete map** of all stakeholders on your topic — from top officials to local activists
+- **Evaluates each actor**: influence, position, activity, connections
+- **Identifies triggers and motivations** — what drives each group
+- **Generates a personalized communication strategy** for each segment: messages, channels, timing, messengers
 
-Вы перестаёте стрелять по площадям — и начинаете работать точечно.
+You stop firing indiscriminately — and start working with precision.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Сбор и идентификация акторов
-- Открытые источники: СМИ, соцсети, реестры, публикации, профессиональные сообщества
-- Выявление формальных и неформальных акторов, включая скрытых и латентных
-- Дедупликация и построение профилей
+### Collection and identification of actors
+- Open sources: media, social networks, registries, publications, professional communities
+- Detection of formal and informal actors, including hidden and latent ones
+- Deduplication and profile building
 
-### Анализ позиций и влияния
-- NLP-извлечение позиций по вашей теме из высказываний и действий
-- Сетевой анализ: граф влияния, центры силы, «мосты» и кластеры
-- Скоринг: влияние × позиция × активность × репутационный вес
+### Analysis of positions and influence
+- NLP extraction of positions on your topic from statements and actions
+- Network analysis: influence graphs, power centers, "bridges," and clusters
+- Scoring: influence × position × activity × reputational weight
 
-### Мотивации и триггеры
-- LLM-анализ риторики и истории поведения: ценности, интересы, чувствительные темы
-- Классификация мотивационных профилей: экономические, статусные, идеологические, репутационные
-- Выявление «окон» для диалога и точек потенциального конфликта
+### Motivations and triggers
+- LLM analysis of rhetoric and behavioral history: values, interests, sensitive topics
+- Classification of motivational profiles: economic, status, ideological, reputational
+- Detection of "windows" for dialogue and potential points of conflict
 
-### Генерация стратегии
-- Сегментация акторов: союзники, колеблющиеся, оппоненты, нейтралы
-- Персонализированные коммуникационные планы: что сказать, кому, когда, через кого
-- План коалиций: кого с кем объединять и в какой последовательности
-- Динамическое обновление: позиции меняются — карта и стратегия пересобираются
+### Strategy generation
+- Segmentation of actors: allies, undecided, opponents, neutrals
+- Personalized communication plans: what to say, to whom, when, and through whom
+- Coalition plan: whom to pair with whom and in what order
+- Dynamic updates: as positions change, the map and strategy are rebuilt
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Рамка** — тема, территория, горизонт, цели инициативы; внутренние знания заказчика о поле (интервью 3–5 ключевых лиц)
-2. **Недели 1–2. Сбор и карта** — идентификация акторов, скоринг, граф влияния; черновая карта с профилями
-3. **Неделя 3. Валидация и стратегия** — экспертная сессия: корректировка карты; генерация коммуникационных стратегий по сегментам; план коалиций и приоритетных ходов
+1. **Week 1. Framework** — topic, territory, horizon, and goals of the initiative; the client's internal knowledge of the field (interviews with 3–5 key people)
+2. **Weeks 1–2. Collection and map** — identification of actors, scoring, influence graphs; draft map with profiles
+3. **Week 3. Validation and strategy** — expert session: map refinement; generation of segment-specific communication strategies; coalition plan and priority steps
 
-Далее: живое обновление карты, алерты о смене позиций ключевых акторов, пересборка стратегии при изменении контекста.
+After that: live map updates, alerts on position changes of key actors, strategy rebuild when the context changes.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Контекст инициативы и цели
-- Внутренние знания о поле (интервью, история взаимодействий)
-- Ответственный за коммуникационную стратегию
+**From the client:**
+- Context and goals of the initiative
+- In-depth knowledge of the field (interviews, history of interactions)
+- Person responsible for the communication strategy
 
-**От нас:**
-- Аналитики, NLP-инженеры, специалисты по сетевому анализу
-- Источники данных и инфраструктура
-- Методология валидации и этические протоколы
+**From us:**
+- Analysts, NLP engineers, network analysis specialists
+- Data sources and infrastructure
+- Validation methodology and ethical protocols
 
-## Сроки
+## Timelines
 
-- **Базовая карта:** 2–3 недели
-- **Экспресс по одной теме:** 1 неделя
-- **Обновление:** непрерывно; пересборка стратегии — 24–72 часа после значимого события
-- **Сопровождение:** подписка на период инициативы
+- **Base map:** 2–3 weeks
+- **Express overview on a single topic:** 1 week
+- **Updates:** continuous; strategy rebuild — 24–72 hours after a significant event
+- **Support:** subscription for the period of the initiative
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Интерактивная карта стейкхолдеров: влияние × позиция, граф связей
-- Досье на ключевых акторов (топ-50/100)
-- Персонализированные коммуникационные стратегии по сегментам
-- План коалиций и нейтрализации оппонентов
+**Artifacts:**
+- Interactive stakeholder map: influence × position, relationship graph
+- Profiles of key actors (top 50/100)
+- Personalized communication strategies by segment
+- Plan for building coalitions and neutralizing opponents
 
-**Результаты:**
-- Полное поле вместо карты по памяти — скрытые акторы на радаре
-- Точечные коммуникации: ресурс тратится на тех, кто определяет исход
-- Коалиции по расчёту, а не по интуиции
-- Раннее обнаружение смены позиций и новых оппонентов
+**Results:**
+- A complete field instead of a map from memory — hidden actors on the radar
+- Targeted communication: resources spent on those who determine the outcome
+- Coalitions by calculation, not intuition
+- Early detection of position shifts and new opponents
 
-**Метрики успеха:**
-- Полнота покрытия поля (сравнение с фактическим списком участников процесса)
-- Доля ключевых акторов, вовлечённых по плану
-- Скорость реакции на смену позиций
+**Success metrics:**
+- Completeness of field coverage (comparison with the actual list of process participants)
+- Share of key actors engaged as planned
+- Reaction time to position changes
 
-## Кому подходит
+## Who it's for
 
-**Бизнес:**
-- GR-департаменты — работа с регуляторным полем
-- Инициаторы инфраструктурных и инвестиционных проектов
-- Корпорации в период M&A, трансформаций, реструктуризаций
+**Business:**
+- GR departments — working with the regulatory field
+- Initiators of infrastructure and investment projects
+- Corporations in M&A, transformation, and restructuring periods
 
-**Политика и общество:**
-- Политические команды — карта электорального и институционального поля
-- НКО и коалиции — построение альянсов
+**Politics and society:**
+- Political teams — a map of the electoral and institutional field
+- NGOs and coalitions — building alliances
 
-**Государственные структуры:**
-- Ведомства при запуске реформ и программ — работа с затронутыми группами
+**Government bodies:**
+- Agencies launching reforms and programs — working with affected groups
 
 ## FAQ
 
-**Q: Чем это лучше ручного картирования?**
-A: Масштабом (сотни и тысячи акторов вместо десятков), объективностью скоринга и «живостью»: карта обновляется по данным, а не раз в год на стратегической сессии.
+**Q: How is this better than manual mapping?**
+A: By scale (hundreds and thousands of actors instead of dozens), objectivity of scoring, and "liveness": the map is updated from real-time data, not once a year at a strategy session.
 
-**Q: Это законно?**
-A: Да: только открытые источники и агрегированные данные. Никакой слежки и компромата — мы анализируем публичные позиции и мотивации.
+**Q: Is it legal?**
+A: Yes: only open sources and aggregated data. No surveillance or digging for compromising material — we analyze public positions and motivations.
 
-**Q: Что вы имеете в виду под «уязвимостями и триггерами»?**
-A: Не компромат, а понимание интересов и мотиваций: что для актора важно, на что он чувствителен, какие аргументы для него работают. Это основа честного диалога и устойчивых коалиций.
+**Q: What do you mean by "vulnerabilities and triggers"?**
+A: Not compromising material, but an understanding of interests and motivations: what matters to an actor, what they are sensitive to, which arguments resonate with them. This is the foundation of honest dialogue and sustainable coalitions.
 
-**Q: Как работать с закрытыми сообществами?**
-A: Комбинируем косвенные индикаторы, экспертные интервью и сетевой анализ. Для закрытых полей точность ниже — мы явно обозначаем границы применимости карты.
+**Q: How do you work with closed communities?**
+A: We combine indirect indicators, expert interviews, and network analysis. For closed fields the accuracy is lower — we clearly indicate the map's limits of applicability.
 
 ## CTA
 
-**Готовы видеть всё поле и ходить точными ходами?**
+**Ready to see the whole field and make precise moves?**
 
-Первая диагностическая сессия — бесплатно. Построим экспресс-карту по вашей инициативе и покажем акторов, которых вы не учитывали.
+The first diagnostic session is free. We'll build an express map of your initiative and show the actors you hadn't accounted for.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

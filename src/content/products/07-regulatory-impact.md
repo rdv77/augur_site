@@ -1,129 +1,129 @@
 ---
-title: "ИИ-оценка регулирующего воздействия"
+title: "AI Regulatory Impact Assessment"
 slug: "regulatory-impact"
 category: "socio"
 order: 7
-description: "Оценка влияния нормативных актов на общество и бизнес."
+description: "Assessing the impact of regulations on society and business."
 image: "/assets/product-regulatory.jpg"
 ---
 
-## Проблема
+## Problem
 
-Регуляторные решения редко моделируются до принятия. Классическая оценка регулирующего воздействия длится месяцами и фокусируется на формальных замечаниях бизнеса, упуская главное: как документ повлияет на общество в целом и как общество на него отреагирует.
+Regulatory decisions are rarely modeled before adoption. Classical regulatory impact assessment takes months and focuses on formal objections from business, missing the main point: how the document will affect society as a whole and how society will react to it.
 
-Итог известен: «закон, который никто не ждал» — негативная реакция населения, сопротивление отраслей, медийный шторм и дорогостоящие поправки задним числом.
+The outcome is well known: "a law nobody expected" — negative public reaction, industry resistance, a media storm, and costly retroactive amendments.
 
-**Regulatory Impact AI** переносит оценку последствий **до** принятия решения: вы видите полный прогноз, пока документ ещё можно изменить без потерь.
+**Regulatory Impact AI** moves the impact assessment to **before** the decision is made: you see the full forecast while the document can still be changed without losses.
 
-## Что это за продукт
+## What this product is
 
-Система, в которую вы загружаете проект закона, постановления или стратегии — и получаете:
-- **Прогноз реакции** бизнеса, населения, медиа и НКО по группам и территориям
-- **Автоматический расчёт социальных издержек и выгод** — количественно и качественно
-- **Карту рисков по статьям** — какие положения генерируют максимальное сопротивление
-- **Рекомендации по корректировке формулировок** и коммуникационному сопровождению
+A system where you upload a draft law, decree, or strategy — and receive:
+- **Forecast of reactions** from business, the public, media, and NGOs by group and territory
+- **Automatic calculation of social costs and benefits** — quantitative and qualitative
+- **Risk map by article** — which provisions generate the most resistance
+- **Recommendations for revising wording** and communication support
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Юридический NLP
-- Постатейный парсинг документа: обязательства, ограничения, стимулы, сроки
-- Извлечение затронутых групп, отраслей и территорий
-- Сопоставление с базой аналогичных регуляторных актов (регионы и страны) и их известными эффектами
+### Legal NLP
+- Article-by-article parsing of the document: obligations, restrictions, incentives, deadlines
+- Extraction of affected groups, industries, territories
+- Matching against a database of similar regulatory acts (regions and countries) and their known effects
 
-### Моделирование реакций
-- Кремниевая выборка по затронутым группам: как отреагирует каждая на каждую статью
-- Прогноз медийного и сетевого распространения реакции (амплитуда, каналы, длительность)
-- Выявление «токсичных связок» — сочетаний положений, усиливающих негатив
+### Reaction modeling
+- Silicon sampling by affected group: how each group reacts to each article
+- Forecast of media and online spread of the reaction (amplitude, channels, duration)
+- Detection of "toxic combinations" — pairs of provisions that amplify negativity
 
-### Экономика документа
-- Расчёт издержек и выгод: прямые, косвенные, распределённые по группам
-- Сравнение сценариев: «как есть» vs. альтернативные формулировки
-- Количественные оценки с доверительными интервалами
+### Economics of the document
+- Calculation of costs and benefits: direct, indirect, distributed by group
+- Comparison of scenarios: "as is" vs. alternative wording
+- Quantitative estimates with confidence intervals
 
-### Генеративный слой
-- Автоматическая сборка заключения: executive summary, риски, расчёты, рекомендации
-- Предлагаемые правки формулировок и план коммуникационного сопровождения
+### Generative layer
+- Automatic assembly of the conclusion: executive summary, risks, calculations, recommendations
+- Proposed wording edits and a communication support plan
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Дни 1–2. Формализация** — загрузка документа, контекст: цели, политическая и экономическая обстановка; определение затронутых групп и территорий
-2. **Дни 3–5. Анализ и моделирование** — постатейный разбор, реакции групп на кремниевой выборке; прогноз медийной динамики
-3. **Дни 5–7. Экономика и карта рисков** — расчёт издержек/выгод, ранжирование рисков по статьям; экспресс-заключение с ключевыми рекомендациями
-4. **Недели 2–3. Полный цикл** — экспертная валидация, симуляция публичного обсуждения; финальное заключение с пакетом правок и коммуникационным планом
+1. **Days 1–2. Formalization** — upload of the document, context: goals, political and economic environment; definition of affected groups and territories
+2. **Days 3–5. Analysis and modeling** — article-by-article breakdown, group reactions on the silicon sample; forecast of media dynamics
+3. **Days 5–7. Economics and risk map** — cost/benefit calculation, risk ranking by article; express conclusion with key recommendations
+4. **Weeks 2–3. Full cycle** — expert validation, simulation of public discussion; final conclusion with a package of amendments and a communication plan
 
-Далее: при изменении документа пересборка анализа за 24–48 часов.
+After that: when the document is amended, the analysis is rebuilt in 24–48 hours.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Текст документа и контекст принятия решения
-- Эксперты для валидации (2–3 часа в неделю)
-- Ограничения и «красные линии», которые нельзя менять
+**From the client:**
+- Text of the document and context of the decision
+- Experts for validation (2–3 hours per week)
+- Constraints and "red lines" that cannot be changed
 
-**От нас:**
-- Юридические аналитики, data scientists, специалисты по регуляторике
-- Базы аналогичных актов и эффектов, кремниевая выборка
-- Конфиденциальный контур: проекты не покидают периметр заказчика
+**From us:**
+- Legal analysts, data scientists, regulatory specialists
+- Databases of similar acts and effects, silicon sample
+- Confidential environment: projects do not leave the client's perimeter
 
-## Сроки
+## Timelines
 
-- **Экспресс-формат:** 5–7 рабочих дней
-- **Полный цикл:** 2–3 недели
-- **Пересборка при правках:** 24–48 часов
-- **Сопровождение:** до момента принятия решения
+- **Express format:** 5–7 business days
+- **Full cycle:** 2–3 weeks
+- **Rebuild on amendments:** 24–48 hours
+- **Support:** until the decision is made
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Заключение (30–60 страниц) + executive summary на 1 страницу
-- Карта рисков по статьям с вероятностными оценками
-- Расчёт социальных издержек и выгод по группам
-- Прогноз реакций: бизнес, население, медиа, НКО
-- Пакет рекомендуемых правок и план коммуникаций
+**Artifacts:**
+- Conclusion (30–60 pages) + a 1-page executive summary
+- Risk map by article with probabilistic estimates
+- Calculation of social costs and benefits by group
+- Reaction forecast: business, public, media, NGOs
+- Package of recommended amendments and communication plan
 
-**Результаты:**
-- Снижение риска «закона, который никто не ждал»
-- Правки **до принятия**, а не дорогостоящие поправки после
-- Аргументированная защита решения в межведомственных согласованиях
-- Управляемый выход в публичное поле с готовыми контрнарративами
+**Results:**
+- Reduced risk of "a law nobody expected"
+- Amendments **before adoption** rather than costly corrections afterward
+- Well-grounded defense of the decision in interagency coordination
+- Managed entry into the public sphere with prepared counter-narratives
 
-**Метрики успеха:**
-- Доля учтённых рисков (сравнение прогноза с реальной реакцией после принятия)
-- Количество правок, внесённых на этапе согласования
-- Сокращение цикла согласований и стоимости поправок
+**Success metrics:**
+- Share of risks accounted for (comparison of forecast with actual reaction after adoption)
+- Number of amendments introduced at the approval stage
+- Reduction of approval cycle time and amendment costs
 
-## Кому подходит
+## Who it's for
 
-**Государственные структуры:**
-- Министерства и ведомства — подготовка законопроектов и стратегий
-- Региональные парламенты — оценка инициатив до принятия
+**Government bodies:**
+- Ministries and agencies — drafting of bills and strategies
+- Regional parliaments — assessment of initiatives before adoption
 
-**Бизнес и объединения:**
-- GR- и юридические департаменты корпораций — оценка входящей регуляторики
-- Отраслевые ассоциации — аргументированная позиция по проектам актов
+**Business and associations:**
+- GR and legal departments of corporations — assessment of incoming regulation
+- Industry associations — reasoned position on draft acts
 
-**Экосистема:**
-- НКО и think tanks — независимая экспертиза
-- Юридические фирмы — поддержка клиентов в регуляторных вопросах
+**Ecosystem:**
+- NGOs and think tanks — independent expertise
+- Law firms — client advisory on regulatory matters
 
 ## FAQ
 
-**Q: Чем это отличается от классической оценки регулирующего воздействия (ОРВ)?**
-A: Классическая ОРВ — формализованный процесс с фокусом на бизнес и сроками в месяцы. Regulatory Impact AI — предиктивный инструмент: моделирование реакции всего общества, расчёт эффектов и сценарные альтернативы за дни. Мы дополняем ОРВ, а не подменяем её.
+**Q: How is this different from classical regulatory impact assessment (RIA)?**
+A: Classical RIA is a formalized process focused on business, with timelines of months. Regulatory Impact AI is a predictive tool: modeling society-wide reactions, calculation of effects, and scenario alternatives in a matter of days. We complement RIA, not replace it.
 
-**Q: Каков статус заключения?**
-A: Это аналитический документ, поддерживающий решение. Ответственность остаётся у заказчика; наша задача — сделать риски видимыми и управляемыми до принятия.
+**Q: What is the status of the conclusion?**
+A: It is an analytical document supporting the decision. Responsibility remains with the client; our task is to make risks visible and manageable before adoption.
 
-**Q: Работаете ли с конфиденциальными проектами?**
-A: Да, это стандартный режим: on-premise или выделенный контур, NDA, режимы доступа. Черновики не покидают периметр заказчика.
+**Q: Do you work with confidential drafts?**
+A: Yes, this is the standard mode: on-premises or a dedicated perimeter, NDA, access regimes. Drafts do not leave the client's perimeter.
 
-**Q: Насколько точны прогнозы реакций?**
-A: Модель валидирована на принятых актах с известной реакцией; по каждому прогнозу даётся вероятностный коридор. Мы честно разделяем зоны высокой и низкой уверенности.
+**Q: How accurate are the reaction forecasts?**
+A: The model is validated on adopted acts with known reactions; each forecast comes with a probability corridor. We honestly separate zones of high and low confidence.
 
 ## CTA
 
-**Готовы видеть последствия закона до его принятия?**
+**Ready to see the consequences of a law before it is adopted?**
 
-Первая диагностическая сессия — бесплатно. Возьмём один ваш документ (или открытый кейс) и покажем экспресс-карту рисков в прямом эфире.
+The first diagnostic session is free. We'll take one of your documents (or an open case) and show an express risk map live.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)
