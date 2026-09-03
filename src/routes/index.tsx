@@ -29,9 +29,6 @@ function Home() {
           <h1 className="font-serif text-[4.25rem] font-semibold leading-none tracking-tight text-gold sm:text-8xl lg:text-9xl">
             Auguria
           </h1>
-          <p className="mt-5 text-[11px] uppercase tracking-[0.42em] text-accent/90 sm:text-xs">
-            AI-powered consulting
-          </p>
           <p className="mx-auto mt-10 max-w-xl text-xl font-medium leading-snug text-fg sm:text-2xl">
             We transform the chaos of public sentiment into precise management decisions
           </p>
