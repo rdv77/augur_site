@@ -1,6 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 import { getSql } from "@/lib/db";
+import { sendInquiryEmail } from "@/lib/mailer";
 
 const inquirySchema = z.object({
   name: z.string().trim().min(1).max(120),
@@ -17,5 +18,12 @@ export const submitInquiry = createServerFn({ method: "POST" })
       insert into inquiries (id, name, contact, message)
       values (${id}, ${data.name}, ${data.contact}, ${data.message ?? null})
     `;
+
+    try {
+      await sendInquiryEmail(data);
+    } catch (err) {
+      console.error("[inquiries] email notification failed:", err);
+    }
+
     return { ok: true as const };
   });
