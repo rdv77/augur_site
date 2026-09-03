@@ -9,7 +9,7 @@ function Login() {
     <main className="grid min-h-screen place-items-center px-6 pt-16">
       <div className="w-full max-w-sm space-y-5 rounded-xl border border-border bg-surface p-8">
         <div>
-          <p className="font-serif text-2xl text-gold">Auria</p>
+          <p className="font-serif text-2xl text-gold">Auguria</p>
           <h1 className="mt-2 text-xl font-semibold">Вход</h1>
           <p className="mt-1 text-sm text-muted">Для управления материалами.</p>
         </div>

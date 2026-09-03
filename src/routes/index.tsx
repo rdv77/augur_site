@@ -19,7 +19,7 @@ function Home() {
 
         <div className="page-enter relative mx-auto max-w-4xl px-5 py-24 text-center sm:px-6">
           <h1 className="font-serif text-[4.25rem] font-semibold leading-none tracking-tight text-gold sm:text-8xl lg:text-9xl">
-            Auria
+            Auguria
           </h1>
           <p className="mx-auto mt-10 max-w-xl text-xl font-medium leading-snug text-fg sm:text-2xl">
             Консалтинг на базе искусственного интеллекта
@@ -63,7 +63,7 @@ function Home() {
             ))}
           </div>
           <p className="mt-14 text-center text-lg text-muted">
-            Auria существует, чтобы преодолеть все три вызова
+            Auguria существует, чтобы преодолеть все три вызова
           </p>
         </div>
       </section>
@@ -83,7 +83,7 @@ function Home() {
               Общество — самый сложный объект из всех, что человек пытался понять: оно состоит из нас самих и меняется, пока мы на него смотрим. Социология научилась видеть в этой подвижности структуру, но всегда платила за это временем. Социолог работал с фотографией — точной, но к моменту проявки уже устаревшей.
             </p>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-fg/90">
-              <span className="text-gold">«Auria»</span> появилась, чтобы сократить этот разрыв. Искусственный интеллект для нас не замена человеческому пониманию, а новая оптика для него. Телескоп не отменил астрономию — он показал то, что всегда было рядом, но оставалось невидимым.
+              <span className="text-gold">«Auguria»</span> появилась, чтобы сократить этот разрыв. Искусственный интеллект для нас не замена человеческому пониманию, а новая оптика для него. Телескоп не отменил астрономию — он показал то, что всегда было рядом, но оставалось невидимым.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               {[

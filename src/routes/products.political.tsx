@@ -3,7 +3,7 @@ import { ProductArticle, ProductCta, ProductJumpNav } from "@/components/product
 import { POLITICAL_PRODUCTS } from "@/data/products";
 
 export const Route = createFileRoute("/products/political")({
-  head: () => ({ meta: [{ title: "Политический консалтинг — Auria" }] }),
+  head: () => ({ meta: [{ title: "Политический консалтинг — Auguria" }] }),
   component: PoliticalProducts,
 });
 

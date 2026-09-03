@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({ meta: [{ title: "О компании — Auria" }] }),
+  head: () => ({ meta: [{ title: "О компании — Auguria" }] }),
   component: About,
 });
 
@@ -19,7 +19,7 @@ function About() {
           <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">О компании</p>
           <h1 className="text-4xl font-semibold sm:text-5xl">Кто мы</h1>
           <p className="mt-6 max-w-2xl text-xl leading-relaxed text-fg/90">
-            «Auria» — консалтинговая компания нового поколения. Мы объединяем глубокую социологическую экспертизу с передовыми ИИ-технологиями.
+            «Auguria» — консалтинговая компания нового поколения. Мы объединяем глубокую социологическую экспертизу с передовыми ИИ-технологиями.
           </p>
           <div className="mt-6 max-w-2xl space-y-4 leading-relaxed text-muted">
             <p>
