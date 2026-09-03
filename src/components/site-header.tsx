@@ -4,20 +4,20 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
-  { to: "/", hash: "mission", label: "Миссия" },
-  { to: "/about", label: "О компании" },
-  { to: "/technologies", label: "Технологии" },
+  { to: "/", hash: "mission", label: "Mission" },
+  { to: "/about", label: "About us" },
+  { to: "/technologies", label: "Technology" },
   {
     to: "/products",
-    label: "Продукты",
+    label: "Products",
     submenu: [
-      { to: "/products/socio", label: "Социально-экономические" },
-      { to: "/products/political", label: "Политический консалтинг" },
-      { to: "/products/marketing", label: "Маркетинговые" },
+      { to: "/products/socio", label: "Socio-economic" },
+      { to: "/products/political", label: "Political consulting" },
+      { to: "/products/marketing", label: "Marketing" },
     ],
   },
-  { to: "/news", label: "Новости" },
-  { to: "/", hash: "contact", label: "Контакты" },
+  { to: "/news", label: "News" },
+  { to: "/", hash: "contact", label: "Contacts" },
 ] as const;
 
 export function SiteHeader() {
@@ -99,12 +99,12 @@ export function SiteHeader() {
             hash="contact"
             className="hidden h-10 items-center rounded-md bg-accent px-4 text-sm font-medium text-accent-fg transition-colors hover:bg-accent-dim lg:inline-flex"
           >
-            Оставить заявку
+            Submit a request
           </Link>
           <button
             type="button"
             className="inline-flex size-11 items-center justify-center rounded-md text-fg lg:hidden"
-            aria-label={open ? "Закрыть меню" : "Открыть меню"}
+            aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((v) => !v)}
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}

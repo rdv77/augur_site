@@ -1,118 +1,118 @@
 ---
-title: "Конструктор политических программ"
+title: "Political Program Builder"
 slug: "program-builder"
 category: "political"
 order: 17
-description: "Сборка и тестирование положений с оценкой реакции."
+description: "Build and test policy positions with reaction forecasting."
 image: "/assets/product-program.jpg"
 ---
 
-## Проблема
+## Problem
 
-Политические программы часто пишутся активом для актива: красивые формулировки, которые не резонируют с избирателем, или популистские обещания, которые невозможно исполнить — и которые оборачиваются разочарованием и потерей доверия. Тезисы не тестируются до публикации, баланс между привлекательностью и реализуемостью держится на вкусе авторов, а манифест после выборов отправляется в архив.
+Political programs are often written by activists for activists: polished language that doesn't resonate with voters, or populist promises that can't be delivered — ending in disappointment and broken trust. Positions aren't tested before publication. The balance between appeal and feasibility rests on the authors' intuition. And after the election, the manifesto goes straight to the archive.
 
-**AI-конструктор** превращает программу из литературного упражнения в рабочий инструмент победы: каждый тезис проверен на цифровом электорате и просчитан на исполнимость.
+**The AI Program Builder** turns your platform from a literary exercise into a working tool for victory: every plank is tested against a digital electorate and stress-tested for feasibility.
 
-## Что это за продукт
+## What this product is
 
-Система генерации и валидации программных документов:
-- **Генерация от ценностей**: ИИ создаёт программу на основе ваших целей, ценностей и приоритетной аудитории
-- **Тестирование каждого пункта**: каждый тезис проверяется на кремниевой выборке — ничего не выходит непроверенным
-- **Работающий документ**: не архивный манифест, а инструмент с измеримым электоральным эффектом, выдерживающий баланс между популизмом, реализуемостью и электоральной привлекательностью
+A system for generating and validating policy documents:
+- **Generation from values**: the AI builds a program based on your goals, values, and priority audiences
+- **Plank-by-plank testing**: every position is tested on a silicon sample — nothing goes untested
+- **A working document** — not an archival manifesto, but a tool with measurable electoral impact, balancing populism, feasibility, and voter appeal
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Входной контур
-- Ценности, цели, идеологическая рамка и «красные линии» принципала
-- Ограничения: бюджетная реалистичность, компетенции, правовое поле
-- Аудит приоритетных групп: кого программа должна мобилизовать и убедить
+### Input layer
+- Values, goals, ideological framework, and the principal's red lines
+- Constraints: fiscal feasibility, institutional mandates, and the legal field
+- Priority group audit: whom the program must mobilize and persuade
 
-### Генерация и тестирование
-- LLM генерирует тезисы и формулировки по блокам: экономика, социальная сфера, городская среда, безопасность
-- Каждый тезис прогоняется на кремниевой выборке целевых групп: резонанс, доверие, мобилизация, риски отторжения
-- Выявление «мёртвых» формулировок: красивых, но не работающих — и «токсичных»: работающих, но создающих риски
+### Generation and testing
+- The LLM generates policy planks and messaging across domains: economy, social policy, urban environment, and security
+- Each plank is run through a silicon sample of target groups to assess resonance, trust, mobilization potential, and rejection risks
+- Identification of "dead" messaging — polished but ineffective — and "toxic" messaging — effective but high-risk
 
-### Оптимизатор баланса
-- Три оси: популизм (электоральный отклик) × реализуемость (бюджет и компетенции) × долгосрочная электоральная привлекательность
-- Бюджетная и экспертная оценка обещаний: цена исполнения и последствия неисполнения
-- Ранжирование тезисов и альтернативные формулировки для каждого блока
+### Balance optimizer
+- Three axes: populism (electoral response) × feasibility (budget and capacity) × long-term electoral appeal
+- Budget and expert assessment of promises: cost of implementation and consequences of non-delivery
+- Ranking of policy planks and alternative messaging for each domain
 
-### Сборка и живая правка
-- Архитектура документа: от ключевых требований к деталям, под разные аудитории
-- Адаптация языка: одна программа — разные версии для ядра, колеблющихся, медиа
-- Изменение контекста → пересборка тезисов за 24 часа
+### Assembly and live editing
+- Document architecture: from core demands to details — tailored for different audiences
+- Language adaptation: one platform — distinct versions for the base, swing voters, and media
+- Context change → plank recalibration within 24 hours
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Ценности и аудитория** — интервью с принципалом: ценности, цели, ограничения; аудит приоритетных групп и их ценностных профилей
-2. **Неделя 2. Генерация и тестирование** — матрица тезисов по блокам, прогон на кремниевой выборке; карта резонанса и рисков по каждому тезису
-3. **Неделя 3. Сборка и валидация** — оптимизация баланса, экспертная валидация (экономисты, юристы); финальная сборка программы и адаптаций под аудитории
+1. **Week 1. Values and audience** — interviews with the principal: values, goals, constraints; audit of priority groups and their value profiles
+2. **Week 2. Generation and testing** — policy plank matrix by domain, silicon sample run; resonance and risk map for each plank
+3. **Week 3. Assembly and validation** — balance optimization, expert validation (economists, legal experts); final program assembly and audience-specific adaptations
 
-Далее: живая правка — новые тезисы тестируются за 24–48 часов, документ обновляется по динамике поля.
+After that: live editing — new policy planks are tested within 24–48 hours, with the document updated as the political field evolves.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Ценности, цели и ограничения принципала
-- Эксперты (экономисты, юристы) для валидации реализуемости
-- Время принципала на ключевые сессии (2–3 встречи)
+**From the client:**
+- Values, goals, and constraints of the principal
+- Experts (economists, legal advisors) for feasibility validation
+- Principal's time for key sessions (2–3 meetings)
 
-**От нас:**
-- Политические аналитики, методологи кремниевой выборки, редакторы программных документов
-- Платформа генерации и тестирования
-- Конфиденциальный контур: черновики программы не покидают периметра заказчика
+**From us:**
+- Political analysts, silicon sample methodologists, and policy document editors
+- Generation and testing platform
+- Confidential environment: program drafts never leave the client's perimeter
 
-## Сроки
+## Timelines
 
-- **Черновик программы:** 2–3 недели
-- **Тест пакета тезисов:** 24–48 часов
-- **Пересборка при изменении контекста:** 24 часа
-- **Сопровождение:** до конца кампании
+- **Draft program:** 2–3 weeks
+- **Plank package test:** 24–48 hours
+- **Rebuild on context change:** 24 hours
+- **Support:** through the end of the campaign
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Программа/манифест с метриками резонанса по каждому тезису
-- Карта баланса: популизм × реализуемость × привлекательность
-- Матрица тезисов с альтернативными формулировками и ценами обещаний
-- Адаптации под сегменты аудитории и медиа-версии
+**Artifacts:**
+- Program/manifesto with resonance metrics for each policy plank
+- Balance map: populism × feasibility × appeal
+- Plank matrix with alternative formulations and promise cost estimates
+- Audience-specific adaptations and media versions
 
-**Результаты:**
-- Работающий документ, а не архивный манифест
-- Ни одного непроверенного тезиса в публичном поле
-- Баланс без вкусовщины: обещания, которые резонируют и исполнимы
-- Измеримый электоральный эффект: резонанс программы отслеживается в динамике
+**Results:**
+- A working document — not an archival manifesto
+- No untested policy plank ever goes public
+- Balance without guesswork: promises that resonate and are deliverable
+- Measurable electoral impact — program resonance tracked in real time
 
-**Метрики успеха:**
-- Средний резонанс тезисов на кремниевой выборке против контрольных формулировок
-- Доля тезисов, прошедших валидацию реализуемости
-- Динамика поддержки после публикации программы
+**Success metrics:**
+- Average resonance of policy planks on a silicon sample compared to control formulations
+- Share of planks that passed feasibility validation
+- Support trend after program publication
 
-## Кому подходит
+## Who it's for
 
-- **Партии** — платформенные документы и избирательные программы
-- **Кандидаты** — персональные программы под территорию
-- **Общественные движения и коалиции** — манифесты с измеримым откликом
-- **Парламентские фракции** — пакетные инициативы, резонирующие с обществом
+- **Political parties** — platform documents and electoral programs
+- **Candidates** — personalized programs for their district
+- **Public movements and coalitions** — manifestos with measurable resonance
+- **Parliamentary factions** — package initiatives that resonate with the public
 
 ## FAQ
 
-**Q: «ИИ пишет программу» — где же искренность и позиция?**
-A: ИИ не придумывает ценности — он формулирует и проверяет ваши. Позиции и решения остаются за принципалом; система ускоряет формулировку и честно показывает, какие из ваших тезисов резонируют, а какие нет.
+**Q: "The AI writes the program" — what about sincerity and real positions?**
+A: The AI doesn't invent values — it articulates and tests yours. The positions and decisions remain with the principal. The system accelerates formulation and shows you honestly which of your planks resonate — and which don't.
 
-**Q: Не превращает ли это программу в популизм?**
-A: Наоборот: оптимизатор баланса явно показывает цену обещаний и риски неисполнения. Система предупреждает о тезисах, которые дадут быстрый отклик, но обернутся разочарованием — доверие дороже всплеска.
+**Q: Doesn't this turn the program into populism?**
+A: On the contrary: the balance optimizer clearly shows the cost of promises and the risks of non-delivery. The system warns you about planks that may generate a quick response but ultimately lead to disappointment — trust is more valuable than a spike.
 
-**Q: Чем это отличается от работы спичрайтера?**
-A: Спичрайтер отвечает за стиль и голос. Конструктор отвечает за содержание и эффект: какие тезисы работают, в каком балансе и для каких групп. Лучшие результаты — в связке: конструктор даёт проверенное содержание, спичрайтер — голос.
+**Q: How is this different from a speechwriter's work?**
+A: A speechwriter owns the voice and style. The Builder owns the substance and impact: which policy planks work, in what balance, and for which audiences. The best results come from pairing the two: the Builder delivers validated content, the speechwriter brings it to life.
 
-**Q: Это законно и этично?**
-A: Да: программа строится на реальных позициях принципала, тестирование коммуникации прозрачно для заказчика, данные агрегированы. Мы не создаём «программы-обманки» — это противоречит и этике, и долгосрочной репутации клиента.
+**Q: Is this legal and ethical?**
+A: Yes — the program is built on the principal's actual positions, communication testing is transparent to the client, and all data is aggregated. We do not create "deceptive platforms" — that would contradict both ethics and our client's long-term reputation.
 
 ## CTA
 
-**Готовы к программе, которая работает, а не хранится?**
+**Ready for a program that works — not one that sits on a shelf?**
 
-Первая диагностическая сессия — бесплатно. Возьмём три ваших тезиса и три контрольных — и покажем разницу резонанса на кремниевой выборке в прямом эфире.
+The first diagnostic session is free — we'll take three of your policy planks and three control statements, and show you the resonance difference on a silicon sample — live.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

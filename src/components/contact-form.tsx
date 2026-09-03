@@ -22,9 +22,9 @@ export function ContactForm() {
         },
       });
       form.reset();
-      toast.success("Заявка отправлена. Мы свяжемся с вами.");
+      toast.success("Request submitted. We will get in touch with you.");
     } catch {
-      toast.error("Не удалось отправить. Попробуйте ещё раз.");
+      toast.error("Could not send the request. Please try again.");
     } finally {
       setPending(false);
     }
@@ -37,25 +37,25 @@ export function ContactForm() {
     >
       <div className="space-y-4">
         <div>
-          <Label htmlFor="name">Имя</Label>
-          <Input id="name" name="name" required placeholder="Как к вам обращаться" />
+          <Label htmlFor="name">Name</Label>
+          <Input id="name" name="name" required placeholder="How should we address you?" />
         </div>
         <div>
-          <Label htmlFor="contact">Email или Telegram</Label>
-          <Input id="contact" name="contact" required placeholder="Для связи" />
+          <Label htmlFor="contact">Email or Telegram</Label>
+          <Input id="contact" name="contact" required placeholder="Contact details" />
         </div>
         <div>
-          <Label htmlFor="message">Кратко о задаче</Label>
-          <Textarea id="message" name="message" placeholder="Опционально" />
+          <Label htmlFor="message">Briefly about the task</Label>
+          <Textarea id="message" name="message" placeholder="Optional" />
         </div>
         <Button type="submit" className="w-full" size="lg" disabled={pending}>
-          {pending ? "Отправка…" : "Отправить заявку"}
+          {pending ? "Sending…" : "Submit a request"}
         </Button>
       </div>
       <p className="mt-4 text-center text-xs text-subtle">
-        Нажимая кнопку, вы соглашаетесь с{" "}
+        By clicking the button, you agree to the{" "}
         <Link to="/privacy" className="text-accent hover:underline">
-          политикой конфиденциальности
+          privacy policy
         </Link>
       </p>
     </form>

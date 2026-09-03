@@ -1,122 +1,122 @@
 ---
-title: "Мониторинг политического риска"
+title: "Political Risk Monitoring"
 slug: "political-risk"
 category: "political"
 order: 16
-description: "Репутационные угрозы и изменения повестки."
+description: "Reputational threats and agenda shifts."
 image: "/assets/product-political-risk.jpg"
 ---
 
-## Проблема
+## Problem
 
-Политические риски созревают в темноте. Скандал собирается из десятка малозаметных публикаций, координация оппонентов не видна до самого мероприятия, репутационная атака разгоняется за часы. Команда узнаёт об угрозе из заголовка — когда реагировать уже поздно и остаётся только оправдываться.
+Political risks ripen in the dark. A scandal is built from a dozen barely visible publications; opponent coordination stays invisible until the event itself; a reputational attack goes viral in hours. The team learns about the threat from a headline — when it's too late to respond, and all that's left is damage control.
 
-Реактивное управление репутацией — самая дорогая форма политики.
+Reactive reputation management is the most expensive form of politics.
 
-**Мониторинг политического риска** переворачивает логику: вы видите угрозу на стадии искры — и гасите её до возгорания.
+**Political Risk Monitoring** flips the logic: you see the threat at the spark stage — and put it out before it ignites.
 
-## Что это за продукт
+## What this product is
 
-Единый дашборд угроз для политика, партии или ведомства:
-- **Непрерывный мониторинг** репутационных рисков, зарождающихся скандалов и оппозиционной активности
-- **Автоматическая оценка вероятности и потенциального масштаба** каждого выявленного риска
-- **Инструкции по купированию**: что сказать, когда и через какой канал — автоматические рекомендации по нейтрализации угрозы
+A unified threat dashboard for politicians, parties, or government agencies:
+- **Continuous monitoring** of reputational risks, emerging scandals, and opposition activity
+- **Automated assessment of probability and potential scale** for each detected risk
+- **Mitigation guidelines** — what to say, when, and through which channel: automated recommendations for threat neutralization
 
-Кризис заканчивается до того, как начинается.
+The crisis is over before it starts.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Детекция слабых сигналов
-- Потоковый мониторинг СМИ, соцсетей, мессенджеров, нишевых форумов и каналов
-- Выявление «первых искр»: аномальные всплески, синхронные публикации, эскалационная риторика
-- Отслеживание персонализированных рисков: атаки на принципала, его команду, активы, прошлые решения
+### Weak signal detection
+- Streaming monitoring of media, social networks, messengers, niche forums, and channels
+- Detection of "first sparks": anomalous spikes, coordinated publications, escalating rhetoric
+- Tracking of personalized risks: attacks on the principal, their team, assets, or past decisions
 
-### Анализ координации
-- Сетевой анализ паттернов публикаций: общие источники, синхронность, бот-кластеры
-- Выявление дирижёров кампании: кто запустил, кто усиливает, кто ждёт
-- Классификация типа угрозы: медийная атака, юридический риск, уличная активность, инсайдерская утечка
+### Coordination analysis
+- Network analysis of publication patterns: shared sources, coordinated timing, bot clusters
+- Identification of campaign orchestrators: who initiated, who amplifies, who lies in wait
+- Threat classification: media attack, legal risk, street activity, insider leak
 
-### Скоринг и приоритизация
-- Вероятность × масштаб × скорость развития — автоматический рейтинг угроз
-- Учёт репутационной уязвимости принципала: одна и та же атака имеет разную цену для разных фигур
-- Градация зон: наблюдение / готовность / действие
+### Scoring and prioritization
+- Probability × scale × velocity — automatic threat rating
+- Adjusting for the principal's reputational vulnerability: the same attack carries a different price for different figures
+- Zone gradation: monitor / stand by / act
 
-### Генератор купирования
-- LLM-генерация playbook'а по типу угрозы: сообщение, канал, тайминг, спикер
-- Прогон варианта реакции на кремниевой выборке (Столп 3) до публикации — реакция не должна создавать новую угрозу
-- Библиотека прецедентов: как аналогичные угрозы купировались в прошлом и с каким результатом
+### Mitigation generator
+- LLM-generated playbook based on threat type: message, channel, timing, speaker
+- Response tested on a silicon sample (Pillar 3) before publication — so the reaction doesn't create a new threat
+- Precedent library: how similar threats were neutralized in the past, and with what results
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Профиль риска** — репутационные контуры принципала: чувствительные темы, оппоненты, история атак; карта активов и союзников, требующих наблюдения
-2. **Неделя 2. Подключение и калибровка** — инжест источников, настройка детекторов под ваш контекст; калибровка скоринга на исторических кейсах принципала
-3. **Неделя 3. Регламент и playbook'и** — настройка алертов и ролей эскалации; обучение команды, интеграция с каналами (Telegram, штабные системы)
+1. **Week 1. Risk profile** — reputational contours of the principal: sensitive topics, opponents, history of attacks; map of assets and allies requiring monitoring
+2. **Week 2. Integration and calibration** — source ingestion, detector tuning for your context; scoring calibration on the principal's historical cases
+3. **Week 3. Protocol and playbooks** — alert and escalation role configuration; team training, integration with channels (Telegram, campaign systems)
 
-Далее: работа 24/7 — алерты в течение минут, ежедневный дайджест рисков, еженедельный обзор с интерпретацией аналитика.
+After that: 24/7 operation — alerts within minutes, daily risk digest, weekly review with analyst interpretation.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Контекст: оппоненты, чувствительные темы, история кейсов
-- Ответственные лица и регламент реакции
-- Опционально: внутренние сигналы (обращения, инсайдерский контур)
+**From the client:**
+- Context: opponents, sensitive topics, case history
+- Responsible personnel and response procedures
+- Optional: internal signals (inquiries, insider channel)
 
-**От нас:**
-- Дежурная команда аналитиков и инфраструктура мониторинга
-- Модели скоринга и генерации playbook'ов
-- Конфиденциальный контур уровня политического штаба
+**From us:**
+- On-duty team of analysts and monitoring infrastructure
+- Scoring and playbook generation models
+- Confidential environment at political campaign headquarters level
 
-## Сроки
+## Timelines
 
-- **Запуск:** 3 недели
-- **Алерт о зарождающейся угрозе:** минуты с момента фиксации сигнала
-- **Рекомендация по купированию:** 1–2 часа
-- **Эксплуатация:** подписка 24/7
+- **Launch:** 3 weeks
+- **Alert on emerging threat:** minutes from signal detection
+- **Mitigation recommendation:** 1–2 hours
+- **Operation:** subscription 24/7
 
-## Что получает заказчик
+## What the client gets
 
-**Инструменты:**
-- Дашборд угроз с рейтингом рисков и зонами готовности
-- Карточки рисков: вероятность, масштаб, дирижёры, прогноз развития
-- Playbook'и купирования: что сказать, когда, через какой канал
-- Ежедневный дайджест и еженедельный аналитический обзор
+**Tools:**
+- Threat dashboard with risk ratings and readiness zones
+- Risk cards: probability, scale, orchestrators, development forecast
+- Mitigation playbooks: what to say, when, through which channel
+- Daily digest and weekly analytical review
 
-**Результаты:**
-- Кризис заканчивается до того, как начинается
-- Скорость: от сигнала до плана действий — часы, а не сутки оправданий
-- Дисциплина реакции: регламент вместо паники
-- Сохранённый политический капитал — атаки гасятся на стадии искры
+**Results:**
+- The crisis is over before it starts
+- Turnaround: from signal to action plan — hours, not days of damage control
+- Response discipline: protocol over panic
+- Political capital preserved — threats are neutralized at the spark stage
 
-**Метрики успеха:**
-- Доля угроз, перехваченных до публичной фазы
-- Время от сигнала до playbook'а
-- Снижение медийного ущерба атак (сравнение с контрольными кейсами)
+**Success metrics:**
+- Share of threats intercepted before reaching the public phase
+- Time from signal to playbook
+- Reduction in media damage from attacks (compared with benchmark cases)
 
-## Кому подходит
+## Who it's for
 
-- **Политики и кандидаты** — персональные репутационные контуры
-- **Партии и фракции** — мониторинг атак на организацию
-- **Государственные деятели и администрации** — риски решений и публичных действий
-- **GR-департаменты и корпорации** в политически чувствительных отраслях
+- **Politicians and candidates** — individual reputational risk profiles
+- **Parties and factions** — monitoring attacks on the organization
+- **Government officials and administrations** — risks associated with decisions and public actions
+- **GR departments and corporations** in politically sensitive industries
 
 ## FAQ
 
-**Q: Чем это отличается от системы раннего предупреждения социальной напряжённости (Продукт 6)?**
-A: Та система следит за напряжённостью общества и территорий. Этот продукт сфокусирован на персонализированных политических и репутационных рисках принципала: атаки, координация оппонентов, скандалы — и даёт инструкции купирования.
+**Q: How is this different from the early warning system for social tension (Product 6)?**
+A: That system monitors societal and regional tensions. This product is focused on personalized political and reputational risks to the principal: attacks, opponent coordination, scandals — and provides mitigation guidelines.
 
-**Q: Это слежка за оппонентами?**
-A: Нет. Мы работаем только с открытыми источниками и агрегированными данными: никакого взлома, инсайда и незаконного мониторинга. Анализ координации строится на публично наблюдаемых паттернах публикаций.
+**Q: Is this surveillance of opponents?**
+A: No. We work exclusively with open sources and aggregated data: no hacking, no insider information, no illegal monitoring. Coordination analysis is based on publicly observable publication patterns.
 
-**Q: Насколько надёжна оценка вероятности?**
-A: Модели калибруются на исторических кейсах принципала и аналогичных фигур; по каждой угрозе даётся градация уверенности. Ложные сигналы отсеиваются дежурным аналитиком до эскалации.
+**Q: How reliable is the probability assessment?**
+A: The models are calibrated on historical cases of the principal and similar figures; each threat comes with a confidence level. False signals are filtered out by the on-duty analyst before escalation.
 
-**Q: Вы сами исполняете купирование?**
-A: Мы даём проверенные рекомендации и сопровождаем исполнение по запросу. Решение и публикация всегда остаются за вашей командой — с человеческим одобрением каждого хода.
+**Q: Do you execute the mitigation yourself?**
+A: We provide vetted recommendations and support execution on request. The final decision and public communication always remain with your team — with human approval of every move.
 
 ## CTA
 
-**Готовы видеть угрозы на стадии искры?**
+**Ready to spot threats at the spark stage?**
 
-Первая диагностическая сессия — бесплатно. Прогоним ретроспективу вашей последней репутационной атаки и покажем, за сколько дней до публичной фазы система её увидела бы.
+The first diagnostic session is free — we'll run a retrospective on your last reputational attack and show you how many days before the public phase the system would have detected it.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

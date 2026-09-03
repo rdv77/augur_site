@@ -8,12 +8,12 @@ export function SiteFooter() {
           <span className="font-serif text-xl font-semibold text-gold">Auria</span>
         </div>
         <nav className="flex flex-wrap justify-center gap-5 text-sm text-muted">
-          <Link to="/about" className="hover:text-fg">О компании</Link>
-          <Link to="/technologies" className="hover:text-fg">Технологии</Link>
-          <Link to="/products" className="hover:text-fg">Продукты</Link>
-          <Link to="/" hash="contact" className="hover:text-fg">Контакты</Link>
-          <Link to="/privacy" className="hover:text-fg">Конфиденциальность</Link>
-          <a href="/auria-site.zip" download="auria-site.zip" className="hover:text-fg">Скачать проект</a>
+          <Link to="/about" className="hover:text-fg">About us</Link>
+          <Link to="/technologies" className="hover:text-fg">Technology</Link>
+          <Link to="/products" className="hover:text-fg">Products</Link>
+          <Link to="/" hash="contact" className="hover:text-fg">Contacts</Link>
+          <Link to="/privacy" className="hover:text-fg">Privacy policy</Link>
+          <a href="/auria-site.zip" download="auria-site.zip" className="hover:text-fg">Download project</a>
         </nav>
         <p className="text-sm text-subtle">© 2026 Auria</p>
       </div>

@@ -1,115 +1,115 @@
 ---
-title: "AI-претестинг креативов и кампаний"
+title: "AI Pretesting of Creatives and Campaigns"
 slug: "creative-lab"
 category: "marketing"
 order: 19
-description: "Сотни креативов, слоганов и упаковок тестируются на кремниевой выборке за 24 часа — до запуска в производство и эфир."
+description: "Hundreds of creative concepts, slogans, and packaging designs are tested on a silicon sample within 24 hours — before going into production or airing."
 image: "/assets/product-ai-lab.jpg"
 ---
 
-## Проблема
+## Problem
 
-Креативы выбираются вкусом клиента и креативного директора, а проверяются — бюджетом федеральной кампании. Фокус-группы дороги, длятся неделями и описывают 8–10 человек на группу. В итоге слабый или токсичный креатив выходит в эфир, и цена ошибки — миллионы медиабюджета и репутационные издержки, которые невозможно отозвать.
+Creatives are selected based on the client's and the creative director's preferences, but they're put to the test by the federal campaign's budget. Focus groups are expensive, last for weeks, and consist of 8–10 people per group. As a result, weak or toxic creative ends up on the air, and the cost of the mistake is millions from the media budget and irreparable reputational damage.
 
-**Креативная лаборатория** переносит проверку до запуска: вы тестируете сотни вариантов за сутки и вкладываете бюджет только в проверенное.
+**The Creative Lab** moves the testing phase to before launch: you test hundreds of options per day and invest your budget only in what has been proven to work.
 
-## Что это за продукт
+## What this product is
 
-Испытательная среда для маркетинговых активов на базе кремниевой выборки:
-- **Креативы, слоганы, визуалы, упаковка, сторис, медиасообщения** — тестируются на синтетической аудитории, калиброванной под ваши целевые сегменты
-- **До сотни вариантов за 24 часа** — с ранжированием по ключевым метрикам
-- **Карта рисков**: креативы, которые будут неверно прочитаны, станут объектом насмешек или вызовут backlash, — выявляются до эфира
+A testing environment for marketing assets based on a silicon sample:
+- **Ad creatives, slogans, visuals, packaging, Stories, and media messages** — tested on a synthetic audience calibrated to your target segments
+- **Up to 100 variations in 24 hours** — ranked by key metrics
+- **Risk map**: creatives that could be misinterpreted, become the subject of ridicule, or trigger a backlash are identified before launch
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Калибровка синтетической аудитории
-- Кремниевая выборка под целевые сегменты бренда: ценности, медиас habits, покупательское поведение
-- Калибровка на реальных данных: опросы, social listening, данные продаж, прошлые кампании
+### Calibrating the synthetic audience
+- Targeted sampling based on the brand's key segments: values, media habits, purchasing behavior
+- Calibration using real-world data: surveys, social listening, sales data, past campaigns
 
-### Метрический контур
-- Внимание и заметность, понятность сообщения, эмоциональный отклик
-- Связь с брендом (brand linkage), доверие, намерение к покупке
-- Виральность: желание поделиться; стигматизация: желание высмеять
+### Metric framework
+- Attention and visibility, clarity of the message, emotional response
+- Brand linkage, trust, purchase intent
+- Virality: desire to share; stigmatization: desire to mock
 
-### Анализ интерпретаций
-- LLM-анализ «прочтений» креатива разными сегментами: что увидит ядро, что — периферия, что — хейтеры
-- Детекция токсичных трактовок, двусмысленностей, культурных мин
-- Генерация рекомендаций по доработке: что усилить, что убрать
+### Analysis of interpretations
+- LLM analysis of how different segments "read" creative content: what the core audience sees, what the periphery sees, and what the haters see
+- Detection of toxic interpretations, ambiguities, and cultural landmines
+- Generation of recommendations for revisions: what to emphasize and what to remove
 
-### Ранжирование и итерации
-- Многокритериальный рейтинг вариантов по сегментам
-- Экспресс-итерации: доработанный вариант перетестируется за часы
+### Ranking and iterations
+- Multi-criteria ranking of options by segment
+- Express iterations: a revised option is retested within hours
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Контекст и калибровка** — бренд-платформа, целевые сегменты, цели кампании; калибровка синтетической аудитории на ваших данных
-2. **Дни 2–3. Первый прогон** — загрузка пакета креативов (тексты, макеты, storyboard, видео-описания); тестирование и ранжирование
-3. **Отчёт и доработка** — карта прочтений и рисков, рекомендации; экспресс-ретест доработанных вариантов
+1. **Week 1. Context and calibration** — brand platform, target segments, campaign objectives; calibration of a synthetic audience based on your data
+2. **Days 2–3. First run** — uploading the creative package (copy, layouts, storyboard, video descriptions); testing and ranking
+3. **Report and refinement** — interpretation and risk map, recommendations; rapid retest of refined versions
 
-Далее: регулярные прогонные циклы в ритме ваших кампаний.
+After that: regular run cycles aligned with the timing of your campaigns.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Креативные материалы и бренд-платформа
-- Данные по целевой аудитории и прошлым кампаниям (при наличии)
-- Критерии успеха кампании
+**From the client:**
+- Creative assets and brand platform
+- Data on the target audience and past campaigns (if available)
+- Campaign success metrics
 
-**От нас:**
-- Платформа кремниевой выборки и метрический контур
-- Маркетинговые методологи и аналитики
-- Конфиденциальный контур: креативы до запуска не покидают периметр заказчика
+**From us:**
+- Silicon sampling platform and metric framework
+- Marketing methodologists and analysts
+- Confidential framework: creatives do not leave the client's premises until launch
 
-## Сроки
+## Timelines
 
-- **Первый тест:** 1–2 недели (включая калибровку)
-- **Пакет из 10–20 креативов:** 24–48 часов
-- **Ретест доработанного варианта:** часы
-- **Экономия:** до 80% бюджета фокус-групп без потери качества решений
+- **First test:** 1–2 weeks (including calibration)
+- **Package of 10–20 creatives:** 24–48 hours
+- **Retest of the revised version:** hours
+- **Cost savings:** up to 80% of the focus group budget without compromising the quality of solutions
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Ранжирование креативов по метрикам и сегментам
-- Карта прочтений: что увидит каждая аудитория, включая хейтеров
-- Карта рисков: backlash, мемы, двусмысленности — с рекомендациями
-- Проверенные сообщения для медиаплана
+**Artifacts:**
+- Ranking of creatives by metrics and segments
+- Interpretation map: what each audience sees — including haters
+- Risk map: backlash, memes, ambiguities — with recommendations
+- Tested messages for the media plan
 
-**Результаты:**
-- В эфир выходят только проверенные креативы
-- Бюджет вкладывается в варианты с максимальным откликом
-- Скорость итерации «креатив → вердикт» — сутки вместо недель
-- Аргументация выбора креатива перед руководством и клиентом — метриками, а не вкусом
+**Results:**
+- Only vetted creatives go live
+- The budget is allocated to options with the highest response rates
+- The "creative → verdict" iteration cycle takes one day instead of weeks
+- Justification of creative choices to management and clients is based on metrics, not personal taste
 
-**Метрики успеха:**
-- Корреляция предиктивных метрик с полевыми результатами кампаний
-- Доля креативов, прошедших пороговые метрики до запуска
-- Сокращение цикла продакшена и согласований
+**Success metrics:**
+- Correlation between predictive metrics and actual campaign results
+- Percentage of creatives that met threshold metrics prior to launch
+- Reduction in production and approval cycles
 
-## Кому подходит
+## Who it's for
 
-- **Бренды с федеральными и региональными кампаниями** — FMCG, ритейл, e-commerce, телеком, банки
-- **Креативные и медиаагентства** — как услуга для клиентов и инструмент защиты собственных идей
-- **Продакт-команды** — тестирование упаковки, нейминга, позиционирования до продакшена
+- **Brands with national and regional campaigns** — FMCG, retail, e-commerce, telecommunications, banking
+- **Creative and media agencies** — both as a service for clients and as a tool to protect their own ideas
+- **Product teams** — testing packaging, naming, and positioning prior to production
 
 ## FAQ
 
-**Q: Это заменяет фокус-группы?**
-A: Это скрининг: лаборатория быстро отбирает 2–3 сильных варианта из десятков; при необходимости финал подтверждается качественным исследованием. Вы тратите полевой бюджет только на финалистов.
+**Q: Does this replace focus groups?**
+A: This is a screening process: the lab quickly narrows down dozens of options to 2–3 strong contenders; if necessary, the final selection is confirmed through qualitative research. You spend your field research budget only on the finalists.
 
-**Q: Можно ли тестировать видео и дизайн, а не только тексты?**
-A: Да: мультимодальные модели работают с кадрами, storyboard, макетами и видеоописаниями. Для видеокреативов тестируются ключевые сцены и монтажные версии.
+**Q: Can we test videos and designs, not just text?**
+A: Yes: multimodal models work with frames, storyboards, mockups, and video descriptions. For video creatives, key scenes and edit versions are tested.
 
-**Q: Насколько синтетическая аудитория похожа на мою целевую?**
-A: Выборка калибруется на ваших реальных данных (опросы, social listening, продажи) и помечается уровнем уверенности по каждому сегменту. Метрики валидации показываются до старта проекта.
+**Q: How similar is the synthetic audience to my target audience?**
+A: The sample is calibrated using your real-world data (surveys, social listening, sales) and is assigned a confidence level for each segment. Validation metrics are provided before the project begins.
 
-**Q: Креативы конфиденциальны до запуска. Как с этим?**
-A: Стандартный режим: изолированный контур, NDA, материалы удаляются после теста. Никакого обучения внешних моделей на ваших креативах.
+**Q: Creatives are confidential until launch. How does that work?**
+A: Standard procedure: isolated environment, NDA, materials are deleted after testing. No external models are trained on your creatives.
 
 ## CTA
 
-**Готовы проверять креативы до того, как их увидит рынок?**
+**Ready to test your creatives before the market sees them?**
 
-Первая диагностическая сессия — бесплатно. Прогоним три ваших креатива и три контрольных на демо-выборке и покажем разницу в прочтениях и рисках.
+The first diagnostic session is free. We'll run three of your creative concepts and three control versions on a demo sample and show you the differences in performance and risks.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

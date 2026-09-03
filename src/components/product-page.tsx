@@ -55,7 +55,7 @@ export function ProductArticle({ product, reverse }: { product: Product; reverse
             type="button"
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
-            title={open ? "Свернуть" : "Подробнее"}
+            title={open ? "Collapse" : "Read more"}
             className="mt-6 inline-flex size-11 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-accent/40 hover:text-accent"
           >
             {open ? <ChevronUp className="size-5" /> : <MoreHorizontal className="size-5" />}
@@ -79,7 +79,7 @@ export function ProductArticle({ product, reverse }: { product: Product; reverse
               onClick={() => setOpen(false)}
               className="inline-flex h-10 items-center gap-2 rounded-md border border-border px-4 text-sm text-muted transition-colors hover:border-accent/40 hover:text-fg"
             >
-              <ChevronUp className="size-4" /> Свернуть
+              <ChevronUp className="size-4" /> Collapse
             </button>
           </div>
         </div>
@@ -93,17 +93,17 @@ export function ProductCta() {
     <section className="border-t border-border py-20">
       <div className="mx-auto max-w-3xl px-5 text-center sm:px-6">
         <h2 className="text-3xl font-semibold sm:text-4xl">
-          Готовы видеть будущее <span className="text-accent">до того, как оно наступит?</span>
+          Ready to see the future <span className="text-accent">before it arrives?</span>
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-muted">
-          Первая диагностическая сессия — бесплатно. Покажем на ваших данных, что умеют наши модели.
+          The first diagnostic session is free. We'll show what our models can do — on your data.
         </p>
         <Link
           to="/"
           hash="contact"
           className="mt-8 inline-flex h-12 items-center rounded-md bg-accent px-6 text-sm font-medium text-accent-fg transition-colors hover:bg-accent-dim"
         >
-          Оставить заявку
+          Submit a request
         </Link>
       </div>
     </section>

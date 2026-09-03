@@ -1,117 +1,117 @@
 ---
-title: "Симулятор виральных механик и WOM"
+title: "Viral Mechanics and WOM Simulator"
 slug: "viral-simulator"
 category: "marketing"
 order: 23
-description: "Агентная модель распространения word-of-mouth: какая механика «пойдёт», прогноз охвата и каскадных эффектов до запуска кампании."
+description: "Agent-based model of word-of-mouth spread: which mechanics will work, with reach and cascade forecasts before the campaign launches."
 image: "/assets/prediction.jpg"
 ---
 
-## Проблема
+## Problem
 
-Виральные кампании — лотерея. Одни механики «выстреливают» и дают миллионы охватов бесплатно, другие с огромным бюджетом не набирают и тысячи. Реферальные программы, конкурсы, UGC-механики тестируются «в бою», и цена ошибки — потраченный бюджет и упущенное время. Никто не моделирует, как механика распространится по социальным сетям до запуска.
+Viral campaigns are a gamble. Some mechanics "take off" and generate millions of impressions for free, while others — even with huge budgets — don't reach a thousand. Referral programs, contests, and UGC mechanics are tested "in the field," and the cost of a mistake is wasted budget and lost time. No one can predict how a campaign will spread across social media before launch.
 
-**Симулятор виральных механик** даёт вам предсказуемость: вы тестируете механику на цифровом двойнике аудитории и видите прогноз охвата до запуска.
+**The Viral Campaign Simulator** gives you predictability: you test the campaign on a digital replica of your audience and see a reach forecast before launch.
 
-## Что это за продукт
+## What this product is
 
-Агент-базированная модель распространения word-of-mouth:
-- **Тестирование механик до запуска**: реферальные программы, конкурсы, UGC, челленджи, gamification
-- **Прогноз охвата и каскадов**: сколько людей увидят, сколько поделятся, как далеко пойдёт волна
-- **Оптимизация параметров**: размер вознаграждения, сложность участия, каналы запуска
-- **Выявление «узких мест»**: где механика застрянет и не распространится дальше
+An agent-based model of word-of-mouth spread:
+- **Testing mechanics before launch**: referral programs, contests, UGC, challenges, gamification
+- **Forecasting reach and cascades**: how many people will see it, how many will share it, how far the wave will spread
+- **Optimizing parameters**: reward amount, participation complexity, launch channels
+- **Identifying "bottlenecks"**: where the mechanism will stall and fail to spread further
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Агент-базированная модель
-- Кремниевая выборка целевой аудитории с реальными социальными связями
-- Агенты с поведенческими профилями: склонность делиться, влиятельность, чувствительность к вознаграждениям
-- Социальный граф: кто с кем связан, через какие каналы взаимодействует
+### Agent-based model
+- Silicon sample of the target audience with real social connections
+- Agents with behavioral profiles: propensity to share, influence, sensitivity to rewards
+- Social graph: who is connected to whom, and through which channels they interact
 
-### Механики и параметры
-- Библиотека механик: реферальные программы, конкурсы, UGC, челленджи, gamification
-- Параметризация: размер вознаграждения, сложность участия, каналы запуска, тайминг
-- Генерация вариантов: от точечных модификаций до принципиально разных архитектур
+### Mechanics and parameters
+- Library of mechanics: referral programs, contests, UGC, challenges, gamification
+- Parameterization: reward amount, participation difficulty, launch channels, timing
+- Generation of options: from minor modifications to fundamentally different architectures
 
-### Моделирование распространения
-- Агенты «принимают решение»: участвовать или нет, делиться или нет
-- Каскадные эффекты: как механика распространяется по социальному графу
-- Детекция «узких мест»: где волна застревает и не распространяется дальше
+### Propagation modeling
+- Agents "make a decision": whether to participate, whether to share
+- Cascading effects: how the mechanism spreads through the social graph
+- Detection of "bottlenecks": where the wave gets stuck and fails to spread further
 
-### Оптимизация и прогноз
-- Многокритериальное ранжирование вариантов: охват × стоимость × скорость
-- Прогноз финального охвата и каскадных эффектов для каждого варианта
-- Рекомендации по оптимизации параметров
+### Optimization and forecasting
+- Multi-criteria ranking of options: reach × cost × speed
+- Forecast of final reach and cascading effects for each option
+- Recommendations for parameter optimization
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Контекст и калибровка** — целевая аудитория, продукт, цели кампании; калибровка агент-базированной модели на ваших данных
-2. **Неделя 2. Тестирование механик** — прогон 5–10 вариантов механик; ранжирование по охвату и стоимости
-3. **Неделя 3. Оптимизация** — доработка лучших вариантов; финальный прогноз охвата и каскадов
+1. **Week 1. Context and calibration** — target audience, product, campaign goals; calibrating the agent-based model on your data
+2. **Week 2. Testing mechanics** — running 5–10 mechanic variations; ranking by reach and cost
+3. **Week 3. Optimization** — refining the best options; final forecast of reach and cascades
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Целевая аудитория и продукт
-- Данные о социальных связях и поведении (при наличии)
-- Бюджетные ограничения и цели кампании
+**From the client:**
+- Target audience and product
+- Data on social connections and behavior (if available)
+- Budget constraints and campaign goals
 
-**От нас:**
-- Платформа кремниевой выборки и агент-базированного моделирования
-- Маркетинговые стратеги и data scientists
-- Библиотека механик и best practices
+**From us:**
+- Silicon sampling and agent-based modeling platform
+- Marketing strategists and data scientists
+- Library of mechanics and best practices
 
-## Сроки
+## Timelines
 
-- **Базовая модель:** 2–3 недели
-- **Тест пакета механик:** 2–5 дней
-- **Оптимизация варианта:** 24–48 часов
-- **Эксплуатация:** подписка с регулярными прогонами новых механик
+- **Base model:** 2–3 weeks
+- **Mechanics package test:** 2–5 days
+- **Variant optimization:** 24–48 hours
+- **Operation:** subscription with regular runs of new mechanics
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Ранжирование механик по охвату и стоимости
-- Прогноз финального охвата и каскадных эффектов для каждого варианта
-- Карта «узких мест»: где механика застрянет
-- Рекомендации по оптимизации параметров
+**Artifacts:**
+- Ranking of mechanics by reach and cost
+- Forecast of final reach and cascading effects for each option
+- "Bottleneck" map: where the mechanic will stall
+- Recommendations for parameter optimization
 
-**Результаты:**
-- Механики, которые «пойдут», выбираются до запуска, а не постфактум
-- Бюджет вкладывается в варианты с максимальным виральным потенциалом
-- Скорость итерации «механика → прогноз» — дни вместо месяцев
-- Снижение риска запуска кампании, которая не наберёт охват
+**Results:**
+- Mechanics that will "work" are selected before launch, not after the fact
+- Budget allocated to variants with maximum viral potential
+- "Mechanic → forecast" iteration cycle takes days instead of months
+- Reduced risk of launching a campaign that fails to achieve reach
 
-**Метрики успеха:**
-- Точность прогноза охвата против факта после запуска
-- Доля механик, прошедших тестирование до запуска
-- Снижение стоимости привлечения пользователя через виральные каналы
+**Success metrics:**
+- Accuracy of reach forecasts vs. actual results after launch
+- Share of mechanics that passed pre-launch testing
+- Reduction in user acquisition cost through viral channels
 
-## Кому подходит
+## Who it's for
 
-- **Бренды с реферальными программами** — e-commerce, fintech, SaaS
-- **Маркетплейсы и платформы** — для роста через network effects
-- **Геймифицированные продукты** — для оптимизации механик вовлечения
-- **Агентства и креативные команды** — как инструмент защиты идей перед клиентом
+- **Brands with referral programs** — e-commerce, fintech, SaaS
+- **Marketplaces and platforms** — growth through network effects
+- **Gamified products** — optimizing engagement mechanics
+- **Agencies and creative teams** — as a tool for defending ideas in front of clients
 
 ## FAQ
 
-**Q: Насколько точен прогноз охвата?**
-A: На ретроспективных кейсах (прошлые виральные кампании) прогноз накрывает факт в пределах доверительного интервала в 80% случаев. Мы честно показываем зоны неуверенности.
+**Q: How accurate is the reach forecast?**
+A: In retrospective cases (past viral campaigns), the forecast matches actuals within the confidence corridor in 80% of cases. We transparently highlight areas of uncertainty.
 
-**Q: Это работает только для B2C?**
-A: Работает и для B2B, но с адаптацией: вместо тысяч потребителей — модели ключевых клиентов и их социальных связей. Механика та же, масштаб популяции другой.
+**Q: Does this only work for B2C?**
+A: It also works for B2B with adjustments: instead of thousands of consumers, we model key accounts and their social connections. The mechanics are the same; the population scale is different.
 
-**Q: Можно ли моделировать негативный WOM?**
-A: Да: система моделирует не только позитивное распространение, но и риски негативных каскадов (backlash, мемы, токсичные интерпретации). Это позволяет избежать механик, которые вызовут волну негатива.
+**Q: Can negative word-of-mouth be modeled?**
+A: Yes: the system models not only positive spread but also the risks of negative cascades (backlash, memes, toxic interpretations). This helps avoid mechanics that trigger a wave of negativity.
 
-**Q: Как обновляется модель?**
-A: Регулярно — по мере поступления данных о реальных кампаниях и поведении аудитории. Модель учится на успехе и неудачах прошлых запусков.
+**Q: How is the model updated?**
+A: Regularly — as data on real campaigns and audience behavior arrives. The model learns from the successes and failures of past launches.
 
 ## CTA
 
-**Готовы запускать только те механики, которые «пойдут»?**
+**Ready to launch only the mechanics that will "work"?**
 
-Первая диагностическая сессия — бесплатно. Прогоним три ваших механики на демо-модели и покажем, какая даст максимальный охват.
+The first diagnostic session is free. We'll run three of your mechanics on a demo model and show which one delivers the greatest reach.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

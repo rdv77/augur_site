@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({ meta: [{ title: "О компании — Auria" }] }),
+  head: () => ({ meta: [{ title: "About us – Auria" }] }),
   component: About,
 });
 
@@ -16,17 +16,17 @@ function About() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/80 to-bg/50" />
         <div className="relative mx-auto max-w-7xl px-5 py-20 sm:px-6 sm:py-24">
-          <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">О компании</p>
-          <h1 className="text-4xl font-semibold sm:text-5xl">Кто мы</h1>
+          <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">About us</p>
+          <h1 className="text-4xl font-semibold sm:text-5xl">Who we are</h1>
           <p className="mt-6 max-w-2xl text-xl leading-relaxed text-fg/90">
-            «Auria» — консалтинговая компания нового поколения. Мы объединяем глубокую социологическую экспертизу с передовыми ИИ-технологиями.
+            “Auria” is a next-generation consulting company. We combine in-depth sociological expertise with cutting-edge AI technologies.
           </p>
           <div className="mt-6 max-w-2xl space-y-4 leading-relaxed text-muted">
             <p>
-              Мы работаем на стыке классической социологии и искусственного интеллекта. Наши решения позволяют заказчикам видеть общественные процессы не постфактум, а в режиме реального времени — и даже прогнозировать их развитие.
+              We work at the intersection of classical sociology and artificial intelligence. Our solutions let clients see social processes not after the fact, but in real time — and even predict how they will unfold.
             </p>
             <p>
-              Большие языковые модели (LLM), мультиагентное моделирование и предиктивная аналитика дают нам скорость машины. Десятилетия социологической экспертизы — глубину понимания человека и общества.
+              Large language models (LLMs), multi-agent modeling, and predictive analytics give us the speed of a machine. Decades of sociological expertise give us the depth of understanding of people and society.
             </p>
           </div>
         </div>
@@ -35,9 +35,9 @@ function About() {
       <section className="pb-24 pt-10">
         <div className="mx-auto grid max-w-7xl gap-5 px-5 sm:px-6 md:grid-cols-3">
           {[
-            ["Социологическая экспертиза", "Десятилетия работы с общественными данными, методологией исследований, качественными и количественными методами."],
-            ["ИИ-технологии", "LLM, мультиагентное моделирование, предиктивная аналитика. ИИ — полноценный инструмент исследования, а не модная приставка."],
-            ["Миссия", "Дать заказчикам суперспособность понимать общество быстрее, глубже и точнее."],
+            ["Sociological expertise", "Decades of work with public data, research methodology, and qualitative and quantitative methods."],
+            ["AI technologies", "LLMs, multi-agent modeling, predictive analytics. AI is a full-fledged research tool, not a trendy add-on."],
+            ["Mission", "Giving clients the superpower to understand society faster, deeper, and more precisely."],
           ].map(([t, d]) => (
             <div key={t} className="rounded-xl border border-border bg-surface p-7">
               <h2 className="text-xl font-medium">{t}</h2>
@@ -48,13 +48,13 @@ function About() {
       </section>
 
       <section className="border-t border-border bg-bg-elevated py-16 text-center">
-        <h2 className="text-2xl font-semibold">Хотите узнать, как это работает на практике?</h2>
+        <h2 className="text-2xl font-semibold">Want to see how it works in practice?</h2>
         <Link
           to="/"
           hash="contact"
           className="mt-6 inline-flex h-12 items-center rounded-md bg-accent px-6 text-sm font-medium text-accent-fg"
         >
-          Оставить заявку
+          Submit a request
         </Link>
       </section>
     </main>

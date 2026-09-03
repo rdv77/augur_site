@@ -1,118 +1,118 @@
 ---
-title: "AI-спарринг оппонента"
+title: "AI Opponent Sparring"
 slug: "sparring"
 category: "political"
 order: 15
-description: "Симуляция аргументов и подготовка к дебатам."
+description: "Simulation of arguments and debate preparation."
 image: "/assets/product-sparring.jpg"
 ---
 
-## Проблема
+## Problem
 
-К дебатам и жёстким переговорам готовятся против «среднего оппонента»: штаб проигрывает три-четыре сценария, а реальный конкурент бьёт в точку, которую никто не репетировал. Слабые места оппонента известны фрагментарно, его атаки становятся сюрпризом, а удачные ответы находятся уже после эфира — когда поздно.
+Teams prep for debates and high-stakes negotiations against an "average opponent" — running through three or four standard scenarios. But the real competitor hits the one angle no one rehearsed. Their weak spots are only partially mapped, their attacks come as surprises, and the perfect response comes to mind after the broadcast — when it's too late.
 
-**AI-спарринг** даёт вам цифрового двойника оппонента: вы проводите тысячу дебатов до реальных и выходите на сцену без сюрпризов.
+**AI sparring** gives you a digital twin of your opponent — you run thousands of debates before the real one and step on stage with no surprises.
 
-## Что это за продукт
+## What this product is
 
-Система подготовки к дебатам и публичным столкновениям:
-- **1000 дебатов до реальных** — тысячи симуляций против цифрового двойника оппонента, выявляющих все уязвимые точки вашей позиции
-- **Карта уязвимостей** — детальный анализ слабых мест конкурента на основе его публичной риторики и исторических паттернов
-- **Готовые скрипты** — проработанные ответы на атаки оппонента для любого сценария дискуссии
+A debate and public engagement preparation system:
+- **1,000 debates before the real one** — thousands of simulations against a digital twin of your opponent, revealing every weak spot in your position
+- **Vulnerability map** — detailed analysis of your opponent's weak spots based on their public rhetoric and historical patterns
+- **Ready-to-use scripts** — well-crafted responses to your opponent's attacks for any discussion scenario
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Корпус и профиль оппонента
-- Сбор публичного корпуса: выступления, интервью, дебаты, соцсети, голосования и инициативы (для действующих политиков)
-- Риторический профиль: любимые фреймы, приёмы, типовые атаки, уходы от ответа, триггеры и противоречия
-- Исторические паттерны поведения в стрессовых ситуациях дискуссии
+### Opponent corpus and profile
+- Collection of the public corpus: speeches, interviews, debates, social media, voting records, and initiatives (for incumbents)
+- Rhetorical profile: preferred frames, rhetorical tactics, typical attacks, deflections, triggers, and contradictions
+- Historical behavioral patterns in high-pressure debate situations
 
-### Цифровой двойник
-- LLM-агент, воспроизводящий стиль, стратегию и слабые места оппонента
-- Режимы интенсивности: от «вежливого спарринга» до максимально жёсткого давления
-- Разные сценарии форматов: теледебаты, интервью, ток-шоу, закрытые переговоры
+### Digital twin
+- LLM agent that replicates your opponent's style, strategy, and weak spots
+- Intensity modes: from "polite sparring" to maximum pressure
+- Different formats: televised debates, interviews, talk shows, closed-door negotiations
 
-### Спарринг-сессии и аналитика
-- Тысячи симуляций с вариацией сценариев и поведения двойника
-- Автоанализ ваших слабых точек: где позиция провисает, где ответ неубедителен
-- Карта уязвимостей оппонента: фактические, логические и биографические противоречия его риторики
+### Sparring sessions and analytics
+- Thousands of simulations with varying scenarios and opponent behavior
+- Automated analysis of your weak spots: where your position is weak, where your response is unconvincing
+- Opponent vulnerability map: factual, logical, and biographical contradictions in their rhetoric
 
-### Генератор скриптов
-- Проработанные ответы, контратаки и уходы для каждого сценария атаки
-- Формулировки под стиль кандидата — чтобы звучали естественно, а не заученно
-- Верификация скриптов: фактчекинг, юридическая и этическая проверка
+### Script generator
+- Well-crafted responses, counterattacks, and deflections for every attack scenario
+- Phrasing tailored to the candidate's style — so it sounds natural, not rehearsed
+- Script verification: fact-checking, legal and ethical review
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Корпус оппонента** — сбор и разметка публичного корпуса, построение риторического профиля; интервью со штабом: история столкновений, известные риски
-2. **Неделя 2. Двойник и валидация** — обучение и настройка агента; экспертная валидация: штаб оценивает сходство двойника с реальным оппонентом, корректировка
-3. **Неделя 3. Серия спаррингов** — первые симуляционные дебаты, карта уязвимостей обеих сторон; библиотека скриптов первого уровня
+1. **Week 1. Opponent corpus** — collection and annotation of the public corpus, building the rhetorical profile; interviews with the campaign team: history of clashes, known risks
+2. **Week 2. Digital twin and validation** — training and configuring the agent; expert validation: the campaign team assesses how closely the digital twin matches the real opponent, adjustments
+3. **Week 3. Sparring series** — first simulation debates, vulnerability map for both sides; tier-1 script library
 
-Далее: регулярные спарринги перед каждым ключевым выступлением; двойник обновляется после новых публичных ходов оппонента.
+After that: regular sparring sessions before each key public appearance; the digital twin is updated after every new public move by the opponent.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Позиции, ценности и «красные линии» кандидата
-- Эксперты штаба для валидации двойника и скриптов
-- Расписание ключевых публичных событий
+**From the client:**
+- Candidate's positions, values, and "red lines"
+- Campaign team experts for validating the digital twin and scripts
+- Schedule of key public events
 
-**От нас:**
-- Политические аналитики, риторические эксперты, спичрайтеры
-- ML-инженеры агентного моделирования
-- Конфиденциальный контур: материалы спаррингов не покидают периметр штаба
+**From us:**
+- Political analysts, rhetoric experts, speechwriters
+- ML engineers for agent-based modeling
+- Confidential environment: sparring materials never leave the campaign perimeter
 
-## Сроки
+## Timelines
 
-- **Цифровой двойник:** 2–3 недели
-- **Спарринг-сессия с аналитикой:** 24 часа
-- **Обновление скриптов после нового хода оппонента:** часы
-- **Сопровождение:** до конца кампании
+- **Digital twin:** 2–3 weeks
+- **Sparring session with analytics:** 24 hours
+- **Script update after opponent's new move:** hours
+- **Support:** through the end of the campaign
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Цифровой двойник оппонента в закрытом интерфейсе штаба
-- Карта уязвимостей оппонента и карта собственных рисков
-- Библиотека скриптов: ответы, контратаки, уходы — по сценариям
-- Отчёты спарринг-сессий с рекомендациями по тренировке кандидата
+**Artifacts:**
+- Digital twin of your opponent in a secure campaign interface
+- Vulnerability map of your opponent and your own risk map
+- Script library: responses, counterattacks, deflections — by scenario
+- Sparring session reports with recommendations for candidate training
 
-**Результаты:**
-- Ни одной неожиданной атаки: сценарии проиграны до эфира
-- Кандидат звучит уверенно — скрипты под его стиль, а не чужие формулы
-- Уязвимости оппонента используются точечно, в нужный момент дискуссии
-- Штаб тренируется бесконечно: симуляции дешевле эфирных ошибок
+**Results:**
+- No surprise attacks: every scenario has been rehearsed before air
+- Candidate sounds confident — scripts tailored to their style, not borrowed formulas
+- Opponent vulnerabilities are deployed precisely — at the right moment in the discussion
+- Endless practice for the team: simulations are cheaper than live mistakes
 
-**Метрики успеха:**
-- Покрытие сценариев атак до ключевого эфира
-- Экспертная оценка реалистичности двойника
-- Динамика качества ответов кандидата между спаррингами
+**Success metrics:**
+- Coverage of attack scenarios before each key live appearance
+- Expert rating of the digital twin's realism
+- Improvement trajectory in candidate response quality across sparring sessions
 
-## Кому подходит
+## Who it's for
 
-- **Кандидаты** — подготовка к дебатам и жёстким интервью
-- **Действующие политики** — защита позиций в публичных столкновениях
-- **Публичные лица и топ-менеджеры** — подготовка к сложным переговорам и слушаниям
-- **Переговорные команды** — когда на кону коалиции и сделки (связка с Симулятором коалиционных сценариев, Продукт 18)
+- **Candidates** — debate and high-stakes interview preparation
+- **Incumbent politicians** — defending their record in public clashes
+- **Public figures and top executives** — preparation for tough negotiations and hearings
+- **Negotiation teams** — when coalitions and deals are on the line (paired with the Coalition Scenario Simulator, Product 18)
 
 ## FAQ
 
-**Q: Это этично?**
-A: Мы моделируем исключительно публичную риторику и поведение оппонента — без фабрикации компромата и скрытого сбора данных. Скрипты проходят фактчекинг и этическую проверку: цель — сильная и честная дискуссия, а не манипуляция.
+**Q: Is this ethical?**
+A: We model exclusively public rhetoric and behavior — no fabrication of compromising material, no covert data collection. Scripts undergo fact-checking and ethical review: the goal is a strong and honest debate, not manipulation.
 
-**Q: Насколько реалистичен двойник?**
-A: Реалистичность валидируется экспертами штаба по шкале сходства; двойник регулярно дообучается на новых высказываниях оппонента. Мы честно обозначаем, где двойник силён, а где его поведение экстраполяционно.
+**Q: How realistic is the digital twin?**
+A: Realism is validated by campaign team experts against a similarity scale; the twin is regularly retrained on the opponent's new statements. We're transparent about where the twin excels and where its behavior is extrapolative.
 
-**Q: Заменяет ли это живых тренеров по дебатам?**
-A: Нет — усиливает. Тренер работает с подачей и стилем; AI-спарринг даёт бесконечную вариативность сценариев и аналитику уязвимостей. Лучшие результаты — в связке.
+**Q: Does this replace live debate coaches?**
+A: No — it amplifies. Coaches work on delivery and style; AI sparring provides endless scenario variety and vulnerability analytics. The best results come from using both together.
 
-**Q: Можно ли использовать формат для переговоров, а не дебатов?**
-A: Да: двойник строится под переговорную позицию оппонента (бизнес, коалиции, ведомственные переговоры). Механика та же — корпус, профиль, симуляции, скрипты.
+**Q: Can this format be used for negotiations rather than debates?**
+A: Yes — the twin is built around the opponent's negotiation position (business, coalition, or agency-level talks). The mechanics are the same: corpus, profile, simulations, scripts.
 
 ## CTA
 
-**Готовы провести 1000 дебатов до реальных?**
+**Ready to run 1,000 debates before the real one?**
 
-Первая диагностическая сессия — бесплатно. Соберём экспресс-профиль вашего оппонента и покажем три уязвимости его риторики, которые вы не использовали.
+The first diagnostic session is free — we'll build an express profile of your opponent and show you three vulnerabilities in their rhetoric you haven't used.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

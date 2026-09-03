@@ -1,117 +1,118 @@
 ---
-title: "Ценностная сегментация и живые AI-персоны"
+title: "Value Segmentation and Living AI Personas"
 slug: "ai-personas"
 category: "marketing"
 order: 21
-description: "Синтетические персоны целевых сегментов с реалистичными ценностями и поведением. Проводите интервью с покупателями, не выходя из офиса."
+description: "Synthetic personas of target segments with realistic values and behavior. Interview your customers without leaving the office."
 image: "/assets/agents.jpg"
 ---
 
-## Проблема
+## Problem
 
-Классические персоны — статичные описания: «Мария, 32 года, работает в офисе, любит кофе». Они не отвечают на главный вопрос: **как этот человек отреагирует на наше решение?** Фокус-группы дороги и описывают 8–10 человек на группу. Маркетинговые решения принимаются на основе интуиции о целевой аудитории, а не на данных о её поведении.
+Traditional personas are static descriptions: "Maria, 32, works in an office, loves coffee." They fail to answer the key question: **how will this person react to our decision?** Focus groups are expensive and describe 8–10 people per group. Marketing decisions are made on intuition about the target audience rather than on data about its behavior.
 
-**Живые AI-персоны** дают вам возможность «поговорить» с тысячами покупателей до запуска продукта, креатива или ценового решения.
+**Living AI personas** let you "talk" to thousands of customers before launching a product, creative, or pricing decision.
 
-## Что это за продукт
+## What this product is
 
-Синтетические персоны целевых сегментов на базе кремниевой выборки:
-- **Реалистичные профили**: демография, ценности, медиас habits, покупательское поведение — калиброваны на реальных данных
-- **Интерактивный диалог**: вы можете задавать вопросы персонам и получать ответы, соответствующие их профилю
-- **Тестирование решений**: как персоны отреагируют на новый продукт, цену, упаковку, коммуникацию
-- **Сегментация по ценностям**: не «возраст/доход», а глубинные мотивации и триггеры покупки
+Synthetic personas of target segments built on a silicon sample:
+- **Realistic profiles**: demographics, values, media habits, purchasing behavior — calibrated on real data
+- **Interactive dialogue**: ask personas questions and get answers consistent with their profile
+- **Solution testing**: how personas react to a new product, price, packaging, or communication
+- **Value-based segmentation**: not "age/income" but deep motivations and purchase triggers
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Калибровка персон
-- Реальные данные: опросы, social listening, панельные данные, прошлые кампании
-- Ценностные профили по методологиям WVS, ESS, Schwartz — адаптированные под ваш рынок
-- Поведенческие паттерны: частота покупок, чувствительность к цене, лояльность брендам
+### Persona calibration
+- Real data: surveys, social listening, panel data, past campaigns
+- Value profiles based on WVS, ESS, and Schwartz methodologies — adapted to your market
+- Behavioral patterns: purchase frequency, price sensitivity, brand loyalty
 
-### Диалоговый движок
-- LLM-агенты с зафиксированными профилями: каждая персона отвечает в рамках своих ценностей и опыта
-- Контроль согласованности: персона не «забывает» свои предпочтения между вопросами
-- Режимы: открытое интервью, тестирование концепций, оценка креативов
+### Dialogue engine
+- LLM agents with fixed profiles: each persona answers in line with its values and experience
+- Consistency control: a persona does not "forget" its preferences between questions
+- Modes: open interview, concept testing, creative evaluation
 
-### Анализ и сегментация
-- Кластеризация персон по ценностям и поведению — выявление скрытых сегментов
-- Карта сегментов: размер, потенциал, чувствительность к вашим решениям
-- Приоритизация: на какие сегменты работать в первую очередь
+### Analysis and segmentation
+- Clustering personas by values and behavior — revealing hidden segments
+- Segment map: size, potential, sensitivity to your decisions
+- Prioritization: which segments to work with first
 
-### Тестирование решений
-- Прогон концепций продукта, упаковки, цены через выборку персон
-- Выявление «токсичных» решений: что вызовет отторжение у ключевых сегментов
-- Рекомендации по адаптации под каждый сегмент
+### Testing solutions
+- Running product, packaging, and pricing concepts through a sample of personas
+- Identifying "toxic" solutions: what triggers rejection in key segments
+- Recommendations for adaptation to each segment
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Контекст и калибровка** — целевые сегменты, продукт, рынок; калибровка персон на ваших данных (при наличии) или на синтетических профилях рынка
-2. **Неделя 2. Генерация персон** — создание 5–10 ключевых персон с детальными профилями; обучение вашей команды работе с ними
-3. **Далее.** Регулярное использование: тестирование креативов, концепций, ценовых решений; обновление профилей по мере поступления новых данных
+1. **Week 1. Context and calibration** — target segments, product, market; calibrating personas on your data (if available) or on synthetic market profiles
+2. **Week 2. Persona generation** — creating 5–10 key personas with detailed profiles; training your team to work with them
 
-## Ресурсы
+After that: regular use — testing creatives, concepts, and pricing decisions; updating profiles as new data arrives.
 
-**От заказчика:**
-- Целевые сегменты и продукт
-- Данные по покупателям (опросы, CRM, панельные данные) — при наличии
-- Команда, которая будет использовать персон (маркетинг, продукт, креатив)
+## Resources
 
-**От нас:**
-- Платформа кремниевой выборки и методологи
-- Маркетинговые аналитики и исследователи
-- Конфиденциальный контур: данные о покупателях не покидают периметр заказчика
+**From the client:**
+- Target segments and product
+- Customer data (surveys, CRM, panel data) — if available
+- The team that will use the personas (marketing, product, creative)
 
-## Сроки
+**From us:**
+- Silicon sampling platform and methodologies
+- Marketing analysts and researchers
+- Confidential environment: customer data never leaves the client's perimeter
 
-- **Базовый набор персон:** 2 недели
-- **Тестирование концепции:** 24–48 часов
-- **Обновление профилей:** при поступлении новых данных — дни
-- **Эксплуатация:** подписка с регулярными обновлениями
+## Timelines
 
-## Что получает заказчик
+- **Basic persona set:** 2 weeks
+- **Concept test:** 24–48 hours
+- **Profile updates:** within days of new data arriving
+- **Operation:** subscription with regular updates
 
-**Инструменты:**
-- Интерактивный интерфейс персон с детальными профилями
-- Конструктор интервью: задавайте вопросы и получайте ответы от персон
-- Панель тестирования: загрузите концепцию и получите реакции сегментов
-- Аналитика: какие сегменты как реагируют, где риски и возможности
+## What the client gets
 
-**Результаты:**
-- Решения принимаются на основе поведения целевой аудитории, а не интуиции
-- Сегментация по глубинным мотивациям, а не демографии
-- Скорость итерации «концепция → реакция» — сутки вместо недель фокус-групп
-- Снижение риска запуска продукта, который не resonates с рынком
+**Tools:**
+- Interactive persona interface with detailed profiles
+- Interview builder: ask questions and get answers from personas
+- Testing panel: upload a concept and get segment reactions
+- Analytics: how segments react, where the risks and opportunities are
 
-**Метрики успеха:**
-- Корреляция реакций персон с реальными данными после запуска
-- Доля решений, протестированных на персонах до выхода в рынок
-- Сокращение цикла маркетинговых исследований
+**Results:**
+- Decisions based on target audience behavior, not intuition
+- Segmentation by deep motivations, not demographics
+- "Concept → reaction" iteration cycle — one day instead of weeks of focus groups
+- Reduced risk of launching a product that doesn't resonate with the market
 
-## Кому подходит
+**Success metrics:**
+- Correlation between persona responses and real data after launch
+- Share of decisions tested on personas before going to market
+- Shorter marketing research cycle
 
-- **Бренды с широкой целевой аудиторией** — FMCG, ритейл, e-commerce
-- **Продакт-команды** — тестирование концепций и фич
-- **Креативные агентства** — как инструмент защиты идей перед клиентом
-- **Исследовательские компании** — как дополнение к классическим методам
+## Who it's for
+
+- **Brands with a broad target audience** — FMCG, retail, e-commerce
+- **Product teams** — testing concepts and features
+- **Creative agencies** — as a tool for defending ideas to clients
+- **Research companies** — as a complement to traditional methods
 
 ## FAQ
 
-**Q: Это заменяет реальные интервью с покупателями?**
-A: Нет — это дополнение. Персоны дают быстрый скрининг и тестирование гипотез; финальные решения подтверждаются качественными исследованиями с реальными людьми. Вы тратите полевой бюджет только на то, что уже прошло проверку.
+**Q: Does this replace real customer interviews?**
+A: No — it complements them. Personas enable fast screening and hypothesis testing; final decisions are validated with qualitative research on real people. You spend your field budget only on ideas that have already passed testing.
 
-**Q: Насколько реалистичны ответы персон?**
-A: Персоны калибруются на реальных данных (опросы, панельные данные) и валидируются на известных кейсах. Мы честно показываем зоны уверенности и неуверенности по каждому сегменту.
+**Q: How realistic are persona responses?**
+A: Personas are calibrated on real data (surveys, panel data) and validated on known cases. We transparently highlight confidence and uncertainty zones for each segment.
 
-**Q: Можно ли «обмануть» персону?**
-A: Система контролирует согласованность ответов: персона не может противоречить своему профилю. Это не чат-бот, а модель поведения с зафиксированными параметрами.
+**Q: Can a persona be "tricked"?**
+A: The system checks response consistency: a persona cannot contradict its own profile. This is not a chatbot but a behavioral model with fixed parameters.
 
-**Q: Как обновляются профили персон?**
-A: Регулярно — по мере поступления новых данных о покупателях (опросы, продажи, social listening). Вы видите динамику ценностей и поведения сегментов.
+**Q: How are persona profiles updated?**
+A: Regularly — as new customer data arrives (surveys, sales, social listening). You see how segment values and behavior evolve.
 
 ## CTA
 
-**Готовы говорить с покупателями до запуска продукта?**
+**Ready to talk to your customers before the product launches?**
 
-Первая диагностическая сессия — бесплатно. Создадим демо-персоны вашего ключевого сегмента и покажем, как они реагируют на вашу текущую концепцию.
+The first diagnostic session is free. We'll build demo personas for your key segment and show how they react to your current concept.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

@@ -4,78 +4,78 @@ export const PARADIGMS = [
   {
     id: "pillar-1",
     num: "01",
-    title: "Мониторинг и диагностика общественного поля",
-    short: "Непрерывный пульс настроений в реальном времени",
+    title: "Monitoring and Diagnostics of the Public Field",
+    short: "A continuous, real-time pulse of public sentiment",
     image: "/assets/monitoring.jpg",
     problem:
-      "Традиционные методы работают в режиме «фотографии» — снимок на момент, который устаревает к публикации. Социальные процессы ускоряются: вирусный пост за 6 часов формирует повестку, которую недельный опрос не успевает зафиксировать.",
+      "Traditional methods work like a “photograph” — a snapshot of a moment that is already outdated by the time of publication. Social processes are accelerating: a viral post shapes the agenda in 6 hours, faster than a week-long survey can capture.",
     product:
-      "Непрерывная система отслеживания общественного поля: классическая социология, ИИ-мониторинг открытых источников и адаптивные интернет-опросы. Вы не тушите пожар — видите искру за недели до возгорания.",
+      "A continuous system for tracking the public field: classical sociology, AI monitoring of open sources, and adaptive online surveys. You don't extinguish the fire — you see the spark weeks before it ignites.",
     points: [
-      "Парсинг 50+ источников и API опросов",
-      "LLM-классификация тональности и тем",
-      "Детекция аномалий, ботов и координированных кампаний",
-      "Дашборд 24/7 и система алертов",
+      "Parsing of 50+ sources and survey APIs",
+      "LLM classification of tone and topics",
+      "Detection of anomalies, bots, and coordinated campaigns",
+      "24/7 dashboard and alert system",
     ],
     result:
-      "До первого результата — 2 недели. Полноценная система — 3–4 недели. Снижение репутационных рисков на 60–80%.",
+      "First results in 2 weeks. A full system in 3–4 weeks. Reputational risks reduced by 60–80%.",
   },
   {
     id: "pillar-2",
     num: "02",
-    title: "Прогнозирование общественных реакций",
-    short: "Математические модели вместо интуиции",
+    title: "Forecasting Public Reactions",
+    short: "Mathematical models instead of intuition",
     image: "/assets/prediction.jpg",
     problem:
-      "Каждое публичное решение — прыжок в неизвестность. Фокус-группы не учитывают каскадных эффектов и viral-распространения.",
+      "Every public decision is a leap into the unknown. Focus groups don't account for cascade effects and viral spread.",
     product:
-      "Сценарное моделирование отвечает на вопрос «Что будет, если мы сделаем X?» до реализации. LLM, мультиагентная симуляция и статистический ансамбль дают вероятностные коридоры.",
+      "Scenario modeling answers the question “What will happen if we do X?” before implementation. LLMs, multi-agent simulation, and a statistical ensemble produce probability corridors.",
     points: [
-      "Амплитуда, каналы и длительность реакции",
-      "Демография поддержки и протеста",
-      "Каскадные эффекты и «чёрные лебеди»",
-      "Превентивные рекомендации по коммуникации",
+      "Amplitude, channels, and duration of the reaction",
+      "Demographics of support and protest",
+      "Cascade effects and “black swans”",
+      "Preventive communication recommendations",
     ],
     result:
-      "Первый прогноз — за 3 недели. Один сценарий — 2–6 часов. Точность на ретротестах 75–85%.",
+      "First forecast in 3 weeks. One scenario in 2–6 hours. Backtesting accuracy of 75–85%.",
   },
   {
     id: "pillar-3",
     num: "03",
-    title: "Кремниевая выборка",
-    short: "ИИ-агенты имитируют поведение реальных групп",
+    title: "Silicon Sample",
+    short: "AI agents mimic the behavior of real groups",
     image: "/assets/agents.jpg",
     problem:
-      "Репрезентативный опрос занимает 6–8 недель и стоит миллионы. Тестировать непопулярную реформу на живых людях — значит рисковать реальным резонансом.",
+      "A representative survey takes 6–8 weeks and costs millions. Testing an unpopular reform on real people means risking real backlash.",
     product:
-      "Синтетическая популяция из тысяч калиброванных ИИ-агентов. «Референдум» за 2 часа вместо 2 месяцев — без риска полевых исследований.",
+      "A synthetic population of thousands of calibrated AI agents. A “referendum” in 2 hours instead of 2 months — without the risks of field research.",
     points: [
-      "Калибровка на переписях, опросах и WVS/ESS",
-      "До 10 сценариев в рабочий день",
-      "Честные ответы по чувствительным темам",
-      "Валидация на данных 30+ стран и регионов",
+      "Calibration on censuses, surveys, and WVS/ESS",
+      "Up to 10 scenarios per business day",
+      "Honest answers on sensitive topics",
+      "Validation on data from 30+ countries and regions",
     ],
     result:
-      "Выборка за 3–4 недели. Корреляция с реальными опросами 0.80–0.92. Экономия до 80% бюджета пилотов.",
+      "Sample ready in 3–4 weeks. Correlation with real surveys of 0.80–0.92. Up to 80% savings on pilot budgets.",
   },
   {
     id: "pillar-4",
     num: "04",
-    title: "Глубокие исследования с ИИ",
-    short: "Академическая глубина × скорость машины",
+    title: "Deep Research with AI",
+    short: "Academic depth × machine speed",
     image: "/assets/deep-research.jpg",
     problem:
-      "Аналитик читает 50 документов в неделю; в корпусе их миллионы. Выводы делаются на основе 2% прочитанного.",
+      "An analyst reads 50 documents a week; the corpus contains millions. Conclusions are drawn from the 2% that was read.",
     product:
-      "Система за часы анализирует миллионы документов и выдаёт скрытые нарративы, связи, проверяемые гипотезы и отчёты со ссылками на источники.",
+      "The system analyzes millions of documents in hours and delivers hidden narratives, connections, testable hypotheses, and reports with links to sources.",
     points: [
-      "Полный охват корпуса, не выборка «на глаз»",
-      "Граф знаний, нарративы и противоречия",
-      "Human-in-the-loop: ИИ предлагает, эксперт утверждает",
-      "Воспроизводимая методология",
+      "Full coverage of the corpus, not sampling “by eye”",
+      "Knowledge graph, narratives, and contradictions",
+      "Human-in-the-loop: AI proposes, the expert validates",
+      "Reproducible methodology",
     ],
     result:
-      "Типовой проект — 2–6 недель. Обработка миллиона документов — часы, а не месяцы.",
+      "A typical project takes 2–6 weeks. Processing a million documents takes hours, not months.",
   },
 ] as const;
 
@@ -90,23 +90,23 @@ export const NEWS: NewsItem[] = [
   {
     id: "monitoring-ai",
     publishedAt: "2026-08-15",
-    title: "Как ИИ меняет подход к мониторингу общественных настроений",
+    title: "How AI Is Changing the Approach to Monitoring Public Sentiment",
     excerpt:
-      "Краткий обзор методов, которые позволяют видеть сигналы за недели до их проявления в мейнстриме.",
+      "A brief overview of methods that let you see signals weeks before they surface in the mainstream.",
   },
   {
     id: "silicon-sample",
     publishedAt: "2026-08-02",
-    title: "Кремниевая выборка: тестируем решения до запуска",
+    title: "Silicon Sample: Testing Decisions Before Launch",
     excerpt:
-      "Зачем моделировать поведение социальных групп и как это снижает риски управленческих ошибок.",
+      "Why model the behavior of social groups, and how it reduces the risk of management errors.",
   },
   {
     id: "ria",
     publishedAt: "2026-07-18",
-    title: "ИИ-оценка регулирующего воздействия: предварительный анализ норм",
+    title: "AI Regulatory Impact Assessment: Preliminary Analysis of Norms",
     excerpt:
-      "Новый инструмент для предварительной оценки влияния нормативных актов на общество и бизнес.",
+      "A new tool for the preliminary assessment of the impact of regulatory acts on society and business.",
   },
 ];
 
@@ -115,7 +115,7 @@ export function newsByDateDesc(items: NewsItem[] = NEWS): NewsItem[] {
 }
 
 export function formatNewsDate(iso: string): string {
-  return new Intl.DateTimeFormat("ru-RU", {
+  return new Intl.DateTimeFormat("en-US", {
     day: "numeric",
     month: "long",
     year: "numeric",

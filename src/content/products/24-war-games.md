@@ -1,115 +1,115 @@
 ---
-title: "Рыночные war-games: моделирование реакций конкурентов"
+title: "Market War-Games: Modeling Competitor Reactions"
 slug: "market-war-games"
 category: "marketing"
 order: 24
-description: "Как конкуренты ответят на ваш ценовой ход, запуск продукта или кампанию? ИИ просчитывает сценарии и даёт контрмеры до вашего хода."
+description: "How will competitors respond to your pricing move, product launch, or campaign? AI runs the scenarios and delivers countermeasures before you make your move."
 image: "/assets/product-strategist.jpg"
 ---
 
-## Проблема
+## Problem
 
-Коммерческие решения принимаются в вакууме: вы снижаете цену, но не моделируете, что сделают конкуренты. Вы запускаете продукт, но не просчитываете их ответные кампании. В итоге «победа» оборачивается ценовой войной, промо-эскалацией и потерей маржи для всех. Стратегия без учёта реакций конкурентов — это не стратегия, а монолог.
+Business decisions are made in a vacuum: you lower your price but don't model what competitors will do. You launch a product but don't anticipate their counter-campaigns. As a result, "victory" turns into a price war, promo escalation, and lost margins for everyone. A strategy that ignores competitor reactions isn't a strategy — it's a monologue.
 
-**Рыночные war-games** дают вам шахматное мышление: вы видите ответы конкурентов до своего хода и готовите контрмеры заранее.
+**Market war-games** give you a chess player's mindset: you see competitors' responses before making your move, and you prepare countermeasures in advance.
 
-## Что это за продукт
+## What this product is
 
-Система сценарного моделирования конкурентных взаимодействий:
-- **Прогноз реакций конкурентов** на ваши ценовые ходы, запуски продуктов, кампании
-- **Моделирование эскалации**: как ответ конкурентов вызовет ваш контрход, и так далее
-- **Оптимизация хода**: выбор параметров (цена, тайминг, коммуникация), минимизирующих негативные ответы
-- **Готовые контрмеры** на каждый вероятный сценарий ответа
+A system for scenario-based modeling of competitive interactions:
+- **Predicting competitor reactions** to your pricing moves, product launches, and campaigns
+- **Escalation modeling**: how a competitor's response triggers your counter-move, and so on
+- **Move optimization**: selecting parameters (price, timing, communication) that minimize negative responses
+- **Ready-made countermeasures** for every likely response scenario
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Поведенческие модели конкурентов
-- Исторический анализ ходов конкурентов: ценовые изменения, запуски, промо-кампании, медийные атаки
-- Модель принятия решений: интересы, ограничения, триггеры, типичные паттерны ответа
-- Калибровка на реальных кейсах ценовых войн и конкурентных взаимодействий
+### Competitor behavioral models
+- Historical analysis of competitor moves: price changes, product launches, promo campaigns, media attacks
+- Decision-making model: interests, constraints, triggers, typical response patterns
+- Calibration on real cases of price wars and competitive interactions
 
-### Сценарный движок
-- Ваш ход: снижение цены, запуск продукта, кампания, выход на новый рынок
-- Моделирование ответов: кто ответит, чем, когда, с какой силой
-- Каскады: ваш контрход → их ответ → ваш следующий ход
-- Оценка финального равновесия: где остановится эскалация
+### Scenario engine
+- Your move: price cut, product launch, campaign, entry into a new market
+- Response modeling: who responds, with what, when, and with what intensity
+- Cascades: your counter-move → their response → your next move
+- Assessment of the final equilibrium: where the escalation stops
 
-### Оптимизация и рекомендации
-- Многокритериальное ранжирование ваших ходов: выигрыш × риск эскалации × устойчивость
-- Рекомендации по параметрам хода: цена, тайминг, коммуникация
-- Готовые контрмеры на каждый вероятный сценарий ответа
+### Optimization and recommendations
+- Multi-criteria ranking of your moves: payoff × escalation risk × sustainability
+- Recommendations on move parameters: price, timing, communication
+- Predefined countermeasures for every likely response scenario
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Недели 1–2. Карта конкурентов** — перечень ключевых конкурентов, анализ их истории ходов, построение поведенческих моделей
-2. **Неделя 3. Базовый сценарий** — прогон вашего планируемого хода, прогноз ответов, оценка эскалации
-3. **Неделя 4. Оптимизация** — подбор оптимальных параметров хода, подготовка контрмер
+1. **Weeks 1–2. Competitor map** — list of key competitors, analysis of their past moves, building behavioral models
+2. **Week 3. Base scenario** — simulation of your planned move, prediction of responses, escalation assessment
+3. **Week 4. Optimization** — selection of optimal move parameters, preparation of countermeasures
 
-Далее: сопровождение до и после хода, обновление моделей по факту реакции конкурентов.
+After that: support before and after the move; model updates based on actual competitor responses.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Перечень ключевых конкурентов и история взаимодействий
-- Планируемый ход и его параметры
-- Ограничения: ценовые коридоры, маржа, бюджет
+**From the client:**
+- List of key competitors and history of interactions
+- Planned move and its parameters
+- Constraints: price corridors, margins, budget
 
-**От нас:**
-- Стратеги и data scientists с опытом конкурентного анализа
-- Базы данных о конкурентных взаимодействиях в отраслях
-- Конфиденциальный контур уровня коммерческой тайны
+**From us:**
+- Strategists and data scientists with competitive analysis experience
+- Databases of competitive interactions across industries
+- Confidential framework at trade-secret level
 
-## Сроки
+## Timelines
 
-- **Базовая модель конкурентов:** 2–3 недели
-- **Прогноз реакции на ход:** 2–5 дней
-- **Экспресс-прогноз при изменении параметров:** часы
-- **Сопровождение:** до и после хода
+- **Base competitor model:** 2–3 weeks
+- **Reaction forecast for a move:** 2–5 days
+- **Express forecast on parameter change:** hours
+- **Support:** before and after the move
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Поведенческие модели ключевых конкурентов
-- Прогноз ответов на ваш ход: кто, чем, когда
-- Карта эскалации: как будет развиваться конкурентное взаимодействие
-- Рекомендации по оптимизации хода и готовые контрмеры
+**Artifacts:**
+- Behavioral models of key competitors
+- Forecast of responses to your move: who, with what, when
+- Escalation map: how the competitive interaction will unfold
+- Recommendations for optimizing your move and ready-made countermeasures
 
-**Результаты:**
-- Ход принимается с учётом реакций конкурентов, а не в вакууме
-- Параметры хода оптимизированы для минимизации эскалации
-- Готовность к ответам конкурентов: контрмеры просчитаны заранее
-- Снижение риска ценовых войн и промо-эскалации
+**Results:**
+- The move is made with competitor reactions in mind, not in a vacuum
+- Move parameters optimized to minimize escalation
+- Readiness for competitor responses: countermeasures planned in advance
+- Reduced risk of price wars and promo escalation
 
-**Метрики успеха:**
-- Точность прогноза реакций против факта после хода
-- Сэкономленные потери относительно сценария без учёта реакций
-- Скорость подготовки конкурентного анализа для комитета по ценам/запускам
+**Success metrics:**
+- Accuracy of reaction forecasts vs. actuals after the move
+- Losses avoided vs. a scenario that ignores reactions
+- Speed of competitive analysis preparation for the pricing/launch committee
 
-## Кому подходит
+## Who it's for
 
-- **FMCG и ритейл** — ценовые войны, промо-календари, запуски СТМ
-- **Телеком и банки** — тарифные изменения и пакетные предложения
-- **E-commerce и маркетплейсы** — комиссии, тарифы, категорийные решения
-- **B2B-компании** — ценовые предложения и тендерные стратегии
+- **FMCG and retail** — price wars, promo calendars, private label launches
+- **Telecom and banking** — rate changes and bundled offers
+- **E-commerce and marketplaces** — commissions, fees, category decisions
+- **B2B companies** — pricing proposals and bidding strategies
 
 ## FAQ
 
-**Q: Чем это отличается от классического конкурентного анализа?**
-A: Классический анализ описывает прошлое. War-games моделируют будущее: как конкуренты отреагируют на ваш конкретный ход, и как будет развиваться эскалация. Это не отчёт, а инструмент принятия решений.
+**Q: How is this different from traditional competitive analysis?**
+A: Traditional analysis describes the past. War-games simulate the future: how competitors react to your specific move, and how the situation escalates. This is not a report — it's a decision-making tool.
 
-**Q: Насколько точны прогнозы реакций?**
-A: На ретроспективных кейсах (прошлые ценовые войны и запуски) прогнозы накрывают факт в большинстве сценариев. Мы честно показываем зоны неуверенности и альтернативные сценарии.
+**Q: How accurate are the reaction forecasts?**
+A: In retrospective cases (past price wars and launches), the forecasts match reality in most scenarios. We honestly highlight areas of uncertainty and alternative scenarios.
 
-**Q: Можно ли моделировать неценовые взаимодействия?**
-A: Да: запуски продуктов, медийные кампании, выход на новые рынки, M&A — любые ходы, вызывающие ответ конкурентов. Механика та же.
+**Q: Can non-price interactions be modeled?**
+A: Yes: product launches, media campaigns, entry into new markets, M&A — any move that triggers a competitor response. The mechanics are the same.
 
-**Q: Это работает для олигополий с малым числом игроков?**
-A: Да, и особенно эффективно: чем меньше игроков, тем точнее моделируется их взаимодействие. Для фрагментированных рынков модель работает на уровне кластеров конкурентов.
+**Q: Does this work for oligopolies with few players?**
+A: Yes, and it's especially effective: the fewer the players, the more precisely their interaction is modeled. For fragmented markets, the model operates at the level of competitor clusters.
 
 ## CTA
 
-**Готовы видеть ответы конкурентов до своего хода?**
+**Ready to see your competitors' answers before you make your move?**
 
-Первая диагностическая сессия — бесплатно. Прогоним один ваш предстоящий ход и покажем, как ответят три ключевых конкурента.
+The first diagnostic session is free. We'll run one of your upcoming moves and show how your three key competitors would respond.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

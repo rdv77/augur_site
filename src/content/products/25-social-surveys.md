@@ -1,122 +1,122 @@
 ---
-title: "Социологические опросы через международные социальные сети"
+title: "Sociological Surveys via International Social Media Platforms"
 slug: "social-surveys"
 category: "socio"
 order: 25
-description: "Репрезентативные опросы через X, Facebook, Instagram, LinkedIn и TikTok: данные из 100+ стран за 5–10 дней там, где полевые исследования невозможны."
+description: "Representative surveys via X, Facebook, Instagram, LinkedIn, and TikTok: data from 100+ countries in 5–10 days where field research is impossible."
 image: "/assets/deep-research.jpg"
 ---
 
-## Проблема
+## Problem
 
-Классическое полевое исследование недоступно во многих странах: безопасность, стоимость, регуляторные барьеры. Панели не покрывают специфические аудитории, а международное исследование «по всем правилам» длится месяцами. Диаспоры, молодёжь и профессиональные группы практически недосягаемы для телефонных и уличных опросов.
+Traditional field research is not feasible in many countries due to security concerns, cost, and regulatory barriers. Panels do not cover specific audiences, and international research conducted "by the book" takes months. Diasporas, young people, and professional groups are practically unreachable through telephone and street surveys.
 
-В итоге решения о зарубежных рынках, аудиториях и репутации принимаются на устаревших или смещённых данных.
+As a result, decisions about foreign markets, audiences, and reputation are made based on outdated or skewed data.
 
-**Опросы через международные социальные сети** дают быстрый и честный доступ к респондентам в 100+ странах — с валидацией и взвешиванием до репрезентативного уровня.
+**Surveys via international social media platforms** provide fast and honest access to respondents in 100+ countries — with validation and weighting up to a representative level.
 
-## Что это за продукт
+## What this product is
 
-Система проведения социологических опросов через международные платформы: **X (Twitter), Facebook, Instagram, LinkedIn, TikTok, Reddit**:
-- **Таргетированный выход** на нужные социально-демографические группы в 100+ странах
-- **ИИ-валидация респондентов**: боты, фрод и «профессиональные опрошенники» отсеиваются до попадания в выборку
-- **Квотный сбор + пост-стратификационное взвешивание** до структуры населения каждой страны
-- **Результаты за 5–10 рабочих дней**, экспресс-опросы — за 48–72 часа
+A system for conducting sociological surveys via international platforms: **X (Twitter), Facebook, Instagram, LinkedIn, TikTok, Reddit**:
+- **Targeted outreach** to specific sociodemographic groups in 100+ countries
+- **AI-powered respondent validation**: bots, fraud, and "professional respondents" are filtered out before entering the sample
+- **Quota sampling + post-stratification weighting** to match the population structure of each country
+- **Results in 5–10 business days**; express surveys in 48–72 hours
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Дистрибуция и таргетинг
-- Таргетированная дистрибуция анкет через рекламные кабинеты платформ и сообщества (X, Facebook/Instagram, LinkedIn, TikTok, Reddit)
-- Таргетинг по странам, языкам, демографии, интересам, профессиональным группам
-- Адаптивные анкеты: вопросы меняются в зависимости от ответов, снижая утомление и повышая качество
+### Distribution and targeting
+- Targeted distribution of surveys through platform ad dashboards and communities (X, Facebook/Instagram, LinkedIn, TikTok, Reddit)
+- Targeting by country, language, demographics, interests, and professional groups
+- Adaptive surveys: questions change based on responses, reducing fatigue and improving quality
 
-### Валидация респондентов
-- Детекция ботов и фрода: поведенческие паттерны, проверки внимания, дедупликация по устройствам и графам
-- Отсев «профессиональных опрошенников» и мотивированного смещения
-- Контроль квот в реальном времени: выборка не перекашивается в сторону активных меньшинств
+### Respondent validation
+- Bot and fraud detection: behavioral patterns, attention checks, deduplication by device and graphs
+- Filtering out "professional respondents" and motivated bias
+- Real-time quota control: the sample is not skewed toward active minorities
 
-### Репрезентативность
-- Квотный сбор + пост-стратификационное взвешивание (MRP) к переписным данным каждой страны
-- Кросс-валидация: сверка с кремниевой выборкой (Столп 3) и открытыми данными
-- Явные доверительные интервалы и ограничения по каждой стране и группе — без иллюзии точности
+### Representativeness
+- Quota sampling + post-stratification weighting (MRP) against each country's census data
+- Cross-validation: comparison with the silicon sample (Pillar 3) and open data
+- Explicit confidence corridors and limitations for each country and group — no illusion of precision
 
-### Этика и комплаенс
-- GDPR и правила платформ: согласие, анонимизация, отсутствие сбора персональных данных
-- Прозрачная методология в приложении к каждому отчёту
+### Ethics and compliance
+- GDPR and platform policies: consent, anonymization, no collection of personal data
+- Transparent methodology in the appendix to each report
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Дни 1–2. Анкета и таргетинг** — исследовательские вопросы, страны и группы; дизайн анкеты, переводы и адаптация
-2. **Дни 3–7. Полевой этап** — дистрибуция, контроль квот, валидация в реальном времени
-3. **Дни 8–9. Взвешивание и валидация** — MRP-взвешивание, кросс-проверки, доверительные интервалы
-4. **День 10. Отчёт** — результаты, визуализации, методология и ограничения; сырые данные и кодбук
+1. **Days 1–2. Questionnaire and targeting** — research questions, countries, groups; questionnaire design, translation, and adaptation
+2. **Days 3–7. Fieldwork** — distribution, quota control, real-time validation
+3. **Days 8–9. Weighting and validation** — MRP weighting, cross-checks, confidence corridors
+4. **Day 10. Report** — results, visualizations, methodology, and limitations; raw data and codebook
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Исследовательские вопросы и гипотезы
-- Целевые страны и группы
-- Контекст для адаптации анкеты
+**From the client:**
+- Research questions and hypotheses
+- Target countries and groups
+- Context for adapting the questionnaire
 
-**От нас:**
-- Рекламные кабинеты и доступ к сообществам платформ
-- Модели валидации и методологии взвешивания
-- Мультиязычные анкеты и полевая команда
+**From us:**
+- Ad accounts and access to platform communities
+- Validation models and weighting methodologies
+- Multilingual questionnaires and a field team
 
-## Сроки
+## Timelines
 
-- **Международное исследование (5–10 стран):** 5–10 рабочих дней
-- **Экспресс-опрос в одной стране:** 48–72 часа
-- **Лонгитюд:** регулярные волны по подписке с отслеживанием динамики
+- **International study (5–10 countries):** 5–10 business days
+- **Express survey in one country:** 48–72 hours
+- **Longitudinal study:** regular waves via subscription with trend tracking
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Взвешенные данные по каждой стране и группе
-- Отчёт с визуализациями и интерпретацией
-- Сырые данные, кодбук и методологическое приложение
-- Дашборд для самостоятельного анализа срезов
+**Artifacts:**
+- Weighted data for each country and group
+- Report with visualizations and interpretation
+- Raw data, codebook, and methodological appendix
+- Dashboard for independent analysis of cross-sections
 
-**Результаты:**
-- Данные из стран, где полевые исследования невозможны или запрещены
-- Труднодосягаемые аудитории: диаспоры, молодёжь, профессионалы (LinkedIn)
-- Сопоставимость данных между странами на единой методологии
-- Скорость и стоимость на порядок лучше международного полевого исследования
+**Results:**
+- Data from countries where field research is impossible or prohibited
+- Hard-to-reach audiences: diasporas, young people, professionals (LinkedIn)
+- Cross-country data comparability on a unified methodology
+- Speed and cost an order of magnitude better than international field research
 
-**Метрики успеха:**
-- Объём и качество выборки по каждой волне
-- Покрытие квот и величина доверительных интервалов
-- Доля отсевов фрода (показатель чистоты поля)
+**Success metrics:**
+- Sample size and quality per wave
+- Quota coverage and confidence corridor width
+- Fraud dropout rate (field purity indicator)
 
-## Кому подходит
+## Who it's for
 
-- **Корпорации, выходящие на зарубежные рынки** — спрос, восприятие бренда, ценовые тесты
-- **Международные организации и НКО** — сравнительные исследования и мониторинг программ
-- **Министерства и дипломатические ведомства** — диаспоры, международный образ страны
-- **Think tanks и медиа** — международные опросы и кросс-страновые сравнения
-- **Маркетинговые команды** — международные потребительские исследования (связка с маркетинговой линейкой)
+- **Corporations entering foreign markets** — demand, brand perception, price testing
+- **International organizations and NGOs** — comparative studies and program monitoring
+- **Ministries and diplomatic missions** — diasporas, a country's international image
+- **Think tanks and media** — international surveys and cross-country comparisons
+- **Marketing teams** — international consumer research (linked to the marketing product line)
 
 ## FAQ
 
-**Q: Насколько это репрезентативно?**
-A: Квотный сбор плюс MRP-взвешивание к переписным данным; по каждой стране даём доверительные интервалы и явные ограничения. Соцсети не дают идеальной вероятностной выборки — мы честно показываем метрики качества, а не продаём иллюзию точности.
+**Q: How representative is it?**
+A: Quota sampling plus MRP weighting against census data; for each country we provide confidence corridors and explicit limitations. Social media do not provide a perfect probability sample — we honestly present quality metrics instead of selling the illusion of accuracy.
 
-**Q: Как боретесь с ботами и фродом?**
-A: Многоуровневая валидация: поведенческие паттерны, проверки внимания, дедупликация по устройствам и графам. Значительная доля ответов отсеивается до попадания в выборку — и мы показываем этот показатель.
+**Q: How do you combat bots and fraud?**
+A: Multi-level validation: behavioral patterns, attention checks, deduplication by device and social graphs. A significant share of responses is filtered out before entering the sample — and we disclose this metric.
 
-**Q: Не упрётесь ли в ограничения платформ (API, правила)?**
-A: Мы работаем через официальные рекламные инструменты и сообщества, без нарушения правил платформ — это устойчивая схема, не зависящая от изменений API.
+**Q: Won't you run into platform restrictions (APIs, rules)?**
+A: We work through official ad tools and communities without violating platform rules — a sustainable approach that doesn't depend on API changes.
 
-**Q: Это соответствует GDPR и этике?**
-A: Да: согласие респондентов, анонимизация, отсутствие сбора персональных данных. Методология соответствует GDPR и этическим стандартам социологических исследований.
+**Q: Is this GDPR-compliant and ethical?**
+A: Yes: respondent consent, anonymization, no collection of personal data. The methodology complies with GDPR and the ethical standards of sociological research.
 
-**Q: Какие страны покрываете?**
-A: 100+ стран, где доступны X, Facebook, Instagram, LinkedIn, TikTok и Reddit. Для рынков с локальными платформами подключаем партнёрские панели и явно помечаем метод в отчёте.
+**Q: Which countries do you cover?**
+A: 100+ countries where X, Facebook, Instagram, LinkedIn, TikTok, and Reddit are available. For markets with local platforms, we integrate partner panels and clearly indicate the method in the report.
 
 ## CTA
 
-**Нужны данные из стран, куда не доехать с полевым исследованием?**
+**Need data from countries where field research can't reach?**
 
-Первая диагностическая сессия — бесплатно. Спроектируем экспресс-опрос по вашей теме в трёх странах и покажем дизайн выборки и метрики качества до запуска.
+The first diagnostic session is free. We'll design an express survey on your topic across three countries and show the sample design and quality metrics before launch.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

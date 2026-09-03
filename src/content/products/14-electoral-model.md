@@ -1,119 +1,119 @@
 ---
-title: "Предиктивная модель электорального поведения"
+title: "Predictive Model of Electoral Behavior"
 slug: "electoral-model"
 category: "political"
 order: 14
-description: "Прогноз голосования и динамики предпочтений."
+description: "Voting forecast and preference dynamics."
 image: "/assets/product-electoral.jpg"
 ---
 
-## Проблема
+## Problem
 
-Штабы смотрят на гонку через зеркало заднего вида: соцопросы описывают прошлое и устаревают к моменту публикации, а между волнами исследований решение принимается вслепую. Сценарии «что если» не просчитаны: снятие кандидата, скандал, эндорсмент — каждый раз импровизация. Ресурсы распределяются по привычке, а не по карте решающих участков.
+Campaigns watch the race through the rearview mirror. Polls capture the past and go stale the moment they are released. Between tracking waves, decisions are made in the dark. High-impact "what if" scenarios — a dropout, a scandal, a surprise endorsement — are not modeled, so every curveball triggers reactive improvisation. And resources follow inertia, not the battleground map.
 
-**Предиктивная модель** — это навигатор с постоянным обновлением маршрута: вы видите гонку в динамике, с вероятностными коридорами и просчитанными развилками.
+**The predictive model** is like a GPS that constantly recalculates your route: you see the race in motion, with probability corridors and modeled decision points.
 
-## Что это за продукт
+## What this product is
 
-Прогностическая система электоральной динамики:
-- **Прогноз явки и распределения голосов с учётом 100+ факторов**
-- **Сценарии**: «Что будет, если кандидат X снимется / произойдёт событие Y?»
-- **Динамическое обновление** по мере поступления новых данных в реальном времени
+An electoral dynamics forecasting system:
+- **Turnout and vote distribution forecasts** driven by 100+ variables
+- **Scenario modeling**: "what happens if Candidate X drops out or Event Y occurs?"
+- **Real-time updates** as new data flows in
 
-Модель отвечает не «кто победит», а «при каких условиях и с какой вероятностью — и что изменить, чтобы условия изменились».
+The model doesn't answer "who wins." It answers: under what conditions, with what probability — and what you can change to shift those conditions.
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Факторный контур (100+ переменных)
-- История выборов по участкам, социодемография и экономика территорий
-- Медийный фон и цифровые сигналы, события кампании, явочные паттерны
-- Мобилизационные факторы: полевая инфраструктура, волонтёры, охват
+### Factor framework (100+ variables)
+- Precinct-level electoral history, socio-demographics, and local economic data
+- Media landscape, digital signals, campaign events, and turnout patterns
+- Mobilization drivers: field infrastructure, volunteer networks, and voter outreach
 
-### Ядро моделирования
-- Ансамбль ML-моделей и байесовское обновление: новые данные пересчитывают прогноз, а не «дописываются»
-- LLM-модуль оценки событий: как скандал, эндорсмент или внешний шок изменит поведение групп
-- Раздельные модели явки и голосования — ключевые драйверы у них разные
+### Modeling core
+- Ensemble of ML models with Bayesian updating: new data recalculates the forecast on the fly, not just "appended"
+- LLM-powered event evaluation module: how a scandal, endorsement, or external shock shifts group behavior
+- Separate turnout and vote choice models — the drivers behind each are fundamentally different
 
-### Сценарный движок
-- Симуляции «что если»: снятия, альянсы, скандалы, внешние события, погодные и явочные шоки
-- Вероятностные коридоры по каждому сценарию
-- Карта чувствительности: участки и группы, где сосредоточена цена процента
+### Scenario modeling
+- "What if" simulations: dropouts, alliances, scandals, external events, weather and turnout shocks
+- Probability corridors for each scenario
+- Sensitivity map: precincts and groups where the marginal vote is concentrated
 
-### Режим навигатора
-- Дашборд гонки с обновлением при поступлении данных
-- Алерты при разрыве тренда: «маршрут изменился — пересчитано»
-- Еженедельные брифинги с интерпретацией для штаба
+### Navigator mode
+- Race dashboard that updates as new data arrives
+- Alerts on trend breaks: "route changed — recalculated"
+- Weekly briefings with interpretation for the campaign team
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Данные и факторы** — инвентаризация данных: выборы, социология, внутренние полевые данные; настройка факторного контура под специфику кампании
-2. **Неделя 2. Модель и валидация** — построение моделей явки и голосования; ретроспективная валидация на прошлых кампаниях, калибровка интервалов
-3. **Неделя 3. Базовый прогноз** — прогноз гонки, карта чувствительности, первые сценарные развилки; стратегическая сессия со штабом: как читать навигатор и принимать решения
+1. **Week 1. Data and factors** — data inventory: elections, polling, internal field data; calibration of the factor framework to the campaign's specific context
+2. **Week 2. Model and validation** — building turnout and vote choice models; retrospective validation on past campaigns, calibration of confidence intervals
+3. **Week 3. Baseline forecast** — race forecast, sensitivity map, initial scenario forks; strategic session with the campaign team: how to read the navigator and make decisions
 
-Далее: динамическое обновление; сценарные расчёты по запросу штаба; алерты при разрывах трендов.
+After that: dynamic recalibration; on-demand scenario runs for the campaign team; alerts on trend breaks.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Доступ к внутренним данным кампании (полевые отчёты, собственные замеры)
-- Время штаба на еженедельные сессии
-- Перечень ключевых развилок для сценарного моделирования
+**From the client:**
+- Access to internal campaign data (field reports, internal tracking)
+- Campaign team time for weekly review sessions
+- List of key decision forks for scenario modeling
 
-**От нас:**
-- Data scientists, специалисты по электоральной статистике, политические аналитики
-- Факторные базы данных и вычислительная инфраструктура
-- Конфиденциальный контур уровня избирательного штаба
+**From us:**
+- Data scientists, electoral statisticians, and political analysts
+- Factor databases and computing infrastructure
+- Confidential environment at campaign headquarters level
 
-## Сроки
+## Timelines
 
-- **Базовая модель:** 3 недели
-- **Обновление прогноза:** в течение 24 часов после значимых данных
-- **Сценарный расчёт:** 2–6 часов
-- **Сопровождение:** до дня выборов, включая ночной режим в день голосования
+- **Baseline model:** 3 weeks
+- **Forecast refresh:** within 24 hours of significant new data
+- **Scenario runs:** 2–6 hours
+- **Support:** through Election Day, including overnight coverage on voting day
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Дашборд-навигатор гонки с вероятностными коридорами
-- Прогноз явки и голосов в разрезе участков
-- Карта чувствительности: где сосредоточена цена процента
-- Сценарные досье по ключевым развилкам
+**Artifacts:**
+- Race navigation dashboard with probability corridors
+- Turnout and vote share forecasts at precinct level
+- Sensitivity map — where the marginal vote is concentrated
+- Scenario dossiers for key decision forks
 
-**Результаты:**
-- Ресурсы — на решающие участки и группы, а не по привычке
-- Раннее обнаружение переломов тренда — до того, как их увидят конкуренты
-- Сценарная готовность: штаб не импровизирует в кризис, а исполняет просчитанный план
-- Дисциплина решений: споры в штабе разрешаются моделью, а не громкостью голоса
+**Results:**
+- Resources flow to the decisive precincts and groups — not by inertia
+- Early detection of trend breaks — before competitors see them
+- Scenario readiness: the campaign team doesn't improvise in a crisis — it executes a pre-modeled plan
+- Decision discipline: internal debates are settled by the model, not the loudest voice
 
-**Метрики успеха:**
-- Точность прогноза против финального результата (и против контрольных соцопросов)
-- Скорость реакции штаба на переломы тренда
-- Доля ресурсов, перенаправленных по карте чувствительности
+**Success metrics:**
+- Forecast accuracy against final results (and against benchmark polls)
+- Campaign team response time to trend breaks
+- Share of resources redirected based on the sensitivity map
 
-## Кому подходит
+## Who it's for
 
-- **Избирательные штабы** — как приборная панель гонки
-- **Партии** — портфельное управление несколькими кампаниями
-- **GR и политические аналитические центры** — оценка раскладов без ставки на интуицию
+- **Campaign teams** — as a race dashboard
+- **Political parties** — portfolio management across multiple campaigns
+- **GR and political think tanks** — assessing the field without relying on intuition
 
 ## FAQ
 
-**Q: Чем модель отличается от соцопросов?**
-A: Опрос — снимок прошлого. Модель — навигатор: она поглощает опросы как один из сигналов вместе со 100+ факторами, даёт динамику, сценарии и вероятностные коридоры, а не одну цифру.
+**Q: How is this model different from polls?**
+A: A poll is a snapshot of the past. The model is a navigator: it ingests polls as just one signal among 100+ factors, delivering dynamics, scenarios, and probability corridors — not a single number.
 
-**Q: Насколько точны прогнозы?**
-A: Модель валидируется ретроспективно на прошлых кампаниях; по каждому прогнозу даётся интервал уверенности. Мы честно показываем, где модель сильна, а где данных мало.
+**Q: How accurate are the forecasts?**
+A: The model is backtested on past campaigns — every forecast comes with a confidence interval. We're transparent about where the model excels and where data is limited.
 
-**Q: Модель предсказывает или влияет?**
-A: Предсказывает. Это инструмент foresight, а не воздействия: решения о ходах принимает штаб, а связка с AI-стратегом (Продукт 13) превращает прогноз в управляющие действия.
+**Q: Does the model predict or influence?**
+A: Predict. It's a foresight tool, not an intervention tool — the campaign team makes the calls, and the integration with the AI Strategist (Product 13) turns forecasts into actionable moves.
 
-**Q: Что если данных кампании мало?**
-A: Модель стартует на исторических и открытых данных, а полевые данные штаба постепенно сужают интервалы. Чем раньше подключение — тем точнее навигатор к решающим неделям.
+**Q: What if the campaign has limited data?**
+A: The model starts with historical and open-source data — internal field data progressively tightens the confidence intervals. The earlier you connect, the sharper the navigator becomes in the crunch weeks.
 
 ## CTA
 
-**Готовы вести гонку по навигатору, а не по зеркалу заднего вида?**
+**Ready to run the race by the navigator, not the rearview mirror?**
 
-Первая диагностическая сессия — бесплатно. Построим ретроспективный прогноз прошлой кампании в вашем регионе и покажем, где модель увидела перелом раньше всех.
+The first diagnostic session is free — we'll build a retrospective forecast for your region's past campaign and show you where the model spotted the trend break before anyone else.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

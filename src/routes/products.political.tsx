@@ -3,7 +3,7 @@ import { ProductArticle, ProductCta, ProductJumpNav } from "@/components/product
 import { POLITICAL_PRODUCTS } from "@/data/products";
 
 export const Route = createFileRoute("/products/political")({
-  head: () => ({ meta: [{ title: "Политический консалтинг — Auria" }] }),
+  head: () => ({ meta: [{ title: "Political consulting – Auria" }] }),
   component: PoliticalProducts,
 });
 
@@ -14,14 +14,14 @@ function PoliticalProducts() {
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
           <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">
             <Link to="/products" className="hover:underline">
-              Продукты
+              Products
             </Link>
             <span className="text-subtle"> / </span>
-            Политический консалтинг
+            Political consulting
           </p>
-          <h1 className="text-4xl font-semibold sm:text-5xl">Политический консалтинг</h1>
+          <h1 className="text-4xl font-semibold sm:text-5xl">Political consulting</h1>
           <p className="mt-4 max-w-2xl text-lg text-muted">
-            Инструменты для кампаний, штабов и оценки политического риска. Нажмите название — страница прокрутится к описанию.
+            Tools for campaigns, headquarters, and political risk assessment. Click a title — the page will scroll to the description.
           </p>
           <ProductJumpNav items={POLITICAL_PRODUCTS} to="/products/political" />
         </div>
@@ -35,7 +35,7 @@ function PoliticalProducts() {
 
       <div className="pb-10 text-center">
         <Link to="/products/socio" className="text-sm text-accent hover:underline">
-          Перейти к социально-экономическим продуктам
+          Go to socio-economic products
         </Link>
       </div>
       <ProductCta />

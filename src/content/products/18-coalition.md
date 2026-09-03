@@ -1,117 +1,117 @@
 ---
-title: "Симулятор коалиционных сценариев"
+title: "Coalition Scenario Simulator"
 slug: "coalition"
 category: "political"
 order: 18
-description: "Моделирование переговоров и возможных исходов."
+description: "Modeling negotiations and possible outcomes."
 image: "/assets/product-coalition.jpg"
 ---
 
-## Проблема
+## Problem
 
-Коалиции строятся на доверии, симпатиях и интуиции — и распадаются при первом кризисе. Поведение партнёров не просчитано: кто выдержит давление, кто предаст ради должности, чья поддержка испарится при голосовании бюджета. Переговоры тянутся месяцами, а цена ошибочного союза — потеря власти и репутации.
+Coalitions are built on trust, sympathy, and intuition — and fall apart at the first crisis. Partner behavior is not modeled: who will hold under pressure, who will defect for a position, whose support will evaporate during a budget vote. Negotiations drag on for months, and the cost of a bad alliance is loss of power and reputation.
 
-**Симулятор коалиционных сценариев** даёт инженерный взгляд на политическую архитектуру: вы ведёте переговоры, уже зная, какие конфигурации выживут, а какие распадутся.
+**The Coalition Scenario Simulator** brings an engineering lens to political architecture: you enter negotiations already knowing which configurations will hold and which will fall apart.
 
-## Что это за продукт
+## What this product is
 
-Система моделирования коалиционной динамики:
-- **50+ конфигураций**: моделирование переговоров, союзов и расколов — все возможные сценарии политической архитектуры
-- **Портрет каждого актора**: прогноз поведения каждого участника на основе его исторической модели принятия решений
-- **Оценка устойчивости**: ИИ определяет, какие коалиции выживут, а какие распадутся при первом кризисе
+A system for modeling coalition dynamics:
+- **50+ configurations** — modeling of negotiations, alliances, and splits: every possible scenario of political architecture
+- **Individual actor profiles** — behavior prediction for each participant based on their historical decision-making patterns
+- **Stability assessment** — AI evaluates which coalitions are likely to hold together and which will fracture at the first crisis
 
-## Как это реализуется (технологии)
+## How it's implemented (technology)
 
-### Поведенческие модели акторов
-- Корпус исторических решений каждого актора: голосования, союзы, разрывы, реакции на кризисы, публичная риторика
-- Модель принятия решений: интересы, ограничения, триггеры, цена лояльности
-- Валидация портретов экспертами заказчика (закрытые знания + открытые данные)
+### Actor behavior models
+- Corpus of each actor's historical decisions: votes, alliances, breaks, crisis responses, and public rhetoric
+- Decision-making model: interests, constraints, triggers, and the cost of loyalty
+- Portrait validation by the client's experts (insider knowledge combined with open data)
 
-### Генератор конфигураций
-- 50+ архитектур: большинство, широкая коалиция, меньшинство с внешней поддержкой, ситуативные альянсы по блокам
-- Учёт распределения постов, ресурсов и обязательств в каждой конфигурации
+### Configuration generator
+- 50+ architectures: majority, grand coalition, minority with external support, and ad hoc issue-based alliances
+- Allocation of posts, resources, and commitments accounted for in each configuration
 
-### Движок устойчивости
-- Кризисные симуляции: экономический шок, скандал, внешнее давление, конфликт амбиций
-- Прогноз поведения каждого актора в каждом кризисе: выстоит, выйдет, предаст
-- Оценка горизонта жизни конфигурации и точек распада
+### Stability engine
+- Crisis simulations: economic shock, scandal, external pressure, ambition clashes
+- Behavior forecast for each actor under each crisis: who will hold, who will exit, who will defect
+- Assessment of each configuration's expected lifespan and breaking points
 
-### Симулятор переговоров
-- Последовательности ходов: уступки, красные линии, пакеты обмена
-- Прогноз реакции визави на каждый ход — на основе его поведенческой модели
-- Ранжирование конфигураций: устойчивость × управляемость × цена союза
+### Negotiation simulator
+- Move sequences: concessions, red lines, exchange packages
+- Forecast of counterpart response to each move — based on their behavioral model
+- Configuration ranking: stability × governability × cost of alliance
 
-## Порядок реализации
+## Implementation procedure
 
-1. **Неделя 1. Карта акторов** — перечень участников, история решений и союзов, контекст поля; закрытые знания заказчика: интервью с переговорщиками
-2. **Неделя 2. Поведенческие модели** — построение и экспертная валидация портретов акторов; калибровка на исторических прецедентах
-3. **Неделя 3. Симуляции** — прогон 50+ конфигураций и кризисных сценариев; ранжирование, карта точек распада, рекомендации по архитектуре союза
+1. **Week 1. Actor map** — list of participants, history of decisions and alliances, political context; client insider knowledge: interviews with negotiators
+2. **Week 2. Behavioral models** — actor profiling and expert validation; calibration against historical precedents
+3. **Week 3. Simulations** — run of 50+ configurations and crisis scenarios; ranking, breaking point map, and recommendations for coalition architecture
 
-Далее: сопровождение переговоров — экспресс-расчёт каждого нового предложения визави за 24 часа; обновление моделей при смене контекста.
+After that: negotiation support — express recalculation of each new counterpart proposal within 24 hours; model updates as the context changes.
 
-## Ресурсы
+## Resources
 
-**От заказчика:**
-- Контекст поля и закрытые знания об акторах
-- Переговорная команда для сессий и валидации
-- Перечень красных линий и целей союза
+**From the client:**
+- Field context and insider knowledge about the actors
+- Negotiation team for sessions and validation
+- List of red lines and coalition goals
 
-**От нас:**
-- Политические аналитики, специалисты по агентному моделированию
-- Исторические базы решений и риторической динамики
-- Конфиденциальный контур высшей категории
+**From us:**
+- Political analysts and agent-based modeling specialists
+- Historical databases of decisions and rhetorical dynamics
+- Top-tier confidential environment
 
-## Сроки
+## Timelines
 
-- **Базовая симуляция:** 3 недели
-- **Экспресс-расчёт предложения:** 24 часа
-- **Обновление моделей:** при значимых событиях — 24–72 часа
-- **Сопровождение:** до фиксации коалиции и далее — мониторинг устойчивости
+- **Baseline simulation:** 3 weeks
+- **Express proposal recalculation:** 24 hours
+- **Model updates:** 24–72 hours following significant events
+- **Support:** until coalition formation and beyond — stability monitoring
 
-## Что получает заказчик
+## What the client gets
 
-**Артефакты:**
-- Ранжирование 50+ конфигураций с оценкой устойчивости и цены союза
-- Поведенческие портреты акторов: интересы, триггеры, цена лояльности
-- План переговоров: последовательности ходов, допустимые уступки, красные линии
-- Карта рисков распада и ранние индикаторы предательства
+**Artifacts:**
+- Ranking of 50+ configurations with stability and coalition cost assessment
+- Behavioral actor profiles: interests, triggers, cost of loyalty
+- Negotiation plan: move sequences, acceptable concessions, red lines
+- Breaking point risk map and early indicators of defection
 
-**Результаты:**
-- Вы ведёте переговоры, уже зная, чем они закончатся
-- Коалиция, построенная выживать в кризисе, а не распадаться при первом шоке
-- Уступки — просчитанные, а не вынужденные
-- Сокращение времени переговоров за счёт ясной карты возможного
+**Results:**
+- You enter negotiations already knowing how they will end
+- Coalitions built to survive crises, not fall apart at the first shock
+- Concessions are calculated, not forced
+- Negotiation time reduced — thanks to a clear map of possible outcomes
 
-**Метрики успеха:**
-- Точность прогнозов поведения акторов (сравнение с фактическими ходами)
-- Устойчивость выбранной конфигурации в контрольные периоды
-- Скорость экспресс-расчётов на переговорах
+**Success metrics:**
+- Accuracy of actor behavior forecasts (compared to actual moves)
+- Stability of the chosen configuration during benchmark periods
+- Speed of express calculations during negotiations
 
-## Кому подходит
+## Who it's for
 
-- **Партии и фракции** — формирование большинства и альянсов
-- **Региональные элитные группы** — конфигурации власти и распределения ресурсов
-- **GR и корпоративные коалиции** — отраслевые союзы с множеством участников
-- **Медиаторы и международные организации** — нейтральная оценка конфигураций
+- **Parties and factions** — building majorities and alliances
+- **Regional elite groups** — power configurations and resource distribution
+- **GR and corporate coalitions** — industry alliances with multiple stakeholders
+- **Mediators and international organizations** — neutral assessment of configurations
 
 ## FAQ
 
-**Q: Как можно предсказать поведение человека?**
-A: Мы моделируем не личность, а модель принятия решений, наблюдаемую в истории действий: голосования, союзы, реакции на кризисы. Портреты валидируются экспертами и помечаются уровнем уверенности — закрытые знания заказчика существенно повышают точность.
+**Q: How can you predict human behavior?**
+A: We don't model personality — we model decision-making patterns observable in historical actions: votes, alliances, and crisis responses. Profiles are validated by experts and tagged with confidence levels — client insider knowledge significantly improves accuracy.
 
-**Q: Чем это отличается от картирования стейкхолдеров (Продукт 8)?**
-A: Картирование даёт статичную карту поля: влияние, позиции, триггеры. Симулятор добавляет динамику: конфигурации, переговоры, устойчивость во времени и поведение в кризисах. Продукты усиливают друг друга.
+**Q: How is this different from stakeholder mapping (Product 8)?**
+A: Stakeholder mapping provides a static picture of the field: influence, positions, triggers. The Simulator adds dynamics: configurations, negotiations, stability over time, and behavior under crisis. The products reinforce each other.
 
-**Q: Применимо ли это вне политики?**
-A: Да: многосторонние сделки, отраслевые альянсы, советы директоров с коалиционной динамикой — механика та же.
+**Q: Is this applicable outside politics?**
+A: Yes: multi-stakeholder deals, industry alliances, boards of directors with coalition dynamics — the mechanics are the same.
 
-**Q: Как обеспечивается конфиденциальность?**
-A: Режим высшей категории: изолированный контур, ролевой доступ, материалы симуляций не покидают периметра заказчика и уничтожаются после проекта по протоколу.
+**Q: How is confidentiality ensured?**
+A: Top-tier security protocol: isolated environment, role-based access, simulation materials never leave the client's perimeter and are destroyed after the project under a strict protocol.
 
 ## CTA
 
-**Готовы вести переговоры, зная финал?**
+**Ready to enter negotiations knowing the outcome?**
 
-Первая диагностическая сессия — бесплатно. Построим экспресс-портреты трёх ключевых акторов вашего поля и покажем одну неочевидную точку распада вашей текущей конфигурации.
+The first diagnostic session is free — we'll build express profiles of three key actors in your field and show you one hidden breaking point in your current configuration.
 
-[Оставить заявку на диагностику](/)
+[Leave a request for diagnostics](/)

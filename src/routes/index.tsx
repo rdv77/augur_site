@@ -1,7 +1,15 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
-import { NEWS, PARADIGMS, POLITICAL_PRODUCTS, SOCIO_PRODUCTS, MARKETING_PRODUCTS, formatNewsDate, newsByDateDesc } from "@/data/site";
+import {
+  MARKETING_PRODUCTS,
+  NEWS,
+  PARADIGMS,
+  POLITICAL_PRODUCTS,
+  SOCIO_PRODUCTS,
+  formatNewsDate,
+  newsByDateDesc,
+} from "@/data/site";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -21,24 +29,24 @@ function Home() {
           <h1 className="font-serif text-[4.25rem] font-semibold leading-none tracking-tight text-gold sm:text-8xl lg:text-9xl">
             Auria
           </h1>
-          <p className="mx-auto mt-10 max-w-xl text-xl font-medium leading-snug text-fg sm:text-2xl">
-            Консалтинг на базе искусственного интеллекта
+          <p className="mt-5 text-[11px] uppercase tracking-[0.42em] text-accent/90 sm:text-xs">
+            AI-powered consulting
           </p>
-          <p className="mx-auto mt-4 max-w-lg text-base leading-relaxed text-muted sm:text-lg">
-            Мы превращаем хаос общественных настроений в точные управленческие решения
+          <p className="mx-auto mt-10 max-w-xl text-xl font-medium leading-snug text-fg sm:text-2xl">
+            We transform the chaos of public sentiment into precise management decisions
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             <Link
               to="/products"
               className="inline-flex h-12 items-center gap-2 rounded-md bg-accent px-6 text-sm font-medium text-accent-fg hover:bg-accent-dim"
             >
-              Смотреть продукты <ArrowRight className="size-4" />
+              See products <ArrowRight className="size-4" />
             </Link>
             <Link
               to="/about"
               className="inline-flex h-12 items-center rounded-md border border-border-strong px-6 text-sm font-medium text-fg hover:border-accent/40"
             >
-              О компании
+              About us
             </Link>
           </div>
         </div>
@@ -46,24 +54,24 @@ function Home() {
 
       <section id="mission" className="scroll-mt-24 py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
-          <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Миссия</p>
+          <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Mission</p>
           <h2 className="max-w-3xl text-3xl font-semibold sm:text-4xl">
-            Между обществом и знанием о нём — три вызова
+            Between society and the knowledge of it — three challenges
           </h2>
           <div className="mt-12 grid gap-5 md:grid-cols-3">
             {[
-              { t: "Вызов времени", d: "Общество меняется за дни. Исследования занимают месяцы. К моменту результата картина уже другая." },
-              { t: "Вызов масштаба", d: "Общество говорит миллионами голосов, исследователь слышит выборку." },
-              { t: "Вызов решения", d: "Решения о людях принимаются раньше, чем появляются знания о них. Цена ошибки — доверие, деньги, время." },
+              { t: "Challenge of time", d: "Society changes in days. Studies take months. By the time the results arrive, the picture has already changed." },
+              { t: "Challenge of scale", d: "Society speaks with millions of voices; the researcher hears only a sample." },
+              { t: "Challenge of decisions", d: "Decisions about people are made before knowledge about them appears. The cost of failure is trust, time, and money." },
             ].map((c) => (
               <div key={c.t} className="rounded-xl border border-border bg-surface p-7">
-                <h3 className="text-lg font-medium text-gold">{c.t}</h3>
+                <h3 className="text-lg font-medium">{c.t}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{c.d}</p>
               </div>
             ))}
           </div>
           <p className="mt-14 text-center text-lg text-muted">
-            Auria существует, чтобы преодолеть все три вызова
+            <span className="text-accent">Auria</span> exists to overcome all three challenges.
           </p>
         </div>
       </section>
@@ -77,19 +85,19 @@ function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/80 to-bg/55" />
           <div className="relative mx-auto max-w-7xl px-5 py-20 sm:px-6 sm:py-24">
-            <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">О компании</p>
-            <h2 className="text-3xl font-semibold sm:text-4xl">Кто мы</h2>
+            <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">About us</p>
+            <h2 className="text-3xl font-semibold sm:text-4xl">Who we are</h2>
             <p className="mt-5 max-w-2xl text-lg leading-relaxed text-fg/90">
-              Общество — самый сложный объект из всех, что человек пытался понять: оно состоит из нас самих и меняется, пока мы на него смотрим. Социология научилась видеть в этой подвижности структуру, но всегда платила за это временем. Социолог работал с фотографией — точной, но к моменту проявки уже устаревшей.
+              Society is the most complex object humankind has ever tried to understand: it is made of ourselves and changes while we look at it. Sociology has learned to see structure in this flux, but always paid for it with time. The sociologist worked with a photograph — accurate, but already outdated by the time it was developed.
             </p>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-fg/90">
-              <span className="text-gold">«Auria»</span> появилась, чтобы сократить этот разрыв. Искусственный интеллект для нас не замена человеческому пониманию, а новая оптика для него. Телескоп не отменил астрономию — он показал то, что всегда было рядом, но оставалось невидимым.
+              <span className="text-gold">“Auria”</span> emerged to close this gap. For us, artificial intelligence is not a substitute for human understanding — it is a new lens for it. The telescope did not cancel astronomy — it revealed what had always been close by, yet invisible.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               {[
-                ["Социологическая экспертиза", "Десятилетия работы с общественными данными и методологией исследований"],
-                ["ИИ-технологии", "LLM, мультиагентное моделирование, предиктивная аналитика"],
-                ["Миссия", "Понимать общество быстрее, глубже и точнее"],
+                ["Sociological expertise", "Decades of work with public data and research methodology."],
+                ["AI technologies", "LLMs, multi-agent modeling, predictive analytics."],
+                ["Mission", "Understanding society faster, deeper, and more precisely."],
               ].map(([t, d]) => (
                 <div key={t} className="rounded-lg border border-border bg-bg/70 p-4 backdrop-blur-sm">
                   <h3 className="font-medium">{t}</h3>
@@ -98,7 +106,7 @@ function Home() {
               ))}
             </div>
             <Link to="/about" className="mt-8 inline-flex items-center gap-2 text-sm text-accent hover:underline">
-              Подробнее о компании <ArrowRight className="size-4" />
+              More about the company <ArrowRight className="size-4" />
             </Link>
           </div>
         </div>
@@ -107,9 +115,9 @@ function Home() {
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
           <div className="mx-auto mb-12 max-w-2xl text-center">
-            <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Экспертиза</p>
+            <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Expertise</p>
             <h2 className="text-3xl font-semibold sm:text-4xl">
-              Наши 4 парадигмы использования технологий искусственного интеллекта
+              Our four paradigms for using artificial intelligence technology
             </h2>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -120,7 +128,7 @@ function Home() {
                 hash={p.id}
                 className="rounded-xl border border-border bg-surface p-7 transition-colors hover:border-accent/30"
               >
-                <p className="text-xs tracking-wide text-accent">Парадигма {p.num}</p>
+                <p className="text-xs tracking-wide text-accent">Paradigm {p.num}</p>
                 <h3 className="mt-2 text-lg font-medium">{p.title}</h3>
                 <p className="mt-2 text-sm text-muted">{p.short}</p>
               </Link>
@@ -132,26 +140,26 @@ function Home() {
       <section id="products" className="scroll-mt-24 border-y border-border bg-bg-elevated py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
           <div className="mx-auto mb-12 max-w-2xl text-center">
-            <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Продукты</p>
-            <h2 className="text-3xl font-semibold sm:text-4xl">Три направления решений</h2>
+            <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Products</p>
+            <h2 className="text-3xl font-semibold sm:text-4xl">Three solution areas</h2>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
             <ProductRubric
               to="/products/socio"
               image="/assets/product-digital-twin.jpg"
-              title="Социально-экономические продукты"
+              title="Socio-economic products"
               products={SOCIO_PRODUCTS}
             />
             <ProductRubric
               to="/products/political"
               image="/assets/product-strategist.jpg"
-              title="Политический консалтинг"
+              title="Political consulting"
               products={POLITICAL_PRODUCTS}
             />
             <ProductRubric
               to="/products/marketing"
               image="/assets/agents.jpg"
-              title="Маркетинговые продукты"
+              title="Marketing products"
               products={MARKETING_PRODUCTS}
             />
           </div>
@@ -162,11 +170,11 @@ function Home() {
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
           <div className="mb-10 flex items-end justify-between gap-4">
             <div>
-              <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Новости</p>
-              <h2 className="text-3xl font-semibold">Материалы и аналитика</h2>
+              <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">News</p>
+              <h2 className="text-3xl font-semibold">Materials and analytics</h2>
             </div>
             <Link to="/news" className="text-sm text-accent hover:underline">
-              Все материалы
+              All materials
             </Link>
           </div>
           <div className="grid gap-4 md:grid-cols-3">
@@ -189,11 +197,10 @@ function Home() {
       <section id="contact" className="scroll-mt-24 border-t border-border py-24">
         <div className="mx-auto max-w-3xl px-5 text-center sm:px-6">
           <h2 className="text-3xl font-semibold sm:text-4xl">
-            Готовы видеть будущее{" "}
-            <span className="text-accent">до того, как оно наступит?</span>
+            Ready to see the future <span className="text-accent">before it arrives?</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted">
-            Оставьте заявку — обсудим задачу и покажем, как решения работают на практике.
+            Submit a request — we'll discuss your task and show how our solutions work in practice.
           </p>
           <div className="mt-10">
             <ContactForm />
@@ -230,11 +237,7 @@ function ProductRubric({
         <ul className="mt-4 space-y-2 text-sm text-muted">
           {products.map((p) => (
             <li key={p.id}>
-              <Link
-                to={to}
-                hash={p.id}
-                className="flex gap-2 transition-colors hover:text-fg"
-              >
+              <Link to={to} hash={p.id} className="flex gap-2 transition-colors hover:text-fg">
                 <span className="mt-2 size-1 shrink-0 rounded-full bg-accent" />
                 {p.title}
               </Link>
@@ -242,7 +245,7 @@ function ProductRubric({
           ))}
         </ul>
         <Link to={to} className="mt-6 inline-flex items-center gap-2 text-sm text-accent">
-          Смотреть все продукты <ArrowRight className="size-4" />
+          See all products <ArrowRight className="size-4" />
         </Link>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { formatNewsDate, newsByDateDesc } from "@/data/site";
 
 export const Route = createFileRoute("/news")({
-  head: () => ({ meta: [{ title: "Новости — Auria" }] }),
+  head: () => ({ meta: [{ title: "News – Auria" }] }),
   component: News,
 });
 
@@ -13,9 +13,9 @@ function News() {
     <main className="page-enter pt-16">
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-5 sm:px-6">
-          <h1 className="text-4xl font-semibold">Новости и материалы</h1>
+          <h1 className="text-4xl font-semibold">News and materials</h1>
           <p className="mt-4 max-w-2xl text-lg text-muted">
-            Аналитика и публикации команды Auria. Материалы отсортированы по дате публикации — сначала новые.
+            Analytics and publications by the Auria team. Materials are sorted by publication date — newest first.
           </p>
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {items.map((n) => (
