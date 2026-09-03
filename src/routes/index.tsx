@@ -27,7 +27,7 @@ function Home() {
 
         <div className="page-enter relative mx-auto max-w-4xl px-5 py-24 text-center sm:px-6">
           <h1 className="font-serif text-[4.25rem] font-semibold leading-none tracking-tight text-gold sm:text-8xl lg:text-9xl">
-            Auria
+            Auguria
           </h1>
           <p className="mt-5 text-[11px] uppercase tracking-[0.42em] text-accent/90 sm:text-xs">
             AI-powered consulting
@@ -71,7 +71,7 @@ function Home() {
             ))}
           </div>
           <p className="mt-14 text-center text-lg text-muted">
-            <span className="text-accent">Auria</span> exists to overcome all three challenges.
+            <span className="text-accent">Auguria</span> exists to overcome all three challenges.
           </p>
         </div>
       </section>
@@ -91,7 +91,7 @@ function Home() {
               Society is the most complex object humankind has ever tried to understand: it is made of ourselves and changes while we look at it. Sociology has learned to see structure in this flux, but always paid for it with time. The sociologist worked with a photograph — accurate, but already outdated by the time it was developed.
             </p>
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-fg/90">
-              <span className="text-gold">“Auria”</span> emerged to close this gap. For us, artificial intelligence is not a substitute for human understanding — it is a new lens for it. The telescope did not cancel astronomy — it revealed what had always been close by, yet invisible.
+              <span className="text-gold">“Auguria”</span> emerged to close this gap. For us, artificial intelligence is not a substitute for human understanding — it is a new lens for it. The telescope did not cancel astronomy — it revealed what had always been close by, yet invisible.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               {[

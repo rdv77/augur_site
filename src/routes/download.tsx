@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Download } from "lucide-react";
 
 export const Route = createFileRoute("/download")({
-  head: () => ({ meta: [{ title: "Скачать проект — Auria" }] }),
+  head: () => ({ meta: [{ title: "Скачать проект — Auguria" }] }),
   component: DownloadPage,
 });
 
@@ -11,7 +11,7 @@ function DownloadPage() {
     <main className="page-enter flex min-h-[80vh] items-center justify-center pt-16">
       <div className="mx-auto max-w-lg px-5 py-20 text-center">
         <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">Архив проекта</p>
-        <h1 className="text-4xl font-semibold">Скачать сайт Auria</h1>
+        <h1 className="text-4xl font-semibold">Скачать сайт Auguria</h1>
         <p className="mt-4 text-muted">
           ZIP-архив со всем кодом, текстами и иллюстрациями. Без node_modules — их нужно поставить у себя командой npm install.
         </p>

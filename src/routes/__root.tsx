@@ -12,7 +12,7 @@ import { HashScroll } from "@/components/hash-scroll";
 import { Toaster } from "sonner";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Auria";
+const APP_NAME = "Auguria";
 const host = import.meta.env.VITE_PUBLIC_HOSTNAME;
 const ogImage = host ? `https://${host}/og.jpg` : undefined;
 const xBanner = host
@@ -24,7 +24,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Auria — консалтинг на базе искусственного интеллекта" },
+      { title: "Auguria — консалтинг на базе искусственного интеллекта" },
       {
         name: "description",
         content:

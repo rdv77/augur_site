@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({ meta: [{ title: "About us – Auria" }] }),
+  head: () => ({ meta: [{ title: "About us – Auguria" }] }),
   component: About,
 });
 
@@ -19,7 +19,7 @@ function About() {
           <p className="mb-3 text-xs uppercase tracking-[0.18em] text-accent">About us</p>
           <h1 className="text-4xl font-semibold sm:text-5xl">Who we are</h1>
           <p className="mt-6 max-w-2xl text-xl leading-relaxed text-fg/90">
-            “Auria” is a next-generation consulting company. We combine in-depth sociological expertise with cutting-edge AI technologies.
+            “Auguria” is a next-generation consulting company. We combine in-depth sociological expertise with cutting-edge AI technologies.
           </p>
           <div className="mt-6 max-w-2xl space-y-4 leading-relaxed text-muted">
             <p>

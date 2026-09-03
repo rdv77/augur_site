@@ -3,7 +3,7 @@ import { BlendImage } from "@/components/blend-image";
 import { PARADIGMS } from "@/data/site";
 
 export const Route = createFileRoute("/technologies")({
-  head: () => ({ meta: [{ title: "Technology – Auria" }] }),
+  head: () => ({ meta: [{ title: "Technology – Auguria" }] }),
   component: Technologies,
 });
 

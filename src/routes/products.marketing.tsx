@@ -3,7 +3,7 @@ import { ProductArticle, ProductCta, ProductJumpNav } from "@/components/product
 import { MARKETING_PRODUCTS } from "@/data/products";
 
 export const Route = createFileRoute("/products/marketing")({
-  head: () => ({ meta: [{ title: "Marketing products – Auria" }] }),
+  head: () => ({ meta: [{ title: "Marketing products – Auguria" }] }),
   component: MarketingProducts,
 });
 
